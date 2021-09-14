@@ -1,0 +1,19 @@
+{
+  "name": "html-apple-store",
+  "version": "0.0.1",
+  "description": "애플 스토어 레이아웃 클론코딩",
+  "private": true,
+  "main": "src/index.html",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigsaigon333/html-apple-store.git"
+  },
+  "author": "bigsaigon333",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bigsaigon333/html-apple-store/issues"
+  },
+  "homepage": "https://github.com/bigsaigon333/html-apple-store#readme"
+}
