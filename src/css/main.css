@@ -1,0 +1,11 @@
+#global-main {
+  margin-top: 44px;
+  min-width: 320px;
+}
+
+/* 반응형 */
+@media screen and (max-width: 768px) {
+  #global-main {
+    margin-top: 48px;
+  }
+}

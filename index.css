@@ -1,6 +1,8 @@
 @import url('./src/css/reset.css');
 
 @import url('./src/css/nav.css');
+@import url('./src/css/main.css');
+@import url('./src//css//sections/shopNotice.css');
 
 * {
   box-sizing: border-box;
@@ -45,7 +47,7 @@ body {
   font-family: 'sf-fro-kr sf-pro';
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: -1px;
+  letter-spacing: -0.022em;
 }
 
 a {
