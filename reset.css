@@ -1,0 +1,81 @@
+* {
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  color: #1d1d1f;
+  font-style: normal;
+  font-family: 'SF Pro Text', 'Myriad Set Pro', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+}
+
+html,
+body,
+div,
+span,
+img,
+ol,
+ul,
+li,
+article,
+aside,
+canvas,
+figure,
+figcaption,
+footer,
+header,
+nav,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-size: inherit;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background: #fbfbfd;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #06c;
+  letter-spacing: inherit;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
