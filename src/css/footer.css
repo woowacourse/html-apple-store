@@ -1,0 +1,99 @@
+#global-footer {
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  background-color: #f5f5f7;
+  color: #86868b;
+  width: 100vw;
+  min-width: 320px;
+}
+
+#global-footer .footer-contents {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 22px;
+}
+
+#global-footer .footer-content {
+  padding: 17px 0 11px;
+}
+
+/* 푸터 메인 컨텐츠 */
+#global-footer .footer-main {
+  border-bottom: 1px solid #d2d2d7;
+}
+
+#global-footer .footer-main ul li {
+  padding-bottom: 12px;
+}
+
+/* 푸터 네브 컨텐츠 */
+#global-footer .footer-nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  color: #1d1d1f;
+}
+
+#global-footer .footer-nav ul {
+  margin-right: 20px;
+}
+
+#global-footer .footer-nav li {
+  margin-bottom: 12px;
+  color: #515154;
+}
+
+#global-footer .footer-nav h5 {
+  font-weight: bold;
+  margin-right: 20px;
+  margin-bottom: 12px;
+}
+
+#global-footer .footer-nav .footer-nav-column-items ul {
+  padding-bottom: 10px;
+}
+
+/* 푸터 라스트 컨텐츠 */
+#global-footer .footer-last {
+  padding-top: 34px;
+}
+
+#global-footer .footer-last .footer-last-content {
+  width: 100%;
+}
+
+/* 푸터 라스트 컨텐츠 - shop */
+#global-footer .footer-last .content-shop {
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #d2d2d7;
+}
+
+#global-footer .footer-last .content-shop a {
+  color: #06c;
+}
+
+/* 푸터 라스트 컨텐츠 - copyright */
+#global-footer .footer-last .content-copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+/* 푸터 라스트 컨텐츠 - policy */
+
+#global-footer .footer-last .content-policy ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#global-footer .footer-last .content-policy ul li {
+  padding: 0 10px;
+  border-left: 1px solid #d2d2d7;
+}
+
+#global-footer .footer-last .content-policy ul li:first-of-type {
+  border: 0;
+  padding-left: 0;
+}

@@ -2,7 +2,9 @@
 
 @import url('./src/css/nav.css');
 @import url('./src/css/main.css');
-@import url('./src//css//sections/shopNotice.css');
+@import url('./src/css/sections/shopNotice.css');
+@import url('./src/css/sections/appleEvent.css');
+@import url('./src/css/footer.css');
 
 * {
   box-sizing: border-box;
@@ -10,37 +12,37 @@
 
 @font-face {
   font-family: 'sf-fro-kr';
-  src: url('./src/fonts/AppleSDGothicNeoL.ttf');
+  src: url('./src/assets/fonts/AppleSDGothicNeoL.ttf');
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'sf-fro-kr';
-  src: url('./src/fonts/AppleSDGothicNeoM.ttf');
+  src: url('./src/assets/fonts/AppleSDGothicNeoM.ttf');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'sf-fro-kr';
-  src: url('./src/fonts/AppleSDGothicNeoB.ttf');
+  src: url('./src/assets/fonts/AppleSDGothicNeoB.ttf');
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'sf-fro-kr';
-  src: url('./src/fonts/AppleSDGothicNeoEB.ttf');
+  src: url('./src/assets/fonts/AppleSDGothicNeoEB.ttf');
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'sf-fro-kr';
-  src: url('./src/fonts/AppleSDGothicNeoH.ttf');
+  src: url('./src/assets/fonts/AppleSDGothicNeoH.ttf');
   font-weight: 900;
 }
 
 @font-face {
   font-family: 'sf-fro';
-  src: url('./src/fonts/SF-Pro.ttf');
+  src: url('./src/assets/fonts/SF-Pro.ttf');
 }
 
 body {
@@ -53,4 +55,8 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
 }

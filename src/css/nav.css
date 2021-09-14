@@ -14,18 +14,18 @@
 }
 
 #global-nav .logo-item.apple-logo-item {
-  background-image: url('../images/apple.svg');
+  background-image: url('../assets/images/apple.svg');
   background-position: center center;
 }
 
 #global-nav .logo-item.search-logo-item {
-  background-image: url('../images/search.svg');
+  background-image: url('../assets/images/search.svg');
   background-size: 18px 88px;
   background-position: center 1%;
 }
 
 #global-nav .logo-item.shop-logo-item {
-  background-image: url('../images/shop.svg');
+  background-image: url('../assets/images/shop.svg');
   background-position: center 99%;
 }
 
