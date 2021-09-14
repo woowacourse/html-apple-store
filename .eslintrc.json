@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["airbnb-base", "prettier", "plugin:jsx-a11y/recommended"],
+  "plugins": ["jsx-a11y"],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {},
+  "ignorePatterns": ["node_modules"]
+}
