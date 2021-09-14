@@ -7,7 +7,8 @@
   "scripts": {
     "lint:js": "eslint --cache --fix .",
     "lint:style": "stylelint --cache --fix 'src/**/*.css'",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -25,11 +26,18 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
     "prettier": "2.4.0",
     "stylelint": "^13.13.1",
     "stylelint-config-hudochenkov": "^5.0.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-order": "^4.1.0"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.css": "stylelint --cache --fix",
+    "*": "prettier --ignore-unknown --write"
   }
 }
