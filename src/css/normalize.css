@@ -84,6 +84,18 @@ pre {
 a {
   background-color: transparent;
   text-decoration: none;
+  outline: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+  color: inherit;
+  background-color: transparent;
+}
+
+a:visited {
+  color: inherit;
 }
 
 /**

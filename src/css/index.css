@@ -24,15 +24,20 @@
   font-size: 14px;
   line-height: 3.14286;
   font-weight: 400;
-  color: #f5f5f7;
   opacity: 0.8;
   white-space: no-wrap;
   display: block;
 }
 
+.gn-link:hover,
+.gn-link:active {
+  text-decoration: none;
+}
+
 .gn ul {
   display: flex;
   justify-content: space-between;
+  color: #f5f5f7;
 }
 
 .gn-search-icon {
@@ -56,6 +61,7 @@
   line-height: 1.33337;
   letter-spacing: -0.1em;
   font-weight: 400;
+  color: #1d1d1f;
 }
 
 .gf-content {
@@ -92,6 +98,10 @@
   margin-bottom: 0.8em;
 }
 
+.gf-dictionary-column-section ~ .gf-dictionary-column-section {
+  padding-top: 24px;
+}
+
 .gf-dictionary-column-section-item {
   margin-right: 20px;
   margin-bottom: 0.8em;
@@ -102,7 +112,7 @@
 }
 
 .gf-footer {
-  padding: 34px 17px;
+  padding: 34px 0 44px;
   color: #86868b;
 }
 
