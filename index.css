@@ -1,0 +1,54 @@
+@import url('./src/css/reset.css');
+
+@import url('./src/css/nav.css');
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'sf-fro-kr';
+  src: url('./src/fonts/AppleSDGothicNeoL.ttf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'sf-fro-kr';
+  src: url('./src/fonts/AppleSDGothicNeoM.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'sf-fro-kr';
+  src: url('./src/fonts/AppleSDGothicNeoB.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'sf-fro-kr';
+  src: url('./src/fonts/AppleSDGothicNeoEB.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'sf-fro-kr';
+  src: url('./src/fonts/AppleSDGothicNeoH.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'sf-fro';
+  src: url('./src/fonts/SF-Pro.ttf');
+}
+
+body {
+  font-family: 'sf-fro-kr sf-pro';
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
