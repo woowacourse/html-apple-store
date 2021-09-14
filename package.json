@@ -5,6 +5,9 @@
   "private": true,
   "main": "src/index.html",
   "scripts": {
+    "lint:js": "eslint --cache --fix .",
+    "lint:style": "stylelint --cache --fix 'src/**/*.css'",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,18 @@
   "bugs": {
     "url": "https://github.com/bigsaigon333/html-apple-store/issues"
   },
-  "homepage": "https://github.com/bigsaigon333/html-apple-store#readme"
+  "homepage": "https://github.com/bigsaigon333/html-apple-store#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "prettier": "2.4.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-hudochenkov": "^5.0.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0"
+  }
 }
