@@ -27,3 +27,11 @@
 .items-center {
   align-items: center;
 }
+
+.fixed {
+  position: fixed;
+}
+
+.w-100 {
+  width: 100%;
+}
