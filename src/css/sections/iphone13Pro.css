@@ -17,7 +17,7 @@
 .iphone-13-pro .section-content {
   min-width: calc(50% + 80px);
   height: 100%;
-  text-align: center;
+
   letter-spacing: -0.012em;
   padding-left: 34px;
   padding-right: 56px;
@@ -25,6 +25,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.iphone-13-pro .section-content .section-content-description {
+  max-width: 630px;
 }
 
 /* 프리뷰 이미지 */
@@ -47,6 +51,10 @@
     background-image: url('../../assets/images/iphone_13_pro__cuke1h6a6seq_medium.jpg');
     background-position: 50% 0%;
   }
+
+  .iphone-13-pro .section-content .section-content-description {
+    max-width: 565px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -54,5 +62,9 @@
     margin-top: 85px;
     background-image: url('../../assets/images/iphone_13_pro__cuke1h6a6seq_small.jpg');
     background-position: 50% 0%;
+  }
+
+  .iphone-13-pro .section-content .section-content-description {
+    max-width: 300px;
   }
 }

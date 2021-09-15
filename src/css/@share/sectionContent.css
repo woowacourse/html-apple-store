@@ -1,5 +1,6 @@
 .section-content {
   letter-spacing: -0.374px;
+  text-align: center;
 }
 
 .section-content .section-content-title {
@@ -11,7 +12,6 @@
 
 .section-content .section-content-description {
   font-size: 32px;
-  max-width: 630px;
   line-height: 1.125;
   font-weight: 600;
   margin: 0 auto;
@@ -79,7 +79,6 @@
   }
 
   .section-content .section-content-description {
-    max-width: 565px;
     font-size: 28px;
     margin-bottom: 28px;
   }
@@ -96,7 +95,6 @@
   }
 
   .section-content .section-content-description {
-    max-width: 300px;
     font-size: 19px;
     margin-bottom: 28px;
   }
