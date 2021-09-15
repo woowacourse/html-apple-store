@@ -11,6 +11,7 @@
 @import url('./src/css/sections/appleEvent.css');
 @import url('./src/css/sections/iphone13Pro.css');
 @import url('./src/css/sections/iphone13.css');
+@import url('./src/css/sections/watch7.css');
 
 * {
   box-sizing: border-box;
