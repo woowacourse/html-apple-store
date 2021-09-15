@@ -1,0 +1,199 @@
+main {
+  padding-top: 44px;
+}
+
+.content-dark * {
+  color: #fff;
+}
+
+.content-dark .cta-link {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.content-light .cta-link, .content-semi-light .cta-link {
+  border: 2px solid #1d1d1f;
+  color: #1d1d1f;
+}
+
+.content-light *, .content-semi-light * {
+  color: #1d1d1f;
+}
+
+.content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main h2 {
+  font-size: 72px;
+}
+
+main h3 {
+  font-size: 32px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.section {
+  height: 900px;
+  overflow: hidden;
+}
+
+.section-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.section-hero {
+  background-color: #000;
+  background-image: url('assets/hero_xlarge.jpeg');
+  background-size: 3008px 1058px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 1013px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero-content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 142px;
+}
+
+.cta-links {
+  margin-top: 40px;
+}
+
+.cta-link {
+  text-align: center;
+  border-radius: 50px;
+  padding: 10px 16px;
+  font-size: 17px;  
+}
+
+.cta-link:not(:first-child) {
+  margin-left: 18px;
+}
+
+.hero-content .cta-link {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.section-iphone-13-pro {
+  background: #f5f5f7;
+}
+
+.iphone-13-pro-container {
+  display: flex;
+  height: 100%;
+}
+
+.iphone-13-pro-content {
+  width: 50%;
+  padding-left: 34px;
+  padding-right: 56px;
+}
+
+
+.iphone-13-pro-bg-wrapper {
+  position: relative;
+  transform: matrix(1, 0, 0, 1, 0, 148.678);
+}
+
+.iphone-13-pro-bg {
+  background-image: url('assets/iphone-13-pro-large.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 910px;
+  height: 996px;
+}
+
+.section-iphone-13 {
+  background: #34283c;
+}
+
+.iphone-13-container {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+  position: relative;
+}
+
+.iphone-13-content {
+  width: 50%;
+  padding-left: 56px;
+  padding-right: 34px;
+  z-index: 1;
+}
+
+.iphone-13-bg-wrapper {
+  position: absolute;
+  width: 1385px;
+  height: 100%;
+  left: 50%;
+  transform: matrix(1, 0, 0, 1, -692.5, -120.627);
+}
+
+.iphone-13-bg {
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url('assets/iphone-13-large.jpeg');
+  background-size: contain;
+  width: 100%;
+  height: 1300px;
+}
+
+.section-watch-series-7 {
+  background: #f5f5f7;
+}
+
+.watch-series-7-content {
+  margin: 0 auto;
+}
+
+.watch-series-7-content h3 {
+  max-width: 780px;
+  margin-top: 29px;
+}
+
+.section-ipad-mini {
+  background: #fff;
+  overflow: hidden;
+}
+
+.ipad-mini-content {
+  max-width: 41%;
+  padding-left: 58px;
+  padding-right: 34px;
+}
+
+.section-ipad {
+  background: #f5f5f7;
+}
+
+.ipad-content {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin-right: 35px;
+}
+
+.ipad-content h3 {
+  max-width: 540px;
+}
