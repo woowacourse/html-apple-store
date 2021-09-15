@@ -23,24 +23,6 @@
   margin: 20px 0;
 }
 
-#hero-description > h2 {
-  font-size: 100px;
-}
-
-#hero-description > h3 {
-  text-align: center;
-  font-size: 40px;
-  line-height: 46px;
-}
-
-#hero-description > a {
-  font-size: 20px;
-  margin: 10px 0;
-  padding: 16px 20px;
-  border-radius: 40px;
-  border: 3px solid white;
-}
-
 @media screen and (max-width: 767px) {
   #hero {
     height: 800px;
