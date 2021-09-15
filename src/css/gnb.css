@@ -4,7 +4,8 @@
   top: 0;
   width: 100%;
   height: 48px;
-  background-color: #000a16;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
 }
 
 .gnb-nav {
