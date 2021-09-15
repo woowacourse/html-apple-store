@@ -2,10 +2,13 @@
 
 @import url('./src/css/nav.css');
 @import url('./src/css/main.css');
+@import url('./src/css/footer.css');
+
+@import url('./src/css/@share/sectionContent.css');
+
 @import url('./src/css/sections/shopNotice.css');
 @import url('./src/css/sections/appleEvent.css');
 @import url('./src/css/sections/iphone13Pro.css');
-@import url('./src/css/footer.css');
 
 * {
   box-sizing: border-box;
