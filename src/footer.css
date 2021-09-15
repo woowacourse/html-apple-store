@@ -48,11 +48,11 @@ footer {
 .footer-shop {
   padding-bottom: 8px;
   border-bottom: 1px solid #424245;
-  color: #626273;
+  color: var(--footer-text-gray);
 }
 
 .footer-shop a {
-  color: #0066cc;
+  color: #1a85f0;
 }
 
 .footer-legal {
@@ -72,7 +72,7 @@ footer {
 
 .footer-legal span {
   margin-right: 30px;
-  color: #626273;
+  color: var(--footer-text-gray);
 }
 
 .footer-legal-links a:not(:last-child) {
@@ -115,7 +115,7 @@ footer {
     width: 100%;
     padding: 10px 0;
     margin: 0;
-    border-bottom: 1px solid #626273;
+    border-bottom: 1px solid var(--footer-text-gray);
   }
 
   .fnb-column h3::after {

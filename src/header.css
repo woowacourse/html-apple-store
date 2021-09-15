@@ -58,6 +58,10 @@ header * {
   width: 48px;
 }
 
+.link-name {
+  opacity: 0;
+}
+
 .gnb-home {
   background-size: 16px 44px;
   background-repeat: no-repeat;
