@@ -3,5 +3,5 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": true
   },
-  "stylelint.enable": true,
+  "stylelint.enable": true
 }
