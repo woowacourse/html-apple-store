@@ -349,3 +349,11 @@ template {
 [hidden] {
   display: none;
 }
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+
+  -webkit-padding-start: 0;
+}
