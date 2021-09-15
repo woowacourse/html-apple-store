@@ -9,6 +9,8 @@
 }
 
 .ipad-mini > .content {
+  position: relative;
+  left: 5rem;
   min-width: max-content;
   padding-right: 10rem;
 }
@@ -44,6 +46,7 @@
   }
 
   .ipad-mini > .content {
+    left: 0;
     padding-right: 0;
     padding-top: 5rem;
     padding-bottom: 3rem;
