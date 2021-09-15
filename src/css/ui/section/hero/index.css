@@ -1,7 +1,10 @@
 .hero {
-  height: 120vh;
+  height: 50rem;
   justify-content: flex-end;
   padding-bottom: 7rem;
+  background-image: url("/src/images/hero__xlarge.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .hero > img {
@@ -9,4 +12,16 @@
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero {
+    background-image: url("/src/images/hero__medium.jpg");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    background-image: url("/src/images/hero__small.jpg");
+  }
 }

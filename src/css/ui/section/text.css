@@ -17,6 +17,7 @@
 .main-text {
   letter-spacing: -0.005rem;
   text-align: center;
+  font-size: 4rem;
 }
 
 .sub-text {
@@ -24,15 +25,7 @@
   max-width: 26rem;
   letter-spacing: 0.007em;
   text-align: center;
-}
-
-@media screen and (max-width: 1440px) {
-  .main-text {
-    font-size: 4rem;
-  }
-  .sub-text {
-    font-size: 2rem;
-  }
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 1000px) {
