@@ -41,8 +41,21 @@ a {
   text-decoration: none;
 }
 
+button {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+}
+
 .container {
   max-width: 980px;
   padding: 0 1.875rem;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 0;
+  }
 }

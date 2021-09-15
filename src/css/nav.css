@@ -2,13 +2,22 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   min-width: 320px;
-  height: var(--nav-height);
   background-color: var(--nav-background-color);
   backdrop-filter: saturate(180%) blur(20px);
   user-select: none;
   z-index: 10;
+}
+
+.nav.simple {
+  visibility: hidden;
+  height: var(--nav-mobile-height);
+}
+
+.nav.expanded {
+  visibility: visible;
+  height: var(--nav-height);
 }
 
 .nav-list {
@@ -39,4 +48,29 @@
 
 .nav-link:hover {
   opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .nav.simple {
+    visibility: visible;
+  }
+
+  .nav.expanded {
+    visibility: hidden;
+  }
+
+  .nav-link {
+    padding: 0;
+    width: var(--nav-mobile-height);
+    height: var(--nav-mobile-height);
+    text-align: center;
+  }
+
+  .nav-list-item {
+    height: var(--nav-mobile-height);
+  }
+
+  .nav-list-item img {
+    height: var(--nav-mobile-height);
+  }
 }
