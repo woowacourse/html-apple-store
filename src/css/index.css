@@ -6,6 +6,12 @@
 @import './button.css';
 @import './image.css';
 @import './footer.css';
+@import './mainSection/hero.css';
+@import './mainSection/iphonePro.css';
+@import './mainSection/iphone.css';
+@import './mainSection/watch.css';
+@import './mainSection/ipadMini.css';
+@import './mainSection/ipad.css';
 
 body {
   min-width: 320px;

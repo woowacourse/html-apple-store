@@ -1,0 +1,75 @@
+.main-ipad {
+  height: 700px;
+  background-color: #f5f5f7;
+}
+
+.main-ipad .heading2 {
+  margin-top: 72px;
+}
+
+.main-ipad .image-wrapper {
+  padding: 0 10px;
+  transform: translateY(40px);
+}
+
+.main-ipad-image {
+  background-image: url('../../images/ipad_small.jpg');
+  background-size: contain;
+  height: 334px;
+}
+
+@media only screen and (min-width: 734px) {
+  .main-ipad {
+    height: 1030px;
+  }
+
+  .main-ipad .heading3 {
+    max-width: 590px;
+  }
+
+  .main-ipad .image-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-ipad-image {
+    background-image: url('../../images/ipad_medium.jpg');
+    width: 600px;
+    height: 565px;
+  }
+}
+
+@media only screen and (min-width: 1068px) {
+  .main-ipad {
+    height: 900px;
+  }
+
+  .main-ipad .content-wrapper {
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .main-ipad .content {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    margin-right: 35px;
+  }
+
+  .main-ipad .heading3 {
+    max-width: 540px;
+  }
+
+  .main-ipad .image-wrapper {
+    display: block;
+    width: 865px;
+    margin-right: -140px;
+    margin-left: -40px;
+  }
+
+  .main-ipad-image {
+    background-image: url('../../images/ipad_large.jpg');
+    height: 815px;
+    width: 100%;
+  }
+}
