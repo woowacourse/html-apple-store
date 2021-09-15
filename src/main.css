@@ -3,21 +3,21 @@ main {
 }
 
 .content-dark * {
-  color: #fff;
+  color: var(--main-font-white);
 }
 
 .content-dark .cta-link {
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid var(--main-font-white);
+  color: var(--main-font-white);
 }
 
 .content-light .cta-link, .content-semi-light .cta-link {
-  border: 2px solid #1d1d1f;
-  color: #1d1d1f;
+  border: 2px solid var(--main-black);
+  color: var(--main-black);
 }
 
 .content-light *, .content-semi-light * {
-  color: #1d1d1f;
+  color: var(--main-black);
 }
 
 .content {
@@ -89,17 +89,27 @@ main h3 {
   min-width: 97px;
 }
 
+.content-dark .cta-link:hover {
+  background: var(--main-font-white);
+  color: var(--main-black);
+}
+
+.content-light .cta-link:hover, .content-semi-light .cta-link:hover {
+  background: var(--main-black);
+  color: var(--main-font-white);
+}
+
 .cta-link:not(:first-child) {
   margin-left: 18px;
 }
 
 .hero-content .cta-link {
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid var(--main-font-white);
+  color: var(--main-font-white);
 }
 
 .section-iphone-13-pro {
-  background: #f5f5f7;
+  background: var(--bg-light-gray);
 }
 
 .iphone-13-pro-container {
@@ -163,7 +173,7 @@ main h3 {
 }
 
 .section-watch-series-7 {
-  background: #f5f5f7;
+  background: var(--bg-light-gray);
 }
 
 .watch-series-7-content {
@@ -176,7 +186,7 @@ main h3 {
 }
 
 .section-ipad-mini {
-  background: #fff;
+  background: var(--main-font-white);
   overflow: hidden;
 }
 
@@ -187,7 +197,7 @@ main h3 {
 }
 
 .section-ipad {
-  background: #f5f5f7;
+  background: var(--bg-light-gray);
 }
 
 .ipad-content {
