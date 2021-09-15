@@ -7,72 +7,103 @@
     <title>Apple (대한민국)</title>
     <link rel="stylesheet" href="src/styles/index.css" />
   </head>
-  <style>
-    html {
-      background-color: darkslategray;
-    }
-  </style>
   <body>
-    <header>
-      <h1>
-        <a href="/">
-          <img src="./src/assets/globalnav_apple.svg" alt="애플 로고" />
-        </a>
-      </h1>
+    <h1 class="visually-hidden">애플</h1>
+    <header class="gnb">
+      <h2 class="visually-hidden">메뉴</h2>
+      <nav class="gnb-nav">
+        <ul class="gnb-nav-list">
+          <li class="gnb-nav-item sm-only">
+            <button
+              class="gnb-icon-wrapper"
+              type="button"
+              aria-label="메뉴 열기 버튼"
+            >
+              <div class="gnb-menu-icon"></div>
+            </button>
+          </li>
 
-      <nav>
-        <h2>메뉴</h2>
-        <ul>
-          <li>
-            <a href="/"
-              ><img src="src/assets/globalnav_links_store.svg" alt="스토어"
-            /></a>
+          <li class="gnb-nav-item">
+            <a href="#" class="gnb-icon-wrapper">
+              <img src="./src/assets/globalnav_apple.svg" alt="애플 로고" />
+              <span class="visually-hidden">홈</span>
+            </a>
           </li>
-          <li>
-            <a href="/"
-              ><img src="src/assets/globalnav_links_mac.svg" alt="맥"
-            /></a>
+          <li class="gnb-nav-item sm-hidden">
+            <a href="#"
+              ><img src="src/assets/globalnav_links_store.svg" alt="스토어" />
+              <span class="visually-hidden">스토어</span>
+            </a>
           </li>
-          <li>
-            <a href="/"
-              ><img src="src/assets/globalnav_links_ipad.svg" alt="아이패드"
-            /></a>
+          <li class="gnb-nav-item sm-hidden">
+            <a href="#"
+              ><img src="src/assets/globalnav_links_mac.svg" alt="맥" />
+              <span class="visually-hidden">맥</span>
+            </a>
           </li>
-          <li>
-            <a href="/"
-              ><img src="src/assets/globalnav_links_iphone.svg" alt="아이폰"
-            /></a>
+          <li class="gnb-nav-item sm-hidden">
+            <a href="#"
+              ><img src="src/assets/globalnav_links_ipad.svg" alt="아이패드" />
+              <span class="visually-hidden">아이패드</span>
+            </a>
           </li>
-          <li>
-            <a href="/"
-              ><img src="src/assets/globalnav_links_watch.svg" alt="왓치"
-            /></a>
+          <li class="gnb-nav-item sm-hidden">
+            <a href="#"
+              ><img src="src/assets/globalnav_links_iphone.svg" alt="아이폰" />
+              <span class="visually-hidden">아이폰</span>
+            </a>
           </li>
-          <li>
-            <a href="/"
-              ><img src="src/assets/globalnav_links_music.svg" alt="뮤직"
-            /></a>
+          <li class="gnb-nav-item sm-hidden">
+            <a href="#"
+              ><img src="src/assets/globalnav_links_watch.svg" alt="애플워치" />
+              <span class="visually-hidden">애플워치</span>
+            </a>
           </li>
-          <li>
-            <a href="/"
-              ><img src="src/assets/globalnav_links_support.svg" alt="고객지원"
-            /></a>
+          <li class="gnb-nav-item sm-hidden">
+            <a href="#"
+              ><img src="src/assets/globalnav_links_music.svg" alt="애플뮤직" />
+              <span class="visually-hidden">애플뮤직</span>
+            </a>
+          </li>
+          <li class="gnb-nav-item sm-hidden">
+            <a href="#"
+              ><img
+                src="src/assets/globalnav_links_support.svg"
+                alt="고객지원"
+              />
+              <span class="visually-hidden">고객지원</span>
+            </a>
+          </li>
+
+          <li class="gnb-nav-item sm-hidden">
+            <button
+              class="gnb-icon-wrapper"
+              type="button"
+              aria-label="검색창 열기 버튼"
+            >
+              <img
+                class="gnb-search-icon"
+                src="./src/assets/globalnav_search.svg"
+                alt="검색창 열기"
+              />
+            </button>
+          </li>
+
+          <li class="gnb-nav-item">
+            <button
+              class="gnb-icon-wrapper"
+              type="button"
+              aria-label="장바구니 열기 버튼"
+            >
+              <img
+                class="gnb-bag-icon"
+                src="./src/assets/globalnav_bag.svg"
+                alt="장바구니 열기"
+              />
+            </button>
           </li>
         </ul>
       </nav>
-
-      <button type="button" aria-label="검색창 열기 버튼">
-        <img src="./src/assets/globalnav_search.svg" alt="검색창 열기" />
-      </button>
-
-      <button type="button" aria-label="메뉴 열기 버튼">
-        <span>-</span>
-        <span>-</span>
-      </button>
-
-      <button type="button" aria-label="장바구니 열기 버튼">
-        <img src="./src/assets/globalnav_bag.svg" alt="장바구니 열기" />
-      </button>
     </header>
     <main>
       <section>
@@ -82,7 +113,7 @@
             새롭게 선보이는 iPhone 13 Pro, iPhone 13, Apple Watch Series 7
             그리고 신형 iPad mini 및 iPad.
           </p>
-          <a href="/">이벤트 신청하기</a>
+          <a href="#">이벤트 신청하기</a>
         </div>
       </section>
       <section>
@@ -95,8 +126,8 @@
           </p>
         </div>
         <ul>
-          <li><a href="/">더 알아보기</a></li>
-          <li><a href="/">가격보기</a></li>
+          <li><a href="#">더 알아보기</a></li>
+          <li><a href="#">가격보기</a></li>
         </ul>
       </section>
       <section>
@@ -109,8 +140,8 @@
           </p>
         </div>
         <ul>
-          <li><a href="/">더 알아보기</a></li>
-          <li><a href="/">가격보기</a></li>
+          <li><a href="#">더 알아보기</a></li>
+          <li><a href="#">가격보기</a></li>
         </ul>
       </section>
       <section>
@@ -125,7 +156,7 @@
           </p>
           <span>올 하반기 출시 예정</span>
         </div>
-        <a href="/">더 알아보기</a>
+        <a href="#">더 알아보기</a>
       </section>
       <section>
         <div>
@@ -139,8 +170,8 @@
           </p>
         </div>
         <ul>
-          <li><a href="/">더 알아보기</a></li>
-          <li><a href="/">가격 보기</a></li>
+          <li><a href="#">더 알아보기</a></li>
+          <li><a href="#">가격 보기</a></li>
         </ul>
       </section>
       <section>
@@ -152,8 +183,8 @@
           </p>
         </div>
         <ul>
-          <li><a href="/">더 알아보기</a></li>
-          <li><a href="/">가격 보기</a></li>
+          <li><a href="#">더 알아보기</a></li>
+          <li><a href="#">가격 보기</a></li>
         </ul>
       </section>
     </main>
@@ -166,15 +197,15 @@
             <button type="button">+</button>
           </div>
           <ul>
-            <li><a href="/">Mac</a></li>
-            <li><a href="/">iPad</a></li>
-            <li><a href="/">iPhone</a></li>
-            <li><a href="/">Watch</a></li>
-            <li><a href="/">Music</a></li>
-            <li><a href="/">AirPods</a></li>
-            <li><a href="/">iPod touch</a></li>
-            <li><a href="/">Air Tag</a></li>
-            <li><a href="/">액세서리</a></li>
+            <li><a href="#">Mac</a></li>
+            <li><a href="#">iPad</a></li>
+            <li><a href="#">iPhone</a></li>
+            <li><a href="#">Watch</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">AirPods</a></li>
+            <li><a href="#">iPod touch</a></li>
+            <li><a href="#">Air Tag</a></li>
+            <li><a href="#">액세서리</a></li>
           </ul>
         </li>
         <li>
@@ -183,12 +214,12 @@
             <button type="button">+</button>
           </div>
           <ul>
-            <li><a href="/">Apple Music</a></li>
-            <li><a href="/">Apple Arcade</a></li>
-            <li><a href="/">iCloud</a></li>
-            <li><a href="/">Apple Books</a></li>
-            <li><a href="/">Apple Podcast</a></li>
-            <li><a href="/">App Store</a></li>
+            <li><a href="#">Apple Music</a></li>
+            <li><a href="#">Apple Arcade</a></li>
+            <li><a href="#">iCloud</a></li>
+            <li><a href="#">Apple Books</a></li>
+            <li><a href="#">Apple Podcast</a></li>
+            <li><a href="#">App Store</a></li>
           </ul>
         </li>
         <li>
@@ -197,9 +228,9 @@
             <button type="button">+</button>
           </div>
           <ul>
-            <li><a href="/">Apple ID 관리</a></li>
-            <li><a href="/">Apple Store 계정</a></li>
-            <li><a href="/">iCloud.com</a></li>
+            <li><a href="#">Apple ID 관리</a></li>
+            <li><a href="#">Apple Store 계정</a></li>
+            <li><a href="#">iCloud.com</a></li>
           </ul>
         </li>
         <li>
@@ -208,17 +239,17 @@
             <button type="button">+</button>
           </div>
           <ul>
-            <li><a href="/">매장 찾기</a></li>
-            <li><a href="/">온라인에서 쇼핑하기</a></li>
-            <li><a href="/">Genius Bar</a></li>
-            <li><a href="/">Today at Apple</a></li>
-            <li><a href="/">Apple 캠프</a></li>
-            <li><a href="/">App Store 앱</a></li>
-            <li><a href="/">리퍼 및 특가 제품</a></li>
-            <li><a href="/">금융 혜택</a></li>
-            <li><a href="/">Apple Trade in</a></li>
-            <li><a href="/">주문 상태</a></li>
-            <li><a href="/">쇼핑 도움말</a></li>
+            <li><a href="#">매장 찾기</a></li>
+            <li><a href="#">온라인에서 쇼핑하기</a></li>
+            <li><a href="#">Genius Bar</a></li>
+            <li><a href="#">Today at Apple</a></li>
+            <li><a href="#">Apple 캠프</a></li>
+            <li><a href="#">App Store 앱</a></li>
+            <li><a href="#">리퍼 및 특가 제품</a></li>
+            <li><a href="#">금융 혜택</a></li>
+            <li><a href="#">Apple Trade in</a></li>
+            <li><a href="#">주문 상태</a></li>
+            <li><a href="#">쇼핑 도움말</a></li>
           </ul>
         </li>
         <li>
@@ -227,8 +258,8 @@
             <button type="button">+</button>
           </div>
           <ul>
-            <li><a href="/">Apple가 비즈니스</a></li>
-            <li><a href="/">비즈니스를 위한 제품 쇼핑하기</a></li>
+            <li><a href="#">Apple가 비즈니스</a></li>
+            <li><a href="#">비즈니스를 위한 제품 쇼핑하기</a></li>
           </ul>
         </li>
         <li>
@@ -237,9 +268,9 @@
             <button type="button">+</button>
           </div>
           <ul>
-            <li><a href="/">Apple과 교육</a></li>
-            <li><a href="/">초중고용 제품 쇼핑하기</a></li>
-            <li><a href="/">대학 생활을 위한 제품 쇼핑하기</a></li>
+            <li><a href="#">Apple과 교육</a></li>
+            <li><a href="#">초중고용 제품 쇼핑하기</a></li>
+            <li><a href="#">대학 생활을 위한 제품 쇼핑하기</a></li>
           </ul>
         </li>
         <li>
@@ -248,10 +279,10 @@
             <button type="button">+</button>
           </div>
           <ul>
-            <li><a href="/">손쉬운 사용</a></li>
-            <li><a href="/">환경</a></li>
-            <li><a href="/">개인정보 보호</a></li>
-            <li><a href="/">협력업체에 대한 책임</a></li>
+            <li><a href="#">손쉬운 사용</a></li>
+            <li><a href="#">환경</a></li>
+            <li><a href="#">개인정보 보호</a></li>
+            <li><a href="#">협력업체에 대한 책임</a></li>
           </ul>
         </li>
         <li>
@@ -260,32 +291,32 @@
             <button type="button">+</button>
           </div>
           <ul>
-            <li><a href="/">Newsroom</a></li>
-            <li><a href="/">Apple 리더십</a></li>
-            <li><a href="/">채용 안내</a></li>
-            <li><a href="/">윤리 및 규정 준수</a></li>
-            <li><a href="/">이벤트</a></li>
-            <li><a href="/">일자리 창출</a></li>
-            <li><a href="/">Apple 연락처</a></li>
+            <li><a href="#">Newsroom</a></li>
+            <li><a href="#">Apple 리더십</a></li>
+            <li><a href="#">채용 안내</a></li>
+            <li><a href="#">윤리 및 규정 준수</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">일자리 창출</a></li>
+            <li><a href="#">Apple 연락처</a></li>
           </ul>
         </li>
       </ul>
       <div>
         <span>
-          다양한 쇼핑 방법: <a href="/">Apple Store를 방문</a>하거나,
-          <a href="/">리셀러</a>를 찾아보거나, 080-330-8877번으로 전화하세요.
+          다양한 쇼핑 방법: <a href="#">Apple Store를 방문</a>하거나,
+          <a href="#">리셀러</a>를 찾아보거나, 080-330-8877번으로 전화하세요.
         </span>
       </div>
       <div>
         <span>Copyright &copy 2021 Apple Inc. 모든 권리 보유.</span>
         <ul>
-          <li><a href="/">개인정보 처리방침</a></li>
-          <li><a href="/">웹 사이트 이용 약관</a></li>
-          <li><a href="/">판매 및 환불</a></li>
-          <li><a href="/">법적 고지</a></li>
-          <li><a href="/">사이트 맵</a></li>
+          <li><a href="#">개인정보 처리방침</a></li>
+          <li><a href="#">웹 사이트 이용 약관</a></li>
+          <li><a href="#">판매 및 환불</a></li>
+          <li><a href="#">법적 고지</a></li>
+          <li><a href="#">사이트 맵</a></li>
         </ul>
-        <span><a href="/">대한민국</a></span>
+        <span><a href="#">대한민국</a></span>
       </div>
       <p>
         사업자등록번호 : 120-81-84429 | 통신판매업신고번호 : 제
