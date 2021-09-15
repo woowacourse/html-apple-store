@@ -1,0 +1,27 @@
+.collection-item {
+  padding-top: 6rem;
+  background-color: var(--background-color, #000);
+  color: var(--color, #fff);
+  height: 60rem;
+}
+.collection-item .headline {
+  font-size: 4rem;
+}
+.collection-item .sub-headline {
+  font-size: 2.1rem;
+}
+#ipad-pro {
+  --background-color: #161617;
+}
+#fitness-plus {
+  --background-color: #fbfbfd;
+  --color: #1d1d1f;
+}
+#promotion-with-college {
+  --background-color: #c6e1e7;
+  --color: #1d1d1f;
+}
+#card {
+  --background-color: #fbfbfd;
+  --color: #1d1d1f;
+}
