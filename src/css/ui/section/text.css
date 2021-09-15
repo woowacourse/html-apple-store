@@ -26,10 +26,11 @@
 
 .sub-text {
   margin-top: 1.25rem;
-  max-width: 50vw;
+  max-width: 40vw;
   letter-spacing: 0.007em;
   text-align: center;
   font-size: 2rem;
+  line-height: 3rem;
 }
 
 .sub-text2 {
