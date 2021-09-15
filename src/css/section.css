@@ -1,6 +1,7 @@
 @import './sections/hero.css';
 @import './sections/iphone-13-pro.css';
 @import './sections/iphone-13.css';
+@import './sections/watch-series-7.css';
 
 .section {
   height: var(--section-height);
@@ -29,12 +30,24 @@
   letter-spacing: -0.012em;
 }
 
+.section-title-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .section-subtitle {
   font-size: 2rem;
   line-height: 1.125;
   font-weight: 600;
   letter-spacing: 0.004em;
   margin: 1.25rem auto 0;
+}
+
+.section-description {
+  margin-top: 2.5rem;
+  color: #6e6e73;
 }
 
 .section-button-container {
