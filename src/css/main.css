@@ -1,0 +1,136 @@
+.main section {
+  overflow-y: hidden;
+}
+
+.content-wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-hero {
+  background-image: url('../images/hero_small.jpg');
+  height: 713px;
+}
+
+.main-hero-wrapper {
+  justify-content: flex-end;
+}
+
+.main-hero-content {
+  height: 50%;
+  justify-content: flex-end;
+  margin-bottom: 58px;
+  color: white;
+}
+
+.main-hero-content .round-button {
+  font-weight: 600;
+}
+
+.main-iphone-13-pro {
+  height: 600px;
+  background-color: #f5f5f7;
+}
+
+.main .image-wrapper {
+  transform: translateY(80px);
+}
+
+.main-iphone-13-pro-image {
+  background-image: url('../images/iphone_13_pro_small.jpg');
+  height: 289px;
+}
+
+.main-iphone-13 {
+  height: 561px;
+  background-color: #35283c;
+}
+
+.main-iphone-13-content {
+  color: white;
+}
+
+.main-iphone-13-image {
+  background-image: url('../images/iphone_13_small.jpg');
+  height: 202px;
+}
+
+.main-watch-7 {
+  background-color: #f5f5f7;
+}
+
+.main-watch-7 .heading2 {
+  background-image: url('../images/logo_watch_series_7__cjyjhfcpj9le_small.png');
+  margin: 0 auto;
+  margin-top: 77px;
+  width: 124px;
+  height: 48px;
+}
+
+.main-watch-7-description {
+  margin: 0 auto;
+  margin-top: 25px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6e6e73;
+}
+
+.main-watch-7 .image-wrapper {
+  transform: translateY(40px);
+}
+
+.main-watch-7-image {
+  background-image: url('../images/watch_series_7__ga5y6pykkqie_small.jpg');
+  min-width: 600px;
+  height: 232px;
+}
+
+.main-ipad-mini {
+  height: 700px;
+}
+
+.main-ipad-mini .heading2 {
+  background-image: url('../images/logo_ipad_mini__sttk80xqgoam_small.png');
+  margin: 0 auto;
+  margin-top: 39px;
+  width: 160px;
+  height: 32px;
+}
+
+.main-ipad-mini .content {
+  height: 50%;
+}
+
+.main-ipad-mini .image-wrapper {
+  height: 50%;
+  transform: translateY(20px);
+}
+
+.main-ipad-mini-image {
+  background-image: url('../images/ipad_mini_small.jpg');
+  transform: translateX(55px);
+  height: 407px;
+}
+
+.main-ipad {
+  height: 700px;
+  background-color: #f5f5f7;
+}
+
+.main-ipad .heading2 {
+  margin-top: 72px;
+}
+
+.main-ipad-image {
+  background-image: url('../images/ipad_small.jpg');
+  background-size: contain;
+  height: 334px;
+}

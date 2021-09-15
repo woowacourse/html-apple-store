@@ -1,9 +1,14 @@
 .gnb {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   height: 48px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000a16;
+}
+
+.gnb-nav {
+  height: 100%;
+  width: 100%;
 }
 
 .gnb-mobile-content {

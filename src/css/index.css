@@ -1,2 +1,11 @@
 @import './reset.css';
 @import './gnb.css';
+@import './main.css';
+@import './hidden.css';
+@import './heading.css';
+@import './button.css';
+@import './image.css';
+
+body {
+  min-width: 320px;
+}
