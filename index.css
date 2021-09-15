@@ -12,48 +12,31 @@
 @import url('./src/css/sections/iphone13Pro.css');
 @import url('./src/css/sections/iphone13.css');
 @import url('./src/css/sections/watch7.css');
+@import url('./src/css/sections/ipadMini.css');
 
 * {
   box-sizing: border-box;
 }
-
 @font-face {
-  font-family: 'sf-fro-kr';
-  src: url('./src/assets/fonts/AppleSDGothicNeoL.ttf');
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: 'sf-fro-kr';
-  src: url('./src/assets/fonts/AppleSDGothicNeoM.ttf');
+  font-family: 'sf-pro-text';
+  src: url('./src/assets/fonts/SF-Pro-Text-Regular.otf');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'sf-fro-kr';
-  src: url('./src/assets/fonts/AppleSDGothicNeoB.ttf');
-  font-weight: 500;
+  font-family: 'sf-pro-text';
+  src: url('./src/assets/fonts/SF-Pro-Text-Semibold.otf');
+  font-weight: 600;
 }
 
 @font-face {
-  font-family: 'sf-fro-kr';
-  src: url('./src/assets/fonts/AppleSDGothicNeoEB.ttf');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'sf-fro-kr';
-  src: url('./src/assets/fonts/AppleSDGothicNeoH.ttf');
-  font-weight: 900;
-}
-
-@font-face {
-  font-family: 'sf-fro';
-  src: url('./src/assets/fonts/SF-Pro.ttf');
+  font-family: 'sf-pro';
+  src: url('./src/assets/fonts/SF-Pro-Display-Semibold.otf');
+  font-weight: 600;
 }
 
 body {
-  font-family: 'sf-fro-kr sf-pro';
+  font-family: 'sf-pro sf-pro-text';
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.022em;
