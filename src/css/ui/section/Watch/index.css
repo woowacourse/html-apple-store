@@ -1,0 +1,29 @@
+.watch_series {
+  min-width: 100vw;
+  padding-top: 5rem;
+  height: 50rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch_series > .content {
+  position: relative;
+  min-width: max-content;
+}
+
+.watch_series > .content > img {
+  width: 8rem;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.watch_series > .device-img {
+  height: 100%;
+  width: 100%;
+
+  background-image: url("/src/images/watch_series_large.jpg");
+  background-size: contain;
+  background-position: center;
+  margin-top: 2rem;
+}
