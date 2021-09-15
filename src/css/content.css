@@ -49,6 +49,30 @@
   text-align: center;
 }
 
+.content__subhead--max-width_hero {
+  max-width: 300px;
+}
+
+.content__subhead--max-width_iphone-13-pro {
+  max-width: 270px;
+}
+
+.content__subhead--max-width_iphone-13 {
+  max-width: 290px;
+}
+
+.content__subhead--max-width_watch-series-7 {
+  max-width: 250px;
+}
+
+.content__subhead--max-width_ipad-mini {
+  max-width: 275px;
+}
+
+.content__subhead--max-width_ipad {
+  max-width: 285px;
+}
+
 .content__violator {
   color: #6e6e73;
   font-size: 12px;
