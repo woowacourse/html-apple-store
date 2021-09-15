@@ -30,3 +30,52 @@ a {
 li {
   list-style: none;
 }
+
+#global_nav {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+  position: sticky;
+  top: 0;
+  height: 44px;
+}
+
+#global_nav > .nav_list {
+  max-width: 1024px;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 22px;
+  margin: 0 auto;
+}
+
+#global_nav .nav_list_item {
+  height: inherit;
+}
+
+#global_nav .nav_list_link {
+  display: inline-block;
+  height: inherit;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: normal;
+}
+
+#global_nav .nav_list_icon {
+  background-repeat: no-repeat;
+  background-size: 16px 44px;
+  background-position: center center;
+}
+
+#global_nav .link_apple {
+  background-image: url('../src/svgs/apple-brands.svg');
+}
+
+#global_nav .link_search {
+  background-image: url('../src/svgs/scope.svg');
+}
+
+#global_nav .link_bag {
+  background-image: url('../src/svgs/shopping-bag.svg');
+}
