@@ -1,0 +1,46 @@
+header {
+  position: fixed;
+  width: 100%;
+  height: 56px;
+  background-color: black;
+}
+
+#nav-section {
+  width: 1300px;
+  height: 100%;
+  margin: 0 auto;
+  color: white;
+  font-size: 17px;
+  line-height: 56px;
+  letter-spacing: normal;
+  padding: 0 10px;
+}
+
+.nav-list,
+.sm-nav-list {
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.sm-nav-list {
+  display: none;
+  padding: 0 10px;
+}
+
+@media (max-width: 767px) {
+  #nav-section {
+    width: 100%;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .sm-nav-list {
+    display: flex;
+  }
+}

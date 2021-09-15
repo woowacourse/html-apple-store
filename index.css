@@ -1,4 +1,5 @@
 @import "./src/css/reset.css";
+@import "./src/css/header.css";
 
 .hidden {
   display: none;
