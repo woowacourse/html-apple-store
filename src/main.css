@@ -29,11 +29,13 @@ main {
 
 main h2 {
   font-size: 72px;
+  font-weight: 600;
 }
 
 main h3 {
   font-size: 32px;
   margin-top: 20px;
+  font-weight: 600;
   text-align: center;
 }
 
