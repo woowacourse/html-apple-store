@@ -11,7 +11,7 @@
   height: 2.75rem;
 }
 
-#gnb > .content {
+#gnb .desktop-content {
   width: 100%;
   max-width: 1024px;
   height: 100%;
@@ -20,26 +20,32 @@
   align-items: center;
 }
 
-#gnb > .content > .logo {
+@media screen and (max-width: 768px) {
+  #gnb > .desktop-content {
+    display: none;
+  }
+}
+
+#gnb .logo {
   width: 2.25rem;
   background: url("/src/images/apple-logo.png");
   background-position-x: -1.2rem;
   background-position-y: -0.1rem;
 }
 
-#gnb > .content > .menu {
+#gnb .menu {
   display: flex;
-  width: 100%;
+  width: 73%;
   height: 100%;
   justify-content: space-around;
   align-items: center;
 }
 
-#gnb > .content > .menu > span {
+#gnb .menu > span {
   line-height: 1.5rem;
 }
 
-#gnb > .content > .search {
+#gnb .search {
   background: url("/src/images/search.svg");
   min-width: 1.2rem;
   background-position-x: 0;
@@ -47,16 +53,30 @@
   background-size: cover;
 }
 
-#gnb > .content > .shopping-bag {
+#gnb .shopping-bag {
   background: url("/src/images/shopping-bag.svg");
   min-width: 1.2rem;
   background-position-x: 0;
   background-position-y: -0.1rem;
 }
 
-#gnb > .content > .nav-icon {
-  margin: 0 2rem;
+#gnb .nav-icon {
+  margin: 0 1rem;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
+}
+
+#gnb .mobile-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  #gnb > .mobile-content {
+    display: none;
+  }
 }
