@@ -16,29 +16,41 @@
     <nav id="gnb" class="fixed w-100 d-flex justify-center items-center">
       <ul id="gnb-list" class="d-flex justify-between items-center">
         <li>
-          <img src="./assets/apple.svg" alt="logo" />
+          <button class="mobile">
+            <img src="./assets/gnb-mobile-button.svg" alt="gnb-mobile-button" />
+          </button>
         </li>
-        <li>Store</li>
-        <li>Mac</li>
-        <li>iPad</li>
-        <li>iPhone</li>
-        <li>Watch</li>
-        <li>TV</li>
-        <li>Music</li>
-        <li>Support</li>
-        <li><img src="./assets/find.svg" alt="search" /></li>
-        <li>
-          <img src="./assets/bag.svg" alt="shopping-cart" />
+        <li class="">
+          <a>
+            <img src="./assets/apple.svg" alt="logo" />
+          </a>
+        </li>
+        <li class="desktop"><a>Store</a></li>
+        <li class="desktop"><a>Mac</a></li>
+        <li class="desktop"><a>iPad</a></li>
+        <li class="desktop"><a>iPhone</a></li>
+        <li class="desktop"><a>Watch</a></li>
+        <li class="desktop"><a>TV</a></li>
+        <li class="desktop"><a>Music</a></li>
+        <li class="desktop"><a>Support</a></li>
+        <li class="desktop">
+          <a><img src="./assets/find.svg" alt="search" /></a>
+        </li>
+        <li class="">
+          <a> <img src="./assets/bag.svg" alt="shopping-cart" /></a>
         </li>
       </ul>
     </nav>
     <main>
-      <section id="greeting-section" class="d-flex justify-center items-center">
-        <p>
-          We look forward to welcoming you to our stores. Whether you
-          <a href="">shop in a store</a> or <a href="">shop online</a>, our
-          Specialists can help you buy the products you love.
-        </p>
+      <section id="greeting-section" class="w-100 d-flex justify-center">
+        <div id="greeting" class="text-center">
+          <span>We look forward to welcoming you to our stores. Whether</span>
+          <span>
+            you<a href="">shop in a store</a> or <a href="">shop online</a>, our
+            Specialists can help
+          </span>
+          <span>you buy the products you love.</span>
+        </div>
       </section>
       <section id="new-item-section">
         <article
@@ -230,7 +242,7 @@
         <nav id="footer-nav" class="d-flex justify-between">
           <div class="footer-nav-column">
             <div class="footer-nav-title">Shop and Learn</div>
-            <ul class="footer-nav-item-list">
+            <ul class="footer-nav-list">
               <li>
                 <a>Mac</a>
               </li>
@@ -341,8 +353,9 @@
             <a>other retailer</a>
             near you. Or call 1-800-MY-APPLE.
           </div>
-          <div id="footer-legal" class="d-flex">
-            <div class="d-flex">
+          <div id="footer-legal-container" class="d-flex">
+            <a id="footer-locale-link">United States</a>
+            <div id="footer-legal" class="d-flex">
               <div id="footer-legal-copyright">
                 Copyright © 2021 Apple Inc. All rights reserved.
               </div>
@@ -354,7 +367,6 @@
                 <a>Site Map</a>
               </div>
             </div>
-            <a id="footer-locale-link">United States</a>
           </div>
         </section>
       </div>

@@ -34,6 +34,9 @@ a:hover,
 :focus {
   text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
 ul {
   list-style: none;
   margin: 0;
@@ -48,11 +51,14 @@ h6,
 p {
   margin: 0;
 }
-
-#collection-section {
-  padding: 1.2rem;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.2rem;
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
 }
 
 .text-center {

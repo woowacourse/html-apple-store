@@ -1,3 +1,8 @@
+#collection-section {
+  padding: 1.2rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
 .collection-item {
   padding-top: 6rem;
   background-color: var(--background-color, #000);
@@ -24,4 +29,21 @@
 #card {
   --background-color: #fbfbfd;
   --color: #1d1d1f;
+}
+
+@media screen and (max-width: 1068px) {
+  .collection-item .headline {
+    font-size: 3.2rem;
+  }
+  .collection-item .sub-headline {
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 734px) {
+  #collection-section {
+    padding: 1.2rem;
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
 }
