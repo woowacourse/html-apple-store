@@ -28,7 +28,7 @@
   background-color: #fff;
   background-image: url("/src/images/iphone_13_pro/iphone_13_pro__small_2x.jpg");
   background-position: 50%;
-  transform: translateY(135px);
+  transform: translateY(120px);
 }
 
 .background__image--iphone-13 {
@@ -44,18 +44,19 @@
   background-image: url("/src/images/watch_series_7/watch_series_7__small_2x.jpg");
   background-position-x: 22%;
   background-size: cover;
-  transform: translateY(70px);
+  transform: translateY(30px);
 }
 
 .background__image--ipad-mini {
   height: 407px;
   background-image: url("/src/images/ipad_mini/ipad_mini__small_2x.jpg");
   background-position: bottom;
-  transform: translateX(55px) translateY(40px);
+  transform: translateX(55px) translateY(50px);
 }
 
 .background__image--ipad {
   height: 334px;
   background-image: url("/src/images/ipad/ipad__small_2x.jpg");
   background-position: 50%;
+  transform: translateY(10px);
 }

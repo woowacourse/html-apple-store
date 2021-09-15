@@ -11,3 +11,15 @@
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
     Arial, sans-serif;
 }
+
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  -webkit-clip-path: inset(0 0 99.9% 99.9%);
+  clip-path: inset(0 0 99.9% 99.9%);
+}

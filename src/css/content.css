@@ -22,6 +22,25 @@
   text-align: center;
 }
 
+.content__headline--watch-series-7 {
+  width: 124px;
+  height: 48px;
+  min-height: 48px;
+  margin-top: 77px;
+  background-image: url("../images/watch_series_7/logo_watch_series_7__small_2x.png");
+  background-size: 124px 48px;
+  background-repeat: no-repeat;
+}
+
+.content__headline--ipad-mini {
+  width: 160px;
+  height: 32px;
+  min-height: 32px;
+  background-image: url("../images/ipad_mini/logo_ipad_mini__small_2x.png");
+  background-size: 160px 32px;
+  background-repeat: no-repeat;
+}
+
 .content__subhead {
   font-weight: 600;
   font-size: 19px;

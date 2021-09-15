@@ -37,20 +37,37 @@
   background-color: var(--light-gray);
 }
 
-.card__content--iphone-13-pro,
-.card__content--iphone-13,
-.card__content--watch-series-7,
-.card__content--ipad-mini,
-.card__content--ipad {
-  margin-top: 60px;
+.card--background-color_watch-series-7 {
+  background-color: #f5f5f7;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .card__content--hero {
   margin-top: 420px;
 }
 
-.card__content--ipad-mini {
-  height: 290px;
+.card__content--iphone-13-pro {
+  margin-top: 70px;
+}
+
+.card__content--iphone-13 {
+  margin-top: 70px;
+}
+
+.card__content--ipad {
+  margin-top: 70px;
+}
+
+.card__content--size_ipad-mini {
+  box-sizing: border-box;
+  min-height: 350px;
+  padding-top: 72px;
 }
 
 .card__image-container {
