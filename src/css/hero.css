@@ -1,0 +1,64 @@
+#hero {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 1200px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center 1%;
+  background-size: 2400px 1400px;
+  background-image: url("/src/images/hero_large_2x.jpeg");
+}
+
+#hero-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px 0 160px;
+  color: white;
+}
+
+.hero-description-item {
+  margin: 20px 0;
+}
+
+#hero-description > h2 {
+  font-size: 100px;
+}
+
+#hero-description > h3 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+#hero-description > a {
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 16px 20px;
+  border-radius: 40px;
+  border: 3px solid white;
+}
+
+@media screen and (max-width: 767px) {
+  #hero {
+    height: 800px;
+    background-size: 900px 800px;
+    background-image: url("/src/images/apple_hero_image.jpeg");
+  }
+
+  #hero-description {
+    display: flex;
+    margin: 20px 0 100px;
+  }
+
+  #hero-description > h2 {
+    font-size: 54px;
+  }
+
+  #hero-description > h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
