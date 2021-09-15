@@ -6,8 +6,7 @@
   position: relative;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   max-width: 1440px;
   height: 100%;
 }
@@ -30,6 +29,7 @@
   height: 56px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5px;
 }
 
 .ipad-mini .section-content .section-content-description {
@@ -37,12 +37,12 @@
 }
 
 .ipad-mini .preview-image {
-  margin-top: 260px;
+  margin-top: 130px;
   width: 47%;
   height: 100%;
   background-image: url('../../assets/images/ipad_mini__ck4jhalcqcnm_large.jpg');
   background-repeat: no-repeat;
-  background-size: 120%;
+  background-size: cover;
   background-position: top left;
   overflow: hidden;
   opacity: 0;
@@ -51,11 +51,15 @@
 /* 반응형 */
 @media screen and (max-width: 1060px) {
   .ipad-mini .preview-image {
-    width: 450px;
+    width: 500px;
     margin-top: 0;
     background-image: url('../../assets/images/ipad_mini__ck4jhalcqcnm_medium.jpg');
-    background-size: 130%;
+    background-position: top 0 left 30px;
+    background-size: 110%;
     height: 130%;
+  }
+  .ipad-mini .section-contents {
+    align-items: center;
   }
 
   .ipad-mini .section-content .section-content-title {
@@ -71,18 +75,29 @@
 
 @media screen and (max-width: 768px) {
   /* 일반화 */
-  #global-main section.watch-7 {
-    height: 950px;
+  #global-main section.ipad-mini {
+    height: 700px;
+  }
+  .ipad-mini .section-content {
+    height: auto;
   }
 
-  .ipad-mini .preview-image {
-    margin-top: 85px;
-    background-image: url('../../assets/images/ipad_mini__ck4jhalcqcnm_small.jpg');
-    background-position: 50% 0%;
-    background-size: 100%;
+  .ipad-mini .section-content .section-content-title {
+    width: 160px;
+    height: 32px;
+    background-image: url('../../assets/images/logo_ipad_mini__sttk80xqgoam_small.png');
   }
 
   .ipad-mini .section-content .section-content-description {
-    max-width: 300px;
+    max-width: 275px;
+  }
+
+  .ipad-mini .preview-image {
+    margin-top: 65px;
+    background-image: url('../../assets/images/ipad_mini__ck4jhalcqcnm_small.jpg');
+    background-position: left top;
+    background-size: cover;
+    width: 350px;
+    height: 334px;
   }
 }
