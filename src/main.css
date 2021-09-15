@@ -111,7 +111,6 @@ main h3 {
   padding-right: 56px;
 }
 
-
 .iphone-13-pro-bg-wrapper {
   position: relative;
   transform: matrix(1, 0, 0, 1, 0, 148.678);
@@ -194,8 +193,227 @@ main h3 {
   z-index: 1;
   padding: 0;
   margin-right: 35px;
+  padding-left: 58px;
+  padding-right: 34px;
 }
 
 .ipad-content h3 {
   max-width: 540px;
+}
+
+@media screen and (max-width: 1063px) {
+  main h2 {
+    font-size: 56px;
+    font-weight: 600;
+  }
+  
+  main h3 {
+    font-size: 28px;
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 734px) {
+  main h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  main h3 {
+    font-size: 19px;
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .section-hero {
+    background-image: url('assets/hero_large.jpeg');
+    background-size: 1440px 1058px;
+    height: 1013px;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .section {
+    height: 950px;
+  }
+
+  .cta-link:not(:first-child) {
+    margin-left: 7px;
+  }
+
+  .section-hero {
+    background-image: url('assets/hero_medium.jpeg');
+    background-size: 1068px 922px;
+    height: 922px;
+  }
+
+  .iphone-13-pro-container {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .iphone-13-pro-content {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+
+  .iphone-13-pro-content h3 {
+    max-width: 565px;
+    margin: 0 auto;
+  }
+
+  .iphone-13-pro-bg-wrapper {
+    height: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    transform: unset;
+  }
+
+  .iphone-13-pro-bg {
+    background-image: url('assets/iphone-13-pro-medium.jpeg');
+    width: 100%;
+    height: 676px;
+    background-position: 50%;
+  }
+  
+  .iphone-13-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .iphone-13-content {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    z-index: 1;
+  }
+
+  .iphone-13-content h3 {
+    max-width: 585px;
+    margin: 0 auto;
+  }
+  
+  .iphone-13-bg-wrapper {
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 50%;
+    left: 50%;
+    transform: matrix(1, 0, 0, 1, 0, 6.44019);
+  }
+  
+  .iphone-13-bg {
+    background-image: url('assets/iphone-13-medium.jpeg');
+    background-position: bottom;
+    height: 535px;
+    width: 149%;
+    transform: translateX(-50%);
+  }
+
+  .watch-series-7-content h3 {
+    max-width: 550px;
+  }
+
+  .ipad-mini-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ipad-mini-content {
+    max-width: unset;
+    padding: 0;
+    height: 50%;
+  }
+
+  .ipad-content {
+    margin: 0;
+  }
+
+  .ipad-mini-content h3 {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+
+  .ipad-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ipad-content h3 {
+    max-width: 590px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 734px) {
+  .section {
+    height: 561px;
+  }
+
+  .section-hero {
+    background-image: url('assets/hero_small.jpeg');
+    background-size: 734px 713px;
+    height: 713px;
+  }
+
+  .iphone-13-pro-content h2 {
+    margin-top: 70px;
+  }
+
+  .iphone-13-pro-content h3 {
+    max-width: 270px;
+  }
+
+  .iphone-13-pro-bg-wrapper {
+    height: 100%;
+    transform: matrix(1, 0, 0, 1, 0, 67.9673);
+  }
+
+  .iphone-13-pro-bg {
+    background-image: url('assets/iphone-13-pro-small.jpeg');
+    height: 289px;
+  }
+
+  .iphone-13-content h3 {
+    max-width: 290px;
+  }
+  
+  .iphone-13-bg-wrapper {
+    height: unset;
+    transform: matrix(1, 0, 0, 1, 0, 77.8513);
+  }
+  
+  .iphone-13-bg {
+    background-image: url('assets/iphone-13-small.jpeg');
+    background-position: bottom;
+    height: 202px;
+    width: 421px;
+    max-width: unset;
+    transform: translateX(-50%);
+  }
+
+  .watch-series-7-content h3 {
+    max-width: 250px;
+    margin-top: 20px;
+  }
+
+  .ipad-mini-content h3 {
+    max-width: 275px;
+    margin: 20px auto 0;
+    margin: 0 auto;
+  }
+
+  .ipad-content h3 {
+    max-width: 285px;
+    margin-top: 12px auto 0;
+  }
 }
