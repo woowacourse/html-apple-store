@@ -1,3 +1,5 @@
+/* Global Styles */
+
 :root {
   --color-white: #ffffff;
   --color-gray-0: #f8f9fa;
@@ -18,13 +20,14 @@
   margin: 0;
   padding: 0;
   cursor: default;
+  color: var(--color-gray-9);
 }
 
 a {
   text-decoration: none;
   outline: none;
   cursor: pointer;
-  color: var(--color-gray-0);
+  color: var(--color-gray-9);
 }
 
 li {
@@ -38,18 +41,7 @@ li {
   height: 0;
 }
 
-.button {
-  font-size: 1rem;
-  line-height: 1.2;
-  font-weight: 400;
-  letter-spacing: -0.02rem;
-  min-width: 1.75rem;
-  background: none;
-  border: 2px solid var(--color-gray-0);
-  padding: 0.625rem 1rem;
-  white-space: nowrap;
-  border-radius: 2.5rem;
-}
+/* nav */
 
 #global_nav {
   background: rgba(0, 0, 0, 0.8);
@@ -58,6 +50,7 @@ li {
   width: 100%;
   top: 0;
   height: 44px;
+  z-index: 2;
 }
 
 #global_nav > .nav_list {
@@ -74,6 +67,7 @@ li {
 }
 
 #global_nav .nav_list_link {
+  color: var(--color-gray-0);
   display: inline-block;
   height: inherit;
   padding: 0 10px;
@@ -101,9 +95,55 @@ li {
   background-image: url('./src/svgs/shopping-bag.svg');
 }
 
-.headline,
+/* section */
+
+.headline {
+  font-size: 4.5rem;
+  letter-spacing: -0.012em;
+  font-weight: 600;
+}
+
 .subhead {
-  color: var(--color-gray-0);
+  font-size: 2rem;
+  letter-spacing: 0.004em;
+  line-height: 1.125;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1.25rem;
+}
+
+.copy_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link_container {
+  margin-top: 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link_button {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.02rem;
+  min-width: 1.75rem;
+  background: none;
+  color: var(--color-gray-9);
+  border: 2px solid var(--color-gray-9);
+  padding: 0.625rem 1rem;
+  border-radius: 2.5rem;
 }
 
 #section_hero {
@@ -113,36 +153,58 @@ li {
   background-position: 50%;
   max-width: 1440px;
   height: 1013px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
   padding-bottom: 10rem;
-}
-
-#section_hero .copy_container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 #section_hero .headline {
-  font-size: 4.5rem;
-  line-height: 1;
-  font-weight: 600;
-  letter-spacing: -0.012em;
+  color: var(--color-gray-0);
 }
 
 #section_hero .subhead {
   max-width: 512px;
-  font-size: 2rem;
-  text-align: center;
-  line-height: 1.125;
-  font-weight: 600;
-  letter-spacing: 0.004em;
-  margin-top: 1.25rem;
+  color: var(--color-gray-0);
 }
 
 #section_hero .link_button {
-  margin-top: 2.5rem;
+  border-color: var(--color-gray-0);
+  color: var(--color-gray-0);
+}
+
+#section_iphone_13_pro {
+  background-color: var(--color-white);
+  height: 900px;
+  overflow: hidden;
+  display: flex;
+}
+
+#section_iphone_13_pro .section_content {
+  width: 55%;
+  padding-left: 2.125rem;
+  padding-right: 3.5rem;
+  height: inherit;
+}
+
+#section_iphone_13_pro .subhead {
+  max-width: 610px;
+}
+
+#section_iphone_13_pro .link_button {
+  margin-right: 1.125rem;
+}
+
+#section_iphone_13_pro .image_container {
+  position: relative;
+}
+
+#iphone_13_pro {
+  background-image: url('./src/images/iphone_13_pro_large_2x.jpeg');
+  width: 910px;
+  height: 996px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10rem;
 }
