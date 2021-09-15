@@ -19,3 +19,49 @@
 .section.hero .section-subtitle {
   max-width: 518px;
 }
+
+@media only screen and (max-width: 1068px) {
+  .section.hero {
+    height: 922px;
+  }
+
+  .section.hero .section-text {
+    margin-bottom: 8.875rem;
+  }
+
+  .section.hero .section-title {
+    font-size: 3.5rem;
+    letter-spacing: -0.005em;
+  }
+
+  .section.hero .section-subtitle {
+    max-width: 420px;
+    font-size: 1.75rem;
+    line-height: 1.1428571429;
+    letter-spacing: 0.007em;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section.hero {
+    height: 713px;
+  }
+
+  .section.hero .section-title {
+    font-size: 2.5rem;
+    letter-spacing: 0;
+    padding: 0 20px;
+  }
+
+  .section.hero .section-subtitle {
+    max-width: 300px;
+    font-size: 19px;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+  }
+
+  .section.hero .section-text {
+    margin-bottom: 6.25rem;
+  }
+}
