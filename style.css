@@ -21,6 +21,7 @@
   padding: 0;
   cursor: default;
   color: var(--color-gray-9);
+  font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -100,14 +101,14 @@ li {
 .headline {
   font-size: 4.5rem;
   letter-spacing: -0.012em;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .subhead {
   font-size: 2rem;
   letter-spacing: 0.004em;
   line-height: 1.125;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   margin-top: 1.25rem;
 }
