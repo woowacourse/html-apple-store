@@ -6,5 +6,6 @@
   --nav-color: #fff;
   --nav-mobile-height: 48px;
   --section-height: 900px;
-  --section-mobile-height: 950px;
+  --section-height-md: 950px;
+  --section-height-sm: 600px;
 }

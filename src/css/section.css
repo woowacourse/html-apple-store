@@ -64,12 +64,51 @@
 }
 
 @media only screen and (max-width: 1068px) {
+  .section {
+    height: var(--section-height-md);
+  }
+
+  .section-content {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .section-title {
+    font-size: 3.5rem;
+    line-height: 1.0714285714;
+    letter-spacing: -0.005em;
+  }
+
+  .section-subtitle {
+    font-size: 1.75rem;
+    line-height: 1.1428571429;
+    letter-spacing: 0.007em;
+  }
+
   .section-button-container {
     margin-top: 1.75rem;
   }
 }
 
 @media only screen and (max-width: 734px) {
+  .section {
+    height: var(--section-height-sm);
+  }
+
+  .section-title {
+    margin-top: 70px;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    letter-spacing: -0.005em;
+  }
+
+  .section-subtitle {
+    font-size: 19px;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+  }
+
   .section-button-container {
     margin-top: 25px;
   }
