@@ -1,4 +1,4 @@
-.apple-hero {
+#global-main section.apple-hero {
   height: 965px;
   text-align: center;
   background-color: #000;
@@ -12,7 +12,7 @@
 }
 
 .apple-hero .section-content {
-  margin-bottom: 160px;
+  margin-bottom: 140px;
 }
 
 .apple-hero .section-content .section-content-description {
@@ -21,21 +21,21 @@
 
 /*. 반응형 */
 @media screen and (min-width: 1441px) {
-  .apple-hero {
+  #global-main section.apple-hero {
     background-size: 3008px 1058px;
     background-image: url('../../assets/images/hero__x15fcac9fw2q_xlarge.jpg');
   }
 }
 
 @media screen and (max-width: 1070px) {
-  .apple-hero {
+  #global-main section.apple-hero {
     height: 874px;
     background-size: 1068px 922px;
     background-image: url('../../assets/images/hero__x15fcac9fw2q_medium.jpg');
   }
 
   .apple-hero .section-content {
-    margin-bottom: 142px;
+    margin-bottom: 130px;
   }
 
   .apple-hero .section-content .section-content-description {
@@ -44,14 +44,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  .apple-hero {
+  #global-main section.apple-hero {
     height: 665px;
     background-size: 734px 713px;
     background-image: url('../../assets/images/hero__x15fcac9fw2q_small.jpg');
   }
 
   .apple-hero .section-content {
-    margin-bottom: 100px;
+    margin-bottom: 90px;
   }
 
   .apple-hero .section-content .section-content-description {

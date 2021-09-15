@@ -49,6 +49,7 @@
   .ipad-mini .preview-image {
     width: 500px;
     margin-top: 0;
+    margin-left: 50px;
     background-image: url('../../assets/images/ipad_mini__ck4jhalcqcnm_medium.jpg');
     background-position: top 0 left 30px;
     background-size: 110%;
@@ -74,8 +75,10 @@
   #global-main section.ipad-mini {
     height: 700px;
   }
+
   .ipad-mini .section-content {
     height: auto;
+    padding: 0;
   }
 
   .ipad-mini .section-content .section-content-title {
@@ -90,6 +93,7 @@
 
   .ipad-mini .preview-image {
     margin-top: 65px;
+    margin-left: 90px;
     background-image: url('../../assets/images/ipad_mini__ck4jhalcqcnm_small.jpg');
     background-position: left top;
     background-size: cover;
