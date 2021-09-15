@@ -1,5 +1,5 @@
 .section-content {
-  letter-spacing: -0.374px;
+  letter-spacing: -0.864px;
   text-align: center;
 }
 
@@ -16,7 +16,7 @@
   font-weight: 600;
   margin: 0 auto;
   letter-spacing: 0.004em;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 }
 
 .section-content .section-content-buttons {
@@ -26,6 +26,7 @@
 }
 
 .section-content .section-content-button {
+  min-width: 133px;
   padding: 10px 16px;
   border-radius: 24px;
   font-size: 17px;

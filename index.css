@@ -13,20 +13,16 @@
 @import url('./src/css/sections/iphone13.css');
 @import url('./src/css/sections/watch7.css');
 @import url('./src/css/sections/ipadMini.css');
+@import url('./src/css/sections/ipad.css');
 
 * {
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: 'sf-pro-text';
   src: url('./src/assets/fonts/SF-Pro-Text-Regular.otf');
   font-weight: 400;
-}
-
-@font-face {
-  font-family: 'sf-pro-text';
-  src: url('./src/assets/fonts/SF-Pro-Text-Semibold.otf');
-  font-weight: 600;
 }
 
 @font-face {
@@ -36,7 +32,7 @@
 }
 
 body {
-  font-family: 'sf-pro sf-pro-text';
+  font-family: 'sf-pro-text';
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.022em;
@@ -50,4 +46,12 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'sf-pro';
 }

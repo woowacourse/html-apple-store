@@ -1,0 +1,88 @@
+.ipad-mini {
+  overflow: hidden;
+}
+
+.ipad-mini .section-contents {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  height: 100%;
+}
+
+.ipad-mini .section-content {
+  height: 100%;
+  letter-spacing: -0.012em;
+  padding-left: 34px;
+  padding-right: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ipad-mini .section-content .section-content-title {
+  background-image: url('../../assets/images/logo_ipad_mini__sttk80xqgoam_large.png');
+  background-repeat: no-repeat;
+  width: 281px;
+  height: 56px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ipad-mini .section-content .section-content-description {
+  max-width: 580px;
+}
+
+.ipad-mini .preview-image {
+  margin-top: 260px;
+  width: 47%;
+  height: 100%;
+  background-image: url('../../assets/images/ipad_mini__ck4jhalcqcnm_large.jpg');
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: top left;
+  overflow: hidden;
+  opacity: 0;
+}
+
+/* 반응형 */
+@media screen and (max-width: 1060px) {
+  .ipad-mini .preview-image {
+    width: 450px;
+    margin-top: 0;
+    background-image: url('../../assets/images/ipad_mini__ck4jhalcqcnm_medium.jpg');
+    background-size: 130%;
+    height: 130%;
+  }
+
+  .ipad-mini .section-content .section-content-title {
+    width: 221px;
+    height: 44px;
+    background-image: url('../../assets/images/logo_ipad_mini__sttk80xqgoam_medium.png');
+  }
+
+  .ipad-mini .section-content .section-content-description {
+    max-width: 620px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* 일반화 */
+  #global-main section.watch-7 {
+    height: 950px;
+  }
+
+  .ipad-mini .preview-image {
+    margin-top: 85px;
+    background-image: url('../../assets/images/ipad_mini__ck4jhalcqcnm_small.jpg');
+    background-position: 50% 0%;
+    background-size: 100%;
+  }
+
+  .ipad-mini .section-content .section-content-description {
+    max-width: 300px;
+  }
+}
