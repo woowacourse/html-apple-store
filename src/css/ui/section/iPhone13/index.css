@@ -20,10 +20,6 @@
   background-position-x: 13rem;
 }
 
-.iphone_13 .button:first-of-type {
-  margin-right: 1rem;
-}
-
 @media screen and (max-width: 1000px) {
   .iphone_13 {
     flex-direction: column;

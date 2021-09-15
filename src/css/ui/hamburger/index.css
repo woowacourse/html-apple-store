@@ -6,7 +6,7 @@
   width: 2rem;
   height: 100%;
   cursor: pointer;
-  color: var(--font-color-white);
+  color: var(--font-color-white-200);
 }
 
 .hamburger > span:first-child,

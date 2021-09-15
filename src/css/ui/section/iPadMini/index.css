@@ -1,0 +1,81 @@
+.ipad-mini {
+  width: 100vw;
+  padding-top: 5rem;
+  height: 50rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--font-color-white-100);
+}
+
+.ipad-mini > .content {
+  min-width: max-content;
+  padding-right: 10rem;
+}
+
+.ipad-mini > .content > img {
+  width: 15rem;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.ipad-mini > .device-img {
+  height: 100%;
+  min-width: 40rem;
+
+  background-image: url("/src/images/ipad_mini.jpg");
+  background-size: cover;
+  background-position: 2rem 1rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .ipad-mini {
+    flex-direction: column;
+    justify-content: center;
+    height: 50rem;
+    padding-top: 0;
+  }
+
+  .ipad-mini > .content > img {
+    width: 10rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  .ipad-mini > .content {
+    padding-right: 0;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  .ipad-mini > .device-img {
+    min-width: 20rem;
+    max-width: 25rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ipad-mini {
+    flex-direction: column;
+    justify-content: center;
+    height: 35rem;
+  }
+
+  .ipad-mini > .content > img {
+    width: 8rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  .ipad-mini > .content {
+    padding-right: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .ipad-mini > .device-img {
+    min-width: 15rem;
+    max-width: 20rem;
+  }
+}

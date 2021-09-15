@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.button-container > .button:first-of-type {
+  margin-right: 1rem;
+}
+
 .button {
   margin-top: 1.75rem;
   max-width: 10rem;
