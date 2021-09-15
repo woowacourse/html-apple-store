@@ -1,0 +1,27 @@
+.hero {
+  height: 1013px;
+  background-position: center;
+  background-image: url("/src/images/hero__x15fcac9fw2q_xlarge.jpg");
+}
+
+/* 반응형 */
+@media screen and (max-width: 1440px) {
+  .hero {
+    background-image: url("/src/images/hero__x15fcac9fw2q_large.jpg");
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .hero {
+    height: 922px;
+    background-image: url("/src/images/hero__x15fcac9fw2q_medium.jpg");
+  }
+}
+
+@media screen and (max-width: 734px) {
+  .hero {
+    height: 713px;
+    min-width: 320px;
+    background-image: url("/src/images/hero__x15fcac9fw2q_small.jpg");
+  }
+}
