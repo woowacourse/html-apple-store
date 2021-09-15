@@ -1,0 +1,96 @@
+/* watch-series-7 */
+
+.section--watch-series-7 {
+  max-height: 625px;
+  background-color: var(--watch-series-7-bg-color);
+}
+
+.heading-logo-watch-series-7 {
+  width: 124px;
+  height: 48px;
+  background-image: url('/images/logo-watch-series-7-small-2x.png');
+  background-size: cover;
+}
+
+.section--watch-series-7 .violator {
+  font-size: 12px;
+  color: var(--violator-color);
+  margin-bottom: 15px;
+}
+
+.section--watch-series-7 .section__bg-image {
+  position: relative;
+  width: 100vw;
+  height: 250px;
+  background-image: url('/images/watch-series-7-small.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 735px) and (max-width: 1060px) {
+  .heading-logo-watch-series-7 {
+    width: 170px;
+    height: 65px;
+  }
+
+  .section--watch-series-7 .violator {
+    font-size: 17px;
+  }
+
+  .section--watch-series-7 {
+    max-height: 950px;
+  }
+
+  .section--watch-series-7 .sub-heading {
+    max-width: 550px;
+  }
+
+  .section--watch-series-7 .cta-buttons {
+    margin-bottom: 148px;
+  }
+
+  .section--watch-series-7 .section__bg-image {
+    top: 0;
+    left: 0;
+  }
+
+  .section--watch-series-7 .section__bg-image {
+    position: relative;
+    background-image: url('/images/watch-series-7-medium.jpg');
+  }
+}
+
+@media only screen and (min-width: 1061px) {
+  .section--watch-series-7 {
+    max-height: 900px;
+  }
+
+  .heading-logo-watch-series-7 {
+    width: 218px;
+    height: 83px;
+  }
+
+  .section--watch-series-7 .violator {
+    font-size: 17px;
+  }
+
+  .section--watch-series-7 .sub-heading {
+    max-width: 780px;
+  }
+
+  .section--watch-series-7 .cta-buttons {
+    margin-bottom: 148px;
+  }
+
+  .section--watch-series-7 .section__bg-image {
+    top: 0;
+    left: 0;
+  }
+
+  .section--watch-series-7 .section__bg-image {
+    position: relative;
+    background-image: url('/images/watch-series-7-large.jpg');
+  }
+
+}

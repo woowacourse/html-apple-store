@@ -1,0 +1,7 @@
+body {
+  font-family: 'SF Pro KR';
+  font-style: normal;
+  font-size: 17px;
+  color: var(--text-color);
+  word-break: keep-all;
+}

@@ -1,0 +1,68 @@
+/* iphone-13-pro */
+
+.section--iphone-13-pro {
+  max-height: 600px;
+  background-color: var(--iphone-13-pro-section-bg-color);
+}
+
+.section--iphone-13-pro .section__bg-image {
+  position: relative;
+  width: 300px;
+  min-height: 289px;
+  background-image: url('/images/iphone-13-pro-small.jpg');
+  top: 15px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 735px) and (max-width: 1060px) {
+  .section--iphone-13-pro {
+    max-height: 950px;
+  }
+
+  .section--iphone-13-pro .sub-heading {
+    max-width: 565px;
+  }
+
+  .section--iphone-13-pro .cta-buttons {
+    margin-bottom: 148px;
+  }
+
+  .section--iphone-13-pro .section__bg-image {
+    position: relative;
+    width: 800px;
+    min-height: 676px;
+    background-image: url('/images/iphone-13-pro-medium.jpg');
+  }
+}
+
+@media only screen and (min-width: 1061px) {
+  .section--iphone-13-pro {
+    max-height: 900px;
+  }
+
+  .section--iphone-13-pro .section__content {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .section--iphone-13-pro .section__copy-container {
+    justify-content: center;
+    margin-right: 90px;
+  }
+
+  .section--iphone-13-pro .sub-heading {
+    max-width: 610px;
+  }
+
+  .section--iphone-13-pro .cta-buttons {
+    margin-bottom: 148px;
+  }
+
+  .section--iphone-13-pro .section__bg-image {
+    width: 1000px;
+    min-height: 996px;
+    background-image: url('/images/iphone-13-pro-large.jpg');
+  }
+}
