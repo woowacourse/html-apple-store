@@ -28,12 +28,41 @@ header {
 
 .sm-nav-list {
   display: none;
-  padding: 0 10px;
 }
 
-@media (max-width: 767px) {
+.nav-icon {
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.icon-apple {
+  width: 40px;
+  background-image: url("../images/logo.svg");
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.icon-search {
+  width: 28px;
+  background-image: url("../images/search.svg");
+}
+
+.icon-bag {
+  width: 30px;
+  background-image: url("../images/bag.svg");
+}
+
+.icon-menu {
+  width: 36px;
+  background-image: url("../images/menu.svg");
+}
+
+@media screen and (max-width: 767px) {
   #nav-section {
     width: 100%;
+    height: 56px;
   }
 
   .nav-list {
