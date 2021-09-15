@@ -1,7 +1,6 @@
 {
   "name": "html-apple-store",
   "version": "1.0.0",
-  "main": "src/index.html",
   "repository": "https://github.com/Puterism/html-apple-store.git",
   "author": "Shim MunSeong <Puterism.K@gmail.com>",
   "license": "MIT",
