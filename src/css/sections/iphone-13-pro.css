@@ -15,6 +15,10 @@
   max-width: 610px;
 }
 
+.section.iphone-13-pro .section-image-container {
+  transform: translate(8px, 141.567px);
+}
+
 .section.iphone-13-pro .section-image {
   position: absolute;
   width: 910px;

@@ -1,15 +1,12 @@
 @import './sections/hero.css';
 @import './sections/iphone-13-pro.css';
+@import './sections/iphone-13.css';
 
 .section {
   height: var(--section-height);
   background-color: var(--bg-white);
   position: relative;
   overflow: hidden;
-}
-
-.section.bg-dark {
-  background-color: var(--text-color);
 }
 
 .section-content {
@@ -51,5 +48,4 @@
   position: relative;
   left: 0;
   top: 0;
-  transform: translate(8px, 141.567px);
 }

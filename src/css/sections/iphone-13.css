@@ -1,0 +1,34 @@
+.section.iphone-13 {
+  background-color: #34283c;
+}
+
+.section.iphone-13 .section-content {
+  justify-content: flex-end;
+}
+
+.section.iphone-13 .section-text {
+  width: 50%;
+  padding-left: 3.5rem;
+  padding-right: 2.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.section.iphone-13 .section-image-container {
+  width: 1300px;
+  height: 100%;
+  transform: translate(-692.5px, -197.09px);
+  position: absolute;
+  left: 50%;
+}
+
+.section.iphone-13 .section-image {
+  position: absolute;
+  width: 100%;
+  height: 1300px;
+  background-size: contain;
+  background-image: url(../../images/iphone_13_large.jpg);
+  background-repeat: no-repeat;
+}
