@@ -15,26 +15,39 @@
 }
 
 .main-text {
-  font-size: 3.5rem;
   letter-spacing: -0.005rem;
   text-align: center;
+}
+
+.sub-text {
+  margin-top: 1.25rem;
+  max-width: 26rem;
+  letter-spacing: 0.007em;
+  text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .main-text {
+    font-size: 4rem;
+  }
+  .sub-text {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main-text {
+    font-size: 3.5rem;
+  }
+  .sub-text {
+    font-size: 1.75rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .main-text {
     font-size: 2.5rem;
   }
-}
-
-.sub-text {
-  margin-top: 1.25rem;
-  max-width: 26rem;
-  font-size: 1.75rem;
-  letter-spacing: 0.007em;
-  text-align: center;
-}
-
-@media screen and (max-width: 768px) {
   .sub-text {
     font-size: 1.2rem;
   }

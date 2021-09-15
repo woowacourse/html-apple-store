@@ -1,0 +1,68 @@
+.iphone_13_pro .button:first-of-type {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .iphone_13_pro {
+    height: 130vh;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .iphone_13_pro > .content {
+    min-width: max-content;
+    padding-left: 10rem;
+  }
+
+  .iphone_13_pro > img {
+    position: relative;
+    min-width: 55rem;
+    max-width: 55rem;
+    right: -10rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .iphone_13_pro {
+    height: 130vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .iphone_13_pro > .content {
+    padding-left: 0;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  .iphone_13_pro > img {
+    position: unset;
+    min-width: 50rem;
+    max-width: 50rem;
+    object-position: center 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .iphone_13_pro {
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .iphone_13_pro > .content {
+    padding-left: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .iphone_13_pro > img {
+    margin-top: 3rem;
+    position: unset;
+    min-width: 20rem;
+    max-width: 20rem;
+    height: min-content;
+    object-fit: contain;
+    object-position: center;
+  }
+}
