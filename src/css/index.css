@@ -3,43 +3,4 @@
 @import './shared/accessibility.css';
 
 @import './components/nav.css';
-
-:root {
-  --nav-height: 48px;
-
-  --color-placeholder: #999;
-  --color-paragraph: #999;
-  --color-border: #999;
-
-  --localnav-height: 52px;
-
-  --columns: 1;
-  --gutter-width: 12px;
-  --gutter-half-width: 6px;
-  --gutter-and-half-width: 18px;
-  --gutter-color: rgb(255 255 255);
-
-  --double-edge-border-width: 0px;
-  --edge-border-width: 0px;
-  --background-color: rgb(251 251 253);
-  --text-color: rgb(29 29 31);
-  --edge-border-width-fallback: 0px;
-
-  --global-nav-main-height: 44px;
-  --global-nav-collective-height: calc(44px + var(--global-nav-ad-bar-height));
-
-  /* 내비바 : 아이콘만 < 메뉴나열*/
-  --navbar-small-max-width: 767px;
-
-  /* 히어로 : 높이 500px < 높이 650px */
-  /* 프로모-메인 : 높이 500px < 높이 650px (위에서부터 3개 이미지 갈아낌) */
-  /* 프로모-서브 : 높이 500px 두칸도 한칸 < 높이 490px 두칸은 두칸 */
-  --content-small-max-width: 733px;
-
-  /* 푸터-내브 : 모바일 < 웹 */
-  --footer-nav-small-max-width: 767px;
-
-  /* 푸터-바닥 : 세줄 < 두줄 < 한줄 */
-  --footer-legal-medium-max-width: 874px;
-  --footer-legal-small-max-width: 767px;
-}
+@import './components/hero.css';
