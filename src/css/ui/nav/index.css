@@ -28,7 +28,7 @@
 
 #gnb .logo {
   width: 2.25rem;
-  background: url("/src/images/apple-logo.png");
+  background-image: url("/src/images/apple-logo.png");
   background-position-x: -1.2rem;
   background-position-y: -0.1rem;
 }
@@ -46,7 +46,7 @@
 }
 
 #gnb .search {
-  background: url("/src/images/search.svg");
+  background-image: url("/src/images/search.svg");
   min-width: 1.2rem;
   background-position-x: 0;
   background-position-y: -0.1rem;
@@ -54,7 +54,7 @@
 }
 
 #gnb .shopping-bag {
-  background: url("/src/images/shopping-bag.svg");
+  background-image: url("/src/images/shopping-bag.svg");
   min-width: 1.2rem;
   background-position-x: 0;
   background-position-y: -0.1rem;

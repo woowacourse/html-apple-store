@@ -1,7 +1,7 @@
 @import "./global/index.css";
 @import "./ui//nav/index.css";
 @import "./ui/hamburger/index.css";
-@import "./ui/section/section.css";
+@import "./ui/section/index.css";
 
 #app {
   display: flex;

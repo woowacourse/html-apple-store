@@ -1,5 +1,3 @@
-@import "../../global/palette.css";
-
 .hamburger {
   display: flex;
   flex-direction: column;
