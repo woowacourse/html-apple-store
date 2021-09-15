@@ -1,5 +1,5 @@
 .main section {
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .content-wrapper {
@@ -46,6 +46,7 @@
 .main-iphone-13-pro-image {
   background-image: url('../images/iphone_13_pro_small.jpg');
   height: 289px;
+  width: 100%;
 }
 
 .main-iphone-13 {
@@ -60,6 +61,7 @@
 .main-iphone-13-image {
   background-image: url('../images/iphone_13_small.jpg');
   height: 202px;
+  width: 100%;
 }
 
 .main-watch-7 {
@@ -91,6 +93,7 @@
   background-image: url('../images/watch_series_7__ga5y6pykkqie_small.jpg');
   min-width: 600px;
   height: 232px;
+  width: 100%;
 }
 
 .main-ipad-mini {
@@ -129,8 +132,318 @@
   margin-top: 72px;
 }
 
+.main-ipad .image-wrapper {
+  padding: 0 10px;
+  transform: translateY(40px);
+}
+
 .main-ipad-image {
   background-image: url('../images/ipad_small.jpg');
   background-size: contain;
   height: 334px;
+}
+
+@media only screen and (min-width: 433px) {
+  .main-hero-content {
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 734px) {
+  .main-hero {
+    background-image: url('../images/hero_medium.jpg');
+    height: 922px;
+  }
+
+  .main-hero .heading3 {
+    max-width: 420px;
+  }
+
+  .main-hero-content {
+    margin-bottom: 142px;
+  }
+
+  .main-iphone-13-pro {
+    height: 950px;
+  }
+
+  .main-iphone-13-pro .heading3 {
+    max-width: 565px;
+  }
+
+  .main-iphone-13-pro-image {
+    background-image: url('../images/iphone_13_pro_medium.jpg');
+    height: 676px;
+  }
+
+  .main-iphone-13 {
+    height: 950px;
+  }
+
+  .main-iphone-13 .heading3 {
+    max-width: 585px;
+  }
+
+  .main-iphone-13-image {
+    background-image: url('../images/iphone_13_medium.jpg');
+    height: 535px;
+  }
+
+  .main-watch-7 .heading2 {
+    background-image: url('../images/logo_watch_series_7__cjyjhfcpj9le_medium.png');
+    width: 170px;
+    height: 65px;
+  }
+
+  .main-watch-7 .heading3 {
+    max-width: 550px;
+  }
+
+  .main-watch-7-image {
+    background-image: url('../images/watch_series_7__ga5y6pykkqie_medium.jpg');
+    background-size: contain;
+    height: 393px;
+    min-width: unset;
+  }
+
+  .main-ipad-mini {
+    height: 950px;
+  }
+
+  .main-ipad-mini .heading2 {
+    background-image: url('../images/logo_ipad_mini__sttk80xqgoam_medium.png');
+    margin-top: -22px;
+    width: 221px;
+    height: 44px;
+  }
+
+  .main-ipad-mini .heading3 {
+    max-width: 620px;
+  }
+
+  .main-ipad-mini-image {
+    background-image: url('../images/ipad_mini_medium.jpg');
+    width: 100%;
+    height: 690px;
+    transform: translateX(92px);
+  }
+
+  .main-ipad {
+    height: 1030px;
+  }
+
+  .main-ipad .heading3 {
+    max-width: 590px;
+  }
+
+  .main-ipad .image-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-ipad-image {
+    background-image: url('../images/ipad_medium.jpg');
+    width: 600px;
+    height: 565px;
+  }
+}
+
+@media only screen and (min-width: 1068px) {
+  .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-hero {
+    background-image: url('../images/hero_large.jpg');
+    height: 1013px;
+  }
+
+  .main-hero .content-wrapper {
+    flex-direction: column;
+  }
+
+  .main-hero .heading3 {
+    max-width: 518px;
+  }
+
+  .main-hero-content {
+    margin-bottom: 142px;
+  }
+
+  .main-iphone-13-pro {
+    height: 900px;
+  }
+
+  .main-iphone-13-pro .content {
+    padding-left: 34px;
+    padding-right: 56px;
+    width: 50%;
+  }
+
+  .main-iphone-13-pro .heading3 {
+    max-width: 610px;
+  }
+
+  .main-iphone-13-pro .main-iphone-13-pro-image {
+    position: absolute;
+    background-image: url('../images/iphone_13_pro_large.jpg');
+    width: 910px;
+    height: 996px;
+  }
+
+  .main-iphone-13 {
+    height: 900px;
+  }
+
+  .main-iphone-13 .content-wrapper {
+    flex-direction: row-reverse;
+    position: relative;
+  }
+
+  .main-iphone-13-content {
+    z-index: 1;
+  }
+
+  .main-iphone-13 .content {
+    width: 50%;
+    padding-left: 56px;
+    padding-right: 34px;
+  }
+
+  .main-iphone-13 .heading3 {
+    max-width: 665px;
+  }
+
+  .main-iphone-13 .image-wrapper {
+    position: absolute;
+    width: 1385px;
+    height: 100%;
+    transform: translateY(-200px);
+  }
+
+  .main-iphone-13 .main-iphone-13-image {
+    background-image: url('../images/iphone_13_large.jpg');
+    height: 1300px;
+    width: 100%;
+    background-position: unset;
+  }
+
+  .main-watch-7 .content-wrapper {
+    flex-direction: column;
+  }
+
+  .main-watch-7 .heading2 {
+    background-image: url('../images/logo_watch_series_7__cjyjhfcpj9le_large.png');
+    width: 218px;
+    height: 83px;
+  }
+
+  .main-watch-7 .image-wrapper {
+    transform: translateY(80px);
+  }
+
+  .main-watch-7 .heading3 {
+    max-width: 780px;
+    margin-top: 29px;
+  }
+
+  .main-watch-7-image {
+    background-image: url('../images/watch_series_7__ga5y6pykkqie_large.jpg');
+    background-size: contain;
+    height: 524px;
+    width: 141%;
+    max-width: 1894px;
+    min-width: 1490px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .main-ipad-mini {
+    height: 900px;
+  }
+
+  .main-ipad-mini .content-wrapper {
+    justify-content: center;
+  }
+
+  .main-ipad-mini .content {
+    height: 100%;
+    max-width: 41%;
+    padding-left: 58px;
+    padding-right: 34px;
+  }
+
+  .main-ipad-mini .heading2 {
+    background-image: url('../images/logo_ipad_mini__sttk80xqgoam_large.png');
+    width: 281px;
+    height: 56px;
+  }
+
+  .main-ipad-mini .heading3 {
+    max-width: 580px;
+    margin-top: 29px;
+  }
+
+  .main-ipad-mini .image-wrapper {
+    height: 50%;
+    width: 50%;
+    transform: translateY(120px);
+  }
+
+  .main-ipad-mini .main-ipad-mini-image {
+    background-image: url('../images/ipad_mini_large.jpg');
+    height: 936px;
+    width: 140%;
+    background-position: bottom;
+    transform: unset;
+  }
+
+  .main-ipad {
+    height: 900px;
+  }
+
+  .main-ipad .content-wrapper {
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .main-ipad .content {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    margin-right: 35px;
+  }
+
+  .main-ipad .heading3 {
+    max-width: 540px;
+  }
+
+  .main-ipad .image-wrapper {
+    display: block;
+    width: 865px;
+    margin-right: -140px;
+    margin-left: -40px;
+  }
+
+  .main-ipad-image {
+    background-image: url('../images/ipad_large.jpg');
+    height: 815px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  .main-hero {
+    background-image: url('../images/hero_xlarge.jpg');
+  }
+
+  .main-hero-content {
+    margin-bottom: 142px;
+  }
 }

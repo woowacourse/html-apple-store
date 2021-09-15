@@ -19,3 +19,23 @@
   text-align: center;
   line-height: 1.4;
 }
+
+@media only screen and (min-width: 734px) {
+  .heading2 {
+    font-size: 56px;
+    letter-spacing: -0.3rem;
+  }
+  .heading3 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 1068px) {
+  .heading2 {
+    font-size: 72px;
+    letter-spacing: -0.4rem;
+  }
+  .heading3 {
+    font-size: 32px;
+  }
+}

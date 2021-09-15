@@ -1,8 +1,9 @@
 .image {
+  position: relative;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .image-wrapper {
-  overflow: hidden;
+  position: relative;
 }
