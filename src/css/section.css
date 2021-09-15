@@ -1,5 +1,12 @@
 .section {
   height: var(--section-height);
+  background-color: var(--bg-white);
+  position: relative;
+  overflow: hidden;
+}
+
+.section.bg-dark {
+  background-color: var(--text-color);
 }
 
 .section-content {
@@ -32,6 +39,25 @@
 
 .section-button-container {
   margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.125rem;
+}
+
+.section-image-container {
+  position: relative;
+  left: 0;
+  top: 0;
+  transform: translate(8px, 141.567px);
+}
+
+.section-image {
+  position: absolute;
+  width: 910px;
+  height: 996px;
+  background-size: contain;
+  background-image: url(../images/iphone_13_pro_large.jpg);
+  background-repeat: no-repeat;
 }
 
 .section.hero {
@@ -39,16 +65,35 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 1013px;
 }
 
 .section.hero .section-content {
   flex-direction: column;
   justify-content: flex-end;
-  align-items: center;
-  padding-bottom: 160px;
-  box-sizing: border-box;
+}
+
+.section.hero .section-text {
+  margin-bottom: 10rem;
 }
 
 .section.hero .section-subtitle {
   max-width: 518px;
+}
+
+.section.iphone-13-pro .section-content {
+  justify-content: flex-start;
+}
+
+.section.iphone-13-pro .section-text {
+  width: 50%;
+  padding-left: 2.125rem;
+  padding-right: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section.iphone-13-pro .section-subtitle {
+  max-width: 610px;
 }
