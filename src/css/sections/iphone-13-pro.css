@@ -1,0 +1,25 @@
+.section.iphone-13-pro .section-content {
+  justify-content: flex-start;
+}
+
+.section.iphone-13-pro .section-text {
+  width: 50%;
+  padding-left: 2.125rem;
+  padding-right: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section.iphone-13-pro .section-subtitle {
+  max-width: 610px;
+}
+
+.section.iphone-13-pro .section-image {
+  position: absolute;
+  width: 910px;
+  height: 996px;
+  background-size: contain;
+  background-image: url(../../images/iphone_13_pro_large.jpg);
+  background-repeat: no-repeat;
+}

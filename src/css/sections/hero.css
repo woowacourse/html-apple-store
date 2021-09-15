@@ -1,0 +1,20 @@
+.section.hero {
+  background-image: url(../../images/hero_xlarge.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1013px;
+}
+
+.section.hero .section-content {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.section.hero .section-text {
+  margin-bottom: 10rem;
+}
+
+.section.hero .section-subtitle {
+  max-width: 518px;
+}
