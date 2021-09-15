@@ -4,6 +4,9 @@
 .d-flex {
   display: flex;
 }
+.flex-col {
+  flex-direction: column;
+}
 
 .justify-start {
   justify-content: flex-start;
@@ -31,7 +34,9 @@
 .fixed {
   position: fixed;
 }
-
-.w-100 {
-  width: 100%;
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
 }

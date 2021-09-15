@@ -15,7 +15,9 @@
   <body>
     <nav class="fixed w-100 d-flex justify-center items-center">
       <ul id="gnb-list" class="d-flex justify-between items-center">
-        <li class="gnb-item"><img src="./assets/apple.svg" alt="logo" /></li>
+        <li class="gnb-item">
+          <img src="./assets/apple.svg" alt="logo" />
+        </li>
         <li class="gnb-item">Store</li>
         <li class="gnb-item">Mac</li>
         <li class="gnb-item">iPad</li>
@@ -39,17 +41,109 @@
         </p>
       </section>
       <section id="section2">
-        <article id="event">California streaming</article>
-        <article id="iphone-12">iPhone 12</article>
-        <article id="iphone-12-pro">iPhone 12 Pro</article>
+        <article
+          id="event"
+          class="white d-flex flex-col justify-end items-center"
+        >
+          <h2 class="headline">California streaming.</h2>
+          <h3 class="sub-headline">
+            Watch the Apple Event today at 10.a.m. PDT.
+          </h3>
+          <div class="link-container">
+            <a href="" class="link">Learn more</a>
+          </div>
+        </article>
+        <article
+          id="iphone-12"
+          class="new-item d-flex flex-col justify-start items-center"
+        >
+          <h2 class="headline">iPhone 12</h2>
+          <h3 class="sub-headline">Blast past fast.</h3>
+          <div class="price-info text-center">
+            <p>From $29.12/mo. for 24 mo. or $699 before trade‑in</p>
+            <p>Buy directly fromApple with special carrier offers</p>
+          </div>
+          <div class="link-container d-flex">
+            <a href="" class="link">Learn more</a>
+            <a href="" class="link">Buy</a>
+          </div>
+        </article>
+        <article
+          id="iphone-12-pro"
+          class="new-item d-flex flex-col justify-start items-center"
+        >
+          <h2 class="headline">iPhone 12 Pro</h2>
+          <h3 class="sub-headline">It’s a leap year.</h3>
+          <div class="price-info text-center">
+            <p>From $41.62/mo. for 24 mo. or $999 before trade‑in</p>
+            <p>Buy directly from Apple with special carrier offers</p>
+          </div>
+          <div class="link-container d-flex">
+            <a href="" class="link">Learn more</a>
+            <a href="" class="link">Buy</a>
+          </div>
+        </article>
       </section>
-      <section id="section3" class="d-grid">
-        <div>iPad Pro</div>
-        <div>WATCH</div>
-        <div>Fitness+</div>
-        <div>Buy a Mac or iPad for college. Get AirPods.</div>
-        <div>Card</div>
-        <div>tv+</div>
+      <section id="collection-list" class="d-grid">
+        <div id="ipad-pro" class="collection-item d-flex flex-col items-center">
+          <h4 class="headline">iPad Pro</h4>
+          <h5 class="sub-headline">Supercharged by the Apple M1 chip.</h5>
+          <div class="link-container d-flex">
+            <a href="" class="link">Learn more</a>
+            <a href="" class="link">Buy</a>
+          </div>
+        </div>
+        <div class="collection-item d-flex flex-col items-center">
+          <h4 class="headline">WATCH</h4>
+          <h5 class="sub-headline">The future of health is on you wrist.</h5>
+          <div class="link-container d-flex">
+            <a href="" class="link">Learn more</a>
+            <a href="" class="link">Buy</a>
+          </div>
+        </div>
+        <div
+          id="fitness-plus"
+          class="collection-item d-flex flex-col items-center"
+        >
+          <h4 class="headline">Fitness+</h4>
+          <h5 class="sub-headline text-center">
+            The first fitness service powered by
+            <br />
+            Apple Watch. Try it for 1 month free.
+          </h5>
+          <div class="link-container d-flex">
+            <a href="" class="link">Learn more</a>
+            <a href="" class="link">Try it free</a>
+          </div>
+        </div>
+        <div
+          id="promotion-with-college"
+          class="collection-item d-flex flex-col items-center"
+        >
+          <h4 class="headline">
+            Buy a Mac or iPad for
+            <br />
+            college. Get AirPods.
+          </h4>
+          <div class="link-container d-flex">
+            <a href="" class="link">Save with education pricing</a>
+          </div>
+        </div>
+        <div id="card" class="collection-item d-flex flex-col items-center">
+          <h4 class="headline">
+            <img src="./assets/apple.svg" alt="apple-logo" />Card
+          </h4>
+          <h5 class="sub-headline text-center">
+            Get up to 3% Daily Cash
+            <br />
+            back with every purchase.
+          </h5>
+          <div class="link-container d-flex">
+            <a href="" class="link">Learn more</a>
+            <a href="" class="link">Apply now</a>
+          </div>
+        </div>
+        <div class="collection-item d-flex flex-col items-center"></div>
       </section>
     </main>
     <footer>footer</footer>
