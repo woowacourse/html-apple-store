@@ -1,1 +1,6 @@
 @import url("https://necolas.github.io/normalize.css/latest/normalize.css");
+
+html {
+  font-family: "Myriad Pro", sans-serif;
+  box-sizing: border-box;
+}
