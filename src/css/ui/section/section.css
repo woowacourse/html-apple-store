@@ -1,0 +1,49 @@
+.section {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* hero */
+
+.hero {
+  background: url("/src/images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-weight: 600;
+  color: var(--font-color-white);
+  text-align: center;
+  padding-bottom: 7rem;
+}
+
+.headline {
+  margin: 0;
+  font-size: 3.5rem;
+  letter-spacing: -0.005rem;
+}
+
+.subhead {
+  margin: 0 auto;
+  margin-top: 1.25rem;
+  max-width: 26rem;
+  font-size: 1.75rem;
+  letter-spacing: 0.007em;
+}
+
+.watch-button {
+  margin: 0 auto;
+  margin-top: 1.75rem;
+  max-width: 10rem;
+  height: 2.75rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: var(--font-color-white);
+  padding: 0.9rem 1rem;
+  border-radius: 3rem;
+  font-weight: 600;
+
+  border: 2px solid var(--font-color-white);
+}
