@@ -3,6 +3,10 @@
   min-width: 320px;
 }
 
+#global-main section {
+  overflow: hidden;
+}
+
 #global-main section:not(:first-of-type) {
   height: 900px;
 }
