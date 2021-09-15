@@ -1,0 +1,61 @@
+.hero-background {
+  background-color: #000;
+  background-image: url("/src/images/hero/hero__small_2x.jpg");
+  background-position: 50%;
+  background-size: 734px 713px;
+  background-repeat: no-repeat;
+}
+
+.background {
+  position: relative;
+  display: grid;
+  overflow: hidden;
+  height: 100%;
+  place-items: center;
+}
+
+.background__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.background__image--iphone-13-pro {
+  z-index: -5;
+  height: 289px;
+  background-color: #fff;
+  background-image: url("/src/images/iphone_13_pro/iphone_13_pro__small_2x.jpg");
+  background-position: 50%;
+  transform: translateY(135px);
+}
+
+.background__image--iphone-13 {
+  width: 421px;
+  height: 202px;
+  background-image: url("/src/images/iphone_13/iphone_13__small_2x.jpg");
+  background-position: bottom;
+  transform: translateY(66px);
+}
+
+.background__image--watch-series-7 {
+  height: 232px;
+  background-image: url("/src/images/watch_series_7/watch_series_7__small_2x.jpg");
+  background-position-x: 22%;
+  background-size: cover;
+  transform: translateY(70px);
+}
+
+.background__image--ipad-mini {
+  height: 407px;
+  background-image: url("/src/images/ipad_mini/ipad_mini__small_2x.jpg");
+  background-position: bottom;
+  transform: translateX(55px) translateY(40px);
+}
+
+.background__image--ipad {
+  height: 334px;
+  background-image: url("/src/images/ipad/ipad__small_2x.jpg");
+  background-position: 50%;
+}

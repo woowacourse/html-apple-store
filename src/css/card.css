@@ -1,49 +1,63 @@
-.card {
-  position: relative;
+:root {
+  --purple: rgb(52, 40, 60);
+  --light-gray: rgb(245, 245, 247);
 }
 
-.card__content {
-  position: absolute;
-  top: 420px;
+.card {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
-  align-items: center;
 }
 
-.card__content--theme_dark {
-  color: white;
-}
-
-.card__headline {
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 1;
-  letter-spacing: 0;
-
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  text-align: center;
-}
-
-.card__subhead {
-  font-weight: 600;
-  font-size: 19px;
-  line-height: 1.2105263158;
-  letter-spacing: 0.012em;
-  text-align: center;
-}
-
-.card__cta-links {
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 1.1764805882;
-  letter-spacing: -0.022em;
-}
-
-.card__image {
-  object-fit: cover;
-  width: 100%;
+.card--size_hero {
   height: 713px;
+}
+
+.card--size_iphone-13-pro {
+  height: 600px;
+}
+
+.card--size_iphone-13 {
+  height: 561px;
+}
+
+.card--size_watch-series-7 {
+  height: 625px;
+}
+
+.card--size_ipad,
+.card--size_ipad-mini {
+  height: 700px;
+}
+
+.card--background-color_iphone-13 {
+  background-color: var(--purple);
+}
+
+.card--background-color_ipad {
+  background-color: var(--light-gray);
+}
+
+.card__content--iphone-13-pro,
+.card__content--iphone-13,
+.card__content--watch-series-7,
+.card__content--ipad-mini,
+.card__content--ipad {
+  margin-top: 60px;
+}
+
+.card__content--hero {
+  margin-top: 420px;
+}
+
+.card__content--ipad-mini {
+  height: 290px;
+}
+
+.card__image-container {
+  position: relative;
+  height: 100%;
+}
+
+.card__image-container--ipad-mini {
+  height: 350px;
 }

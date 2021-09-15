@@ -1,0 +1,42 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.content--theme_dark {
+  color: white;
+}
+
+.content--theme_light {
+  color: black;
+}
+
+.content__headline {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.content__subhead {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.2105263158;
+  letter-spacing: 0.012em;
+  text-align: center;
+}
+
+.content__violator {
+  /* FIXME */
+}
+
+.content__cta-links {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  letter-spacing: -0.022em;
+}

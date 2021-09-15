@@ -2,6 +2,8 @@
 @import "css/bread.css";
 @import "css/header.css";
 @import "css/card.css";
+@import "css/content.css";
+@import "css/background.css";
 
 :root {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
