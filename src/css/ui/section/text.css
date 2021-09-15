@@ -6,6 +6,10 @@
   color: var(--font-color-white-200);
 }
 
+.text-blue {
+  color: var(--font-color-blue);
+}
+
 .border-black {
   border: 2px solid var(--font-color-black);
 }

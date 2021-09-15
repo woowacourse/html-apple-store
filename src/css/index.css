@@ -2,6 +2,7 @@
 @import "./ui//nav/index.css";
 @import "./ui/hamburger/index.css";
 @import "./ui/section/index.css";
+@import "./ui/footer/index.css";
 
 #app {
   display: flex;
