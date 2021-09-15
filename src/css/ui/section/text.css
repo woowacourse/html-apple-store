@@ -17,12 +17,12 @@
 .main-text {
   letter-spacing: -0.005rem;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .sub-text {
   margin-top: 1.25rem;
-  max-width: 26rem;
+  max-width: 50vw;
   letter-spacing: 0.007em;
   text-align: center;
   font-size: 2rem;
@@ -30,18 +30,18 @@
 
 @media screen and (max-width: 1000px) {
   .main-text {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .sub-text {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .main-text {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .sub-text {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }

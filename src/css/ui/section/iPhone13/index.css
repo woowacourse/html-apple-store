@@ -1,7 +1,9 @@
 .iphone_13 {
   background-color: var(--bg-color-iphone);
   height: 50rem;
-  flex-direction: row;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 .iphone_13 > .content {
@@ -9,11 +11,13 @@
   padding-right: 10rem;
 }
 
-.iphone_13 > img {
+.iphone_13 > .device-img {
   position: relative;
   min-width: 55rem;
-  max-width: 55rem;
+  height: 100%;
   background-image: url("/src/images/iphone_13_large.jpg");
+  background-size: contain;
+  background-position-x: 13rem;
 }
 
 .iphone_13 .button:first-of-type {
@@ -22,7 +26,7 @@
 
 @media screen and (max-width: 1000px) {
   .iphone_13 {
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -32,18 +36,18 @@
     padding-bottom: 3rem;
   }
 
-  .iphone_13 > img {
-    position: unset;
+  .iphone_13 > .device-img {
     min-width: 50rem;
     max-width: 50rem;
-    object-position: center 3rem;
     background-image: url("/src/images/iphone_13_medium.jpg");
+    background-position: 0 5rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .iphone_13 {
-    flex-direction: column-reverse;
+    height: 30rem;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -53,14 +57,10 @@
     padding-bottom: 1rem;
   }
 
-  .iphone_13 > img {
-    margin-top: 3rem;
-    position: unset;
-    min-width: 20rem;
-    max-width: 20rem;
-    height: min-content;
-    object-fit: contain;
-    object-position: center;
+  .iphone_13 > .device-img {
+    min-width: 30rem;
+    max-width: 30rem;
     background-image: url("/src/images/iphone_13_medium.jpg");
+    background-position: 0 1rem;
   }
 }
