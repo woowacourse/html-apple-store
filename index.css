@@ -5,6 +5,7 @@
 @import url('./src/css/footer.css');
 
 @import url('./src/css/@share/sectionContent.css');
+@import url('./src/css/@share/sectionPreviewImage.css');
 
 @import url('./src/css/sections/shopNotice.css');
 @import url('./src/css/sections/appleEvent.css');

@@ -15,7 +15,7 @@
 
 /* 텍스트 컨텐츠 */
 .iphone-13-pro .section-content {
-  min-width: 50%;
+  min-width: calc(50% + 80px);
   height: 100%;
   text-align: center;
   letter-spacing: -0.012em;
@@ -29,14 +29,13 @@
 
 /* 프리뷰 이미지 */
 .iphone-13-pro .preview-image {
-  margin-top: 130px;
+  margin-top: 300px;
   min-width: 910px;
   height: 100%;
   background-image: url('../../assets/images/iphone_13_pro__cuke1h6a6seq_large.jpg');
   background-repeat: no-repeat;
   overflow: hidden;
   opacity: 0;
-  animation: fadein 0.3s ease-in-out forwards;
 }
 
 /* 반응형 */
@@ -55,15 +54,5 @@
     margin-top: 85px;
     background-image: url('../../assets/images/iphone_13_pro__cuke1h6a6seq_small.jpg');
     background-position: 50% 0%;
-  }
-}
-
-/* 애니메이션 */
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }

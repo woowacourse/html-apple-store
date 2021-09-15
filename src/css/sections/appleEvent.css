@@ -12,18 +12,7 @@
 }
 
 .apple-hero .section-content {
-  color: white;
   margin-bottom: 160px;
-}
-
-.apple-hero .section-content .section-content-button {
-  color: white;
-  border: 2px solid white;
-}
-
-.apple-hero .section-content .section-content-button:hover {
-  background-color: #ffffff;
-  color: #1d1d1f;
 }
 
 /*. 반응형 */
@@ -34,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1070px) {
   .apple-hero {
     height: 874px;
     background-size: 1068px 922px;
