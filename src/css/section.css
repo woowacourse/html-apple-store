@@ -69,7 +69,6 @@
   }
 
   .section-content {
-    align-items: flex-start;
     flex-direction: column;
   }
 
@@ -107,6 +106,12 @@
     line-height: 1.2105263158;
     font-weight: 600;
     letter-spacing: 0.012em;
+  }
+
+  .section-description {
+    font-size: 12px;
+    line-height: 1.3333733333;
+    letter-spacing: -0.01em;
   }
 
   .section-button-container {
