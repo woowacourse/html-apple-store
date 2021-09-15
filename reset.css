@@ -5,8 +5,7 @@
   letter-spacing: -0.022em;
   color: #1d1d1f;
   font-style: normal;
-  font-family: 'SF Pro Text', 'Myriad Set Pro', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial,
-    sans-serif;
+  fill: currentColor;
 }
 
 html,
@@ -40,6 +39,8 @@ section {
   font: inherit;
   vertical-align: baseline;
   font-size: inherit;
+  font-family: 'SF Pro Text', 'Myriad Set Pro', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
 }
 
 article,
@@ -63,6 +64,8 @@ a {
   outline: none;
   color: #06c;
   letter-spacing: inherit;
+  font-size: inherit;
+  cursor: pointer;
 }
 
 a:hover,
@@ -78,4 +81,22 @@ ul {
 img {
   width: 100%;
   height: auto;
+}
+
+button {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  line-height: normal;
+  text-transform: none;
+  -webkit-appearance: button;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
 }
