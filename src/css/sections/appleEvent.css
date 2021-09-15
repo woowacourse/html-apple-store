@@ -1,0 +1,98 @@
+.apple-hero {
+  height: 965px;
+  text-align: center;
+  background-color: #000;
+  background-size: 1440px 1050px;
+  background-image: url('../../assets/images/hero__x15fcac9fw2q_large.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.apple-hero .section-content {
+  color: white;
+  margin-bottom: 160px;
+  letter-spacing: -0.374px;
+}
+
+.apple-hero .section-content .section-content-title {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.apple-hero .section-content .section-content-description {
+  max-width: 518px;
+  font-weight: 600;
+  font-size: 32px;
+  margin: 0 auto;
+  line-height: 1.125;
+  margin-bottom: 28px;
+}
+
+.apple-hero .section-content .section-content-button {
+  padding: 10px 16px;
+  border-radius: 24px;
+  font-size: 17px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.apple-hero .section-content .section-content-button:hover {
+  background-color: #ffffff;
+  color: #1d1d1f;
+}
+
+/*. 반응형 */
+@media screen and (min-width: 1441px) {
+  .apple-hero {
+    background-size: 3008px 1058px;
+    background-image: url('../../assets/images/hero__x15fcac9fw2q_xlarge.jpg');
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .apple-hero {
+    height: 874px;
+    background-size: 1068px 922px;
+    background-image: url('../../assets/images/hero__x15fcac9fw2q_medium.jpg');
+  }
+
+  .apple-hero .section-content {
+    margin-bottom: 142px;
+  }
+
+  .apple-hero .section-content .section-content-title {
+    font-size: 56px;
+  }
+
+  .apple-hero .section-content .section-content-description {
+    max-width: 440px;
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .apple-hero {
+    height: 665px;
+    background-size: 734px 713px;
+    background-image: url('../../assets/images/hero__x15fcac9fw2q_small.jpg');
+  }
+
+  .apple-hero .section-content {
+    margin-bottom: 100px;
+  }
+
+  .apple-hero .section-content .section-content-title {
+    font-size: 40px;
+  }
+
+  .apple-hero .section-content .section-content-description {
+    max-width: 300px;
+    font-size: 19px;
+  }
+}
