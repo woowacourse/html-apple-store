@@ -1,0 +1,29 @@
+.button {
+  min-width: 1.625rem;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  line-height: 1.1764805882;
+  background: none;
+  border: 2px solid var(--text-color);
+  border-radius: 1000px;
+  color: var(--text-color);
+  padding: 0.625rem 1rem;
+  display: inline-block;
+}
+
+.button:hover {
+  background: var(--text-color);
+  color: #fff;
+  cursor: pointer;
+}
+
+.bg-dark .button {
+  color: #fff;
+  border-color: #fff;
+}
+
+.bg-dark .button:hover {
+  background: #fff;
+  color: var(--text-color);
+}
