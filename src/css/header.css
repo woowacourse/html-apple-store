@@ -3,6 +3,8 @@ header {
   width: 100%;
   height: 56px;
   background-color: black;
+  z-index: 9999;
+  opacity: 85%;
 }
 
 #nav-section {
@@ -60,7 +62,8 @@ header {
 }
 
 @media screen and (max-width: 767px) {
-  #nav-section {
+  #nav-section,
+  .sm-nav-list {
     width: 100%;
     height: 56px;
   }
