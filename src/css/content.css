@@ -31,7 +31,8 @@
 }
 
 .content__violator {
-  /* FIXME */
+  color: #6e6e73;
+  font-size: 12px;
 }
 
 .content__cta-links {
@@ -39,4 +40,20 @@
   font-size: 17px;
   line-height: 1.1764805882;
   letter-spacing: -0.022em;
+}
+
+.content__cta-link {
+  display: inline-block;
+  min-width: 97px;
+  padding: 10px 16px;
+  border: 2px solid white;
+  border-radius: 980px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.content__cta-link--border-color_dark {
+  border-color: black;
 }
