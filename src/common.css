@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('src/assets/fonts/SF-Pro-Display-Regular.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('src/assets/fonts/SF-Pro-Text-Regular.woff2') format('woff2')
+}
+
 * {
   margin: 0;
   padding: 0;
