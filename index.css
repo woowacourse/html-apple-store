@@ -1,3 +1,6 @@
+@import url('./src/css/fonts.css');
+@import url('./src/css/reset.css');
+
 /* Global */
 
 section {
@@ -11,6 +14,10 @@ sup {
   vertical-align: initial;
   color: inherit;
   font-weight: inherit;
+}
+
+.mobile {
+  display: none;
 }
 
 .visually-hidden {
@@ -29,12 +36,21 @@ sup {
   color: #fff;
 }
 
-.arrow-link {
-  font-size: 21px;
-}
-
 .arrow-link:after {
   content: ' >';
+}
+
+.arrow-top-right:after {
+  content: '';
+  background-image: url('./src/svg/top-right-arrow.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  margin-left: 0.3rem;
 }
 
 h2.headline {
@@ -43,6 +59,7 @@ h2.headline {
   letter-spacing: -0.1rem;
   padding: 40px 0 0 0;
   margin: 10px 0 0 0;
+  user-select: none;
 }
 
 h3.subhead {
@@ -51,6 +68,7 @@ h3.subhead {
   font-weight: 400;
   letter-spacing: -0.04em;
   margin-top: 6px;
+  user-select: none;
 }
 
 h4.headline {
@@ -61,6 +79,7 @@ h4.headline {
   letter-spacing: -0.07rem;
   max-width: 540px;
   margin: 53px auto 0 auto;
+  user-select: none;
 }
 
 h5.subhead {
@@ -70,6 +89,7 @@ h5.subhead {
   letter-spacing: -0.016rem;
   max-width: 500px;
   margin: 4px auto 0 auto;
+  user-select: none;
 }
 
 .detail-contents {
@@ -93,9 +113,9 @@ h5.subhead {
 /* global-navigation */
 
 .global-nav {
-  position: fixed;
-  width: 100%;
+  width: calc(100% - 2.7rem);
   height: 2.75rem;
+  position: fixed;
   top: 0;
   font-size: 0.875rem;
   padding: 0 1.375rem;
@@ -116,6 +136,20 @@ h5.subhead {
   height: inherit;
   position: relative;
   z-index: 2;
+}
+
+.global-nav .global-nav-list .global-nav-menu {
+  display: none;
+}
+
+.global-nav .global-nav-list .global-nav-menu .mobile-global-nav {
+  background-image: url('./src/images/mobile-menu.png');
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center center;
 }
 
 .global-nav .global-nav-list li {
@@ -499,4 +533,242 @@ h5.subhead {
   margin-bottom: 7px;
   padding-bottom: 8px;
   color: #86868b;
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 1068px) {
+  .main .main-section .ribbon-shop-online {
+    max-width: 500px;
+  }
+
+  .main-footer .footer-wrapper .footer-legal {
+    margin-top: 10px;
+  }
+
+  .main-footer .footer-wrapper .footer-legal-links {
+    flex-direction: column;
+  }
+
+  .main-footer .footer-wrapper .footer-legal-links .legal-links {
+    margin-top: 0.5rem;
+  }
+
+  .details,
+  .bottom-nav {
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .main-footer {
+    padding: 2.5rem 1rem;
+  }
+
+  .bottom-nav .nav-sections-wrapper .nav-section:not(:first-child) {
+    padding-top: 0;
+  }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 767px) {
+  h2.headline {
+    font-size: 40px;
+  }
+
+  h4.headline {
+    font-size: 36px;
+  }
+
+  h3.subhead {
+    font-size: 19px;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+
+  h5.subhead {
+    font-size: 17px;
+  }
+
+  .cta-links {
+    font-size: 16px;
+  }
+
+  .detail-contents {
+    max-width: 230px;
+    margin: 0 auto;
+  }
+
+  /* global-nav */
+
+  .global-nav {
+    width: 100%;
+    padding: 0;
+  }
+
+  .global-nav .global-nav-list {
+    width: calc(100% - 44px);
+  }
+
+  .global-nav .global-nav-list li:not(:first-child, :nth-child(2), :last-child) {
+    display: none;
+  }
+
+  .global-nav .global-nav-list .global-nav-menu {
+    display: block;
+    width: 44px;
+    height: auto;
+  }
+
+  /* main */
+
+  .main .main-section .ribbon-shop-online {
+    max-width: 350px;
+  }
+
+  .main .main-section .unit-container .video-control {
+    right: 10px;
+    bottom: 15px;
+  }
+
+  .main .main-section .unit-image-wrapper #hero-video {
+    height: 80vh;
+  }
+
+  /* sub-contents */
+
+  .sub-contents .headline .logo-wrapper .logo {
+    height: 40px;
+  }
+
+  /* iphone-12 */
+
+  .iphone-12 {
+    background-image: url('./src/images/iphone12-mobile.jpg');
+  }
+
+  .iphone-12-pro {
+    background-image: url('./src/images/iphone12pro-mobile.jpg');
+  }
+
+  .sub-contents {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0.7rem 0 0 0;
+  }
+
+  /* ipad-pro */
+
+  .sub-contents .ipad-pro {
+    background-image: url('./src/images/card1-mobile.jpg');
+  }
+
+  /* apple-watch-series-6 */
+
+  .sub-contents .apple-watch-series-6 {
+    background-image: url('./src/images/card2-mobile.jpg');
+  }
+
+  /* apple-fitness-plus */
+
+  .sub-contents .apple-fitness-plus h5.subhead {
+    max-width: 220px;
+  }
+
+  .sub-contents .apple-fitness-plus {
+    background-image: url('./src/images/card3-mobile.jpg');
+    background-size: contain;
+  }
+
+  /* buy-for-college */
+
+  .sub-contents .buy-for-college h4.headline {
+    max-width: 300px;
+  }
+
+  .sub-contents .buy-for-college {
+    background-image: url('./src/images/card4-mobile.jpg');
+  }
+
+  /* apple-card */
+
+  .sub-contents .apple-card {
+    background-image: url('./src/images/card5-mobile.jpg');
+  }
+
+  /* apple-tv-plus */
+
+  .sub-contents .apple-tv-plus {
+    background-image: url('./src/images/card6.jpg');
+  }
+
+  /* details */
+
+  .details,
+  .bottom-nav,
+  .main-footer {
+    padding: 0.5rem 1rem;
+  }
+
+  /* tablet */
+
+  .bottom-nav {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+  }
+
+  .bottom-nav .nav-section {
+    border-bottom: 1px solid #d2d2d7;
+  }
+
+  .bottom-nav .nav-section h3.subhead {
+    padding: 0.9rem 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    cursor: pointer;
+    max-width: 100%;
+  }
+
+  .bottom-nav .nav-section h3.subhead:after {
+    content: '+';
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: -2px;
+    margin-right: 8px;
+  }
+
+  .bottom-nav .nav-section ul li {
+    display: none;
+  }
+
+  /* main-footer */
+
+  .main-footer {
+    padding: 1rem 1rem 2.5rem 1rem;
+  }
+
+  .main-footer .footer-wrapper .footer-shop {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .main-footer .footer-wrapper .footer-legal {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-footer .footer-wrapper .location {
+    margin-top: 1.5rem;
+    order: 1;
+  }
+
+  .main-footer .footer-wrapper .footer-legal-links {
+    flex-direction: column;
+    margin-top: 1.5rem;
+    order: 2;
+  }
+
+  .main-footer .footer-wrapper .footer-legal-links .legal-links {
+    margin-top: 10px;
+  }
 }

@@ -4,19 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./fonts.css" />
-    <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./index.css" />
-    <title>Document</title>
+    <title>Apple</title>
   </head>
   <body>
     <header>
       <h1 class="visually-hidden">Apple</h1>
       <nav class="global-nav">
         <ul class="global-nav-list">
+          <li class="mobile global-nav-menu">
+            <a href="#" aria-label="global-navigation"><span class="mobile-global-nav"></span></a>
+          </li>
           <li>
             <a href="#">
-              <img src="./src/svg/logo-white.svg" alt="" />
+              <img src="./src/svg/logo-white.svg" alt="logo" />
             </a>
           </li>
           <li><a href="#">Store</a></li>
@@ -28,14 +29,14 @@
           <li><a href="#">Music</a></li>
           <li><a href="#">Support</a></li>
           <li class="search">
-            <a href="#">
-              <img src="./src/svg/search.svg" alt="" />
+            <a href="#" aria-label="search">
+              <img src="./src/svg/search.svg" alt="search" />
               <span class="visually-hidden">Search</span>
             </a>
           </li>
           <li class="cart">
-            <a href="#">
-              <img src="./src/svg/cart.svg" alt="" />
+            <a href="#" aria-label="cart">
+              <img src="./src/svg/cart.svg" alt="cart" />
             </a>
           </li>
         </ul>
@@ -85,9 +86,6 @@
           <a href="#" class="arrow-link">Learn more</a>
           <a href="#" class="arrow-link">Buy</a>
         </div>
-        <!-- <div class="unit-image-wrapper">
-          <img src="./src/images/iphone12pro.jpg" alt="" />
-        </div> -->
       </section>
 
       <section class="iphone-12-pro">
@@ -152,7 +150,7 @@
           </div>
           <div class="cta-links">
             <a href="#" class="arrow-link">Learn more</a>
-            <a href="#" class="arrow-link">Try it free<sup>2</sup></a>
+            <a href="#" class="arrow-top-right">Try it free<sup>2</sup></a>
           </div>
         </article>
 
@@ -174,7 +172,6 @@
               </span>
               <label class="visually-hidden">Apple Card</label>
             </h4>
-            <!-- 숨김 Card -->
             <h5 class="subhead">Get up to 3% Daily Cash back with every purchase.</h5>
           </div>
           <div class="cta-links">
@@ -288,25 +285,27 @@
       </section>
 
       <nav class="bottom-nav">
-        <div class="nav-section">
-          <h3 class="subhead">Shop and Learn</h3>
-          <ul>
-            <li><a href="#">Mac</a></li>
-            <li><a href="#">iPad</a></li>
-            <li><a href="#">iPhone</a></li>
-            <li><a href="#">Watch</a></li>
-            <li><a href="#">TV</a></li>
-            <li><a href="#">Music</a></li>
-            <li><a href="#">AirPods</a></li>
-            <li><a href="#">HomePod</a></li>
-            <li><a href="#">iPod touch</a></li>
-            <li><a href="#">AirTag</a></li>
-            <li><a href="#">Accessories</a></li>
-            <li><a href="#">Gift Cards</a></li>
-          </ul>
+        <div class="nav-sections-wrapper">
+          <div class="nav-section">
+            <h3 class="subhead">Shop and Learn</h3>
+            <ul>
+              <li><a href="#">Mac</a></li>
+              <li><a href="#">iPad</a></li>
+              <li><a href="#">iPhone</a></li>
+              <li><a href="#">Watch</a></li>
+              <li><a href="#">TV</a></li>
+              <li><a href="#">Music</a></li>
+              <li><a href="#">AirPods</a></li>
+              <li><a href="#">HomePod</a></li>
+              <li><a href="#">iPod touch</a></li>
+              <li><a href="#">AirTag</a></li>
+              <li><a href="#">Accessories</a></li>
+              <li><a href="#">Gift Cards</a></li>
+            </ul>
+          </div>
         </div>
 
-        <div>
+        <div class="nav-sections-wrapper">
           <div class="nav-section">
             <h3 class="subhead">Services</h3>
             <ul>
@@ -333,24 +332,26 @@
           </div>
         </div>
 
-        <div>
-          <h3 class="subhead">Apple Store</h3>
-          <ul>
-            <li><a href="#">Find a Store</a></li>
-            <li><a href="#">Shop Online</a></li>
-            <li><a href="#">Genius Bar</a></li>
-            <li><a href="#">Today at Apple</a></li>
-            <li><a href="#">Apple Camp</a></li>
-            <li><a href="#">Apple Store App</a></li>
-            <li><a href="#">Refurbished and Clearance</a></li>
-            <li><a href="#">Financing</a></li>
-            <li><a href="#">Apple Trade In</a></li>
-            <li><a href="#">Order Status</a></li>
-            <li><a href="#">Shopping Help</a></li>
-          </ul>
+        <div class="nav-sections-wrapper">
+          <div class="nav-section">
+            <h3 class="subhead">Apple Store</h3>
+            <ul>
+              <li><a href="#">Find a Store</a></li>
+              <li><a href="#">Shop Online</a></li>
+              <li><a href="#">Genius Bar</a></li>
+              <li><a href="#">Today at Apple</a></li>
+              <li><a href="#">Apple Camp</a></li>
+              <li><a href="#">Apple Store App</a></li>
+              <li><a href="#">Refurbished and Clearance</a></li>
+              <li><a href="#">Financing</a></li>
+              <li><a href="#">Apple Trade In</a></li>
+              <li><a href="#">Order Status</a></li>
+              <li><a href="#">Shopping Help</a></li>
+            </ul>
+          </div>
         </div>
 
-        <div>
+        <div class="nav-sections-wrapper">
           <div class="nav-section">
             <h3 class="subhead">For Business</h3>
             <ul>
@@ -386,7 +387,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="nav-sections-wrapper">
           <div class="nav-section">
             <h3 class="subhead">Apple Values</h3>
             <ul>
