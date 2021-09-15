@@ -8,11 +8,14 @@
 }
 
 .gnb-nav {
+  position: relative;
   height: 100%;
   width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
 }
 
-.gnb-mobile-content {
+.gnb-content-list {
   position: absolute;
   top: 0;
   display: flex;
@@ -20,15 +23,20 @@
   align-items: center;
   height: 100%;
   width: 100%;
-}
-
-.gnb-mobile-content > li {
-  width: 48px;
-  height: 100%;
+  color: white;
   opacity: 0.8;
 }
 
-.gnb-mobile-content > li > a {
+.gnb-content-list.desktop {
+  display: none;
+}
+
+.gnb-content-list.mobile > li {
+  width: 48px;
+  height: 100%;
+}
+
+.gnb-link {
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -44,7 +52,13 @@
   background-image: url('../images/bag_image_small.svg');
 }
 
-.gnb-menu-wrapper {
+.gnb-search-link {
+  background-image: url('../images/search_image_large.svg');
+  background-size: 18px 88px;
+  background-position: 0 0;
+}
+
+.gnb-menu-item {
   position: relative;
 }
 
@@ -77,4 +91,47 @@
 
 .gnb-menu-line-bottom {
   bottom: 11px;
+}
+
+@media only screen and (min-width: 734px) {
+  .gnb {
+    height: 44px;
+  }
+
+  .gnb-content-list.mobile {
+    display: none;
+  }
+
+  .gnb-content-list.desktop {
+    display: flex;
+    font-size: 14px;
+    height: 100%;
+  }
+
+  .gnb-content-list.desktop > li {
+    width: unset;
+    height: 100%;
+    line-height: 44px;
+    padding: 0 10px;
+  }
+
+  .gnb-content-list.desktop > li > a {
+    display: inline-block;
+    height: 100%;
+  }
+
+  .gnb-content-list.desktop .gnb-link {
+    height: 100%;
+    width: 18px;
+  }
+
+  .gnb-apple-logo-link {
+    background-image: url('../images/apple_image_large.svg');
+    background-size: 16px 44px;
+  }
+
+  .gnb-bag-link {
+    background-image: url('../images/bag_image_large.svg');
+    background-size: 17px 44px;
+  }
 }
