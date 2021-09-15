@@ -5,6 +5,10 @@
   z-index: 9999;
 }
 
+.gn-mobile {
+  display: none;
+}
+
 .gn-content {
   max-width: 980px;
   margin: 0 auto;
@@ -53,4 +57,64 @@
   background-image: url('../images/bag-icon.svg');
   background-position: center;
   width: 17px;
+}
+
+@media only screen and (max-width: 767px) {
+  .gn {
+    display: none;
+  }
+
+  .gn-mobile {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    width: 100vw;
+    z-index: 9999;
+  }
+
+  .gn-mobile .gn-list {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .gn-mobile .gn-link {
+    height: 48px;
+    padding: 0 16px;
+  }
+
+  .gn-mobile .gn-menu {
+    position: relative;
+    width: 48px;
+    padding: 0;
+  }
+
+  .gn-mobile .gn-menu-bread-top {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    display: block;
+    width: 17px;
+    height: 1px;
+    background: #fff;
+    border-radius: 0.5px;
+  }
+
+  .gn-mobile .gn-menu-bread-bottom {
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    display: block;
+    width: 17px;
+    height: 1px;
+    background: #fff;
+    border-radius: 0.5px;
+  }
 }

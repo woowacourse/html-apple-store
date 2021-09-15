@@ -3,3 +3,8 @@
 @import url('./globalNavigation.css');
 @import url('./mainSection.css');
 @import url('./globalFooter.css');
+
+body {
+  position: relative;
+  overflow-x: hidden;
+}
