@@ -86,3 +86,67 @@
   border: none;
   padding-right: 0;
 }
+
+@media only screen and (max-width: 767px) {
+  .footer .container {
+    padding: 0 1rem;
+  }
+
+  .sitemap-section-list {
+    display: none;
+  }
+
+  .sitemap {
+    flex-direction: column;
+  }
+
+  .sitemap-column {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    flex-basis: auto;
+    user-select: none;
+  }
+
+  .sitemap-section {
+    margin: 0;
+    border-bottom: 1px solid #424245;
+  }
+
+  .sitemap-section-title {
+    padding: 0.625rem 0;
+    margin: 0;
+    font-weight: 400;
+    font-family: inherit;
+  }
+
+  .sitemap-section-title::after {
+    content: '+';
+    float: right;
+    font-size: 14px;
+    margin-top: -2px;
+    margin-right: 8px;
+  }
+
+  .footer-bottom {
+    padding-top: 17px;
+  }
+
+  .footer-shop-message {
+    margin-bottom: 15px;
+  }
+
+  .footer-hr {
+    display: none;
+  }
+
+  .footer-legal {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-legal-copyright,
+  .footer-legal-nav {
+    margin-top: 5px;
+  }
+}
