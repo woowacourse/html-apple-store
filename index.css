@@ -4,6 +4,7 @@
 @import url('./src/css/main.css');
 @import url('./src/css/sections/shopNotice.css');
 @import url('./src/css/sections/appleEvent.css');
+@import url('./src/css/sections/iphone13Pro.css');
 @import url('./src/css/footer.css');
 
 * {
@@ -50,6 +51,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.022em;
+  color: #1d1d1f;
 }
 
 a {

@@ -5,6 +5,7 @@
   top: 0;
   background-color: rgba(0, 0, 0, 0.8);
   color: #f5f5f7;
+  z-index: 10;
 }
 
 /* 로고 이모티콘 */

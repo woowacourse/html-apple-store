@@ -3,9 +3,23 @@
   min-width: 320px;
 }
 
+#global-main section:not(:first-of-type) {
+  height: 900px;
+}
+
 /* 반응형 */
+@media screen and (max-width: 1060px) {
+  #global-main section:not(:first-of-type) {
+    height: 950px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #global-main {
     margin-top: 48px;
+  }
+
+  #global-main section:not(:first-of-type) {
+    height: 600px;
   }
 }
