@@ -5,15 +5,15 @@
   letter-spacing: -0.022em;
   line-height: 1.1764805882;
   background: none;
-  border: 2px solid var(--text-color);
+  border: 2px solid var(--color-black);
   border-radius: 1000px;
-  color: var(--text-color);
+  color: var(--color-black);
   padding: 0.625rem 1rem;
   display: inline-block;
 }
 
 .button:hover {
-  background: var(--text-color);
+  background: var(--color-black);
   color: #fff;
   cursor: pointer;
 }
@@ -25,5 +25,5 @@
 
 .bg-dark .button:hover {
   background: #fff;
-  color: var(--text-color);
+  color: var(--color-black);
 }

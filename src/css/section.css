@@ -5,7 +5,7 @@
 
 .section {
   height: var(--section-height);
-  background-color: var(--bg-white);
+  background-color: var(--color-white);
   position: relative;
   overflow: hidden;
 }
