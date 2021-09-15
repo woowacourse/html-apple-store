@@ -1,0 +1,22 @@
+/* flex box */
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+/* visibility */
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.h-100 {
+  height: 100%;
+}
