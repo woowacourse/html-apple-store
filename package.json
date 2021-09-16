@@ -1,11 +1,9 @@
 {
   "name": "html-apple-store",
-  "homepage": "https://zereight.github.io/html-apple-store",
+  "homepage": "https://zereight.github.io/html-apple-store/index.html",
   "version": "1.0.0",
-  "description": "<p align=\"middle\" >   <img width=\"200px;\" src=\"./src/images/apple-clone.png\"/> </p> <h2 align=\"middle\">애플 스토어 레이아웃 클론코딩</h2> <p align=\"middle\">최소한의 마크업으로 레이아웃 구성하기</p> <p align=\"middle\">   <img src=\"https://img.shields.io/badge/version-1.0.0-blue?style=flat-square\" alt=\"template version\"/>   <img src=\"https://img.shields.io/badge/language-html-red.svg?style=flat-square\"/>   <img src=\"https://img.shields.io/badge/language-css-blue.svg?style=flat-square\"/>   <img src=\"https://img.shields.io/badge/language-js-yellow.svg?style=flat-square\"/>   <img src=\"https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square\"/> </p>",
-  "main": "/src/js/index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d ./"
   },
   "repository": {
     "type": "git",
@@ -17,6 +15,9 @@
     "url": "https://github.com/zereight/html-apple-store/issues"
   },
   "devDependencies": {
-    "@parcel/transformer-image": "2.0.0-rc.0"
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0"
   }
 }

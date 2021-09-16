@@ -15,7 +15,7 @@
   left: 5rem;
   min-width: 40rem;
   height: 100%;
-  background-image: url("/src/images/ipad.jpg");
+  background-image: url("../../../../images/ipad.jpg");
   background-size: contain;
   background-position: center;
 }

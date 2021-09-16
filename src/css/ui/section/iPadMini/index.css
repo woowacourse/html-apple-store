@@ -25,7 +25,7 @@
   height: 100%;
   min-width: 40rem;
 
-  background-image: url("/src/images/ipad_mini.jpg");
+  background-image: url("../../../../images/ipad_mini.jpg");
   background-size: cover;
   background-position: 2rem 1rem;
   margin-top: 2rem;

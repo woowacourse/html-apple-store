@@ -13,11 +13,11 @@
 
 .iphone_13 > .device-img {
   position: relative;
-  min-width: 55rem;
+  min-width: 42rem;
+
   height: 100%;
-  background-image: url("/src/images/iphone_13_large.jpg");
-  background-size: contain;
-  background-position-x: 13rem;
+  background-image: url("../../../../images/iphone_13_large.jpg");
+  background-size: cover;
 }
 
 @media screen and (max-width: 1000px) {
@@ -33,17 +33,12 @@
   }
 
   .iphone_13 > .device-img {
-    min-width: 50rem;
-    max-width: 50rem;
-
-    background-image: url("/src/images/iphone_13_medium.jpg");
-    background-position: 0 5rem;
+    background-image: url("../../../../images/iphone_13_medium.jpg");
   }
 }
 
 @media screen and (max-width: 768px) {
   .iphone_13 {
-    height: 30rem;
     flex-direction: column;
     justify-content: center;
   }
@@ -52,12 +47,5 @@
     padding-right: 0;
     padding-top: 2rem;
     padding-bottom: 1rem;
-  }
-
-  .iphone_13 > .device-img {
-    min-width: 30rem;
-    max-width: 30rem;
-    background-image: url("/src/images/iphone_13_medium.jpg");
-    background-position: 0 1rem;
   }
 }

@@ -16,7 +16,7 @@
   position: relative;
   min-width: 50rem;
   height: 100%;
-  background-image: url("/src/images/iphone_13_pro.jpg");
+  background-image: url("../../../../images/iphone_13_pro.jpg");
   background-size: contain;
 
   bottom: -5rem;
