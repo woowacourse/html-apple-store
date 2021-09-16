@@ -1,14 +1,13 @@
-@import './shared/global.css';
-@import './shared/layout.css';
-@import './shared/accessibility.css';
+@import url('./shared/global.css');
+@import url('./shared/accessibility.css');
 
-@import './components/nav.css';
-@import './components/image.css';
-@import './components/hero.css';
-@import './components/promo.css';
-@import './components/promo-iphone13-pro.css';
-@import './components/promo-iphone13.css';
-@import './components/footer.css';
+@import url('./components/nav.css');
+@import url('./components/image.css');
+@import url('./components/hero.css');
+@import url('./components/promo.css');
+@import url('./components/promo-iphone13-pro.css');
+@import url('./components/promo-iphone13.css');
+@import url('./components/footer.css');
 
 :root {
   --color-charcoal: rgb(29, 29, 31);
