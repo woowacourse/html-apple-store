@@ -22,7 +22,7 @@
 .card__image-wrapper {
   position: relative;
   display: grid;
-  overflow: hidden;
+  overflow: visible;
   height: 100%;
   place-items: center;
 }

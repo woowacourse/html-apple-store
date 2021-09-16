@@ -23,7 +23,7 @@
   background-image: url("../images/watch_series_7/watch_series_7__small_2x.jpg");
   background-position-x: 22%;
   background-size: cover;
-  transform: translateY(30px);
+  transform: translateY(-30px);
 }
 
 @media screen and (min-width: 768px) {
