@@ -165,9 +165,36 @@
     flex-direction: row;
   }
 
+  .ipad.card {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
   .ipad-mini .card__content,
-  .ipad-mini .card__image-container {
+  .ipad-mini .card__image-container,
+  .ipad .card__content,
+  .ipad .card__image-container {
     width: 50%;
     height: 100%;
+  }
+
+  .ipad .card__content {
+    z-index: 2;
+    margin-top: 0;
+    transform: translate(0);
+    will-change: transform;
+  }
+
+  .ipad .card__image-container {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 865px;
+    height: 100%;
+    transform: translate(0);
+
+    /* margin-right: -140px;
+    margin-left: -40px; */
+    will-change: transform;
   }
 }

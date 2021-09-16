@@ -151,4 +151,15 @@
     background-position: bottom;
     transform: translateX(95px) translateY(140px);
   }
+
+  .background__image--ipad {
+    z-index: 1;
+    width: 865px;
+    height: 815px;
+    background-image: url("images/ipad/ipad__large_2x.jpg");
+    background-position: bottom;
+    background-size: 865px 815px;
+    transform: translateY(-100px);
+    will-change: transform;
+  }
 }
