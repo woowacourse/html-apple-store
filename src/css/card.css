@@ -150,4 +150,8 @@
   .iphone-13 .card__content {
     margin-top: 0;
   }
+
+  .card--size_watch-series-7 {
+    height: 900px;
+  }
 }

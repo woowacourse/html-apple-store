@@ -174,4 +174,16 @@
   .content__subhead--max-width_hero {
     max-width: 515px;
   }
+
+  .content__headline--watch-series-7 {
+    width: 218px;
+    height: 83px;
+    background-image: url("images/watch_series_7/logo_watch_series_7__large_2x.png");
+    background-size: 218px 83px;
+    background-repeat: no-repeat;
+  }
+
+  .content__subhead--max-width_watch-series-7 {
+    max-width: 840px;
+  }
 }
