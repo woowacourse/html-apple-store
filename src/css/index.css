@@ -1,0 +1,47 @@
+@import "./appleSite/footer.css";
+@import "./appleSite/main.css";
+@import "./appleSite/header.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.25;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000;
+  min-width: 320px;
+}
+
+ul {
+  list-style: none;
+}
+
+.link:link,
+.link:visited,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.f-color-black900 {
+  color: #000;
+}
+
+.f-color-white900 {
+  color: #fff;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
