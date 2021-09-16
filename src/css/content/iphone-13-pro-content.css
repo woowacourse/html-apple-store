@@ -1,0 +1,9 @@
+.iphone-13-pro-content .content__subhead {
+  max-width: 270px;
+}
+
+@media screen and (min-width: 768px) {
+  .iphone-13-pro-content .content__subhead {
+    max-width: 585px;
+  }
+}
