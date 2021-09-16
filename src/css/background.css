@@ -6,12 +6,25 @@
   background-repeat: no-repeat;
 }
 
-.background {
-  position: relative;
-  display: grid;
-  overflow: hidden;
-  height: 100%;
-  place-items: center;
+@media screen and (min-width: 768px) {
+  .hero-background {
+    background-image: url("images/hero/hero__medium_2x.jpg");
+    background-size: 1068px 922px;
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .hero-background {
+    background-image: url("images/hero/hero__large_2x.jpg");
+    background-size: 1440px 1058px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .hero-background {
+    background-image: url("images/hero/hero__xlarge.jpg");
+    background-size: 3008px 1058px;
+  }
 }
 
 .background__image {
@@ -62,11 +75,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-background {
-    background-image: url("images/hero/hero__medium_2x.jpg");
-    background-size: 1068px 922px;
-  }
-
   .background--iphone-13-pro {
     margin-right: 25px;
     margin-left: 25px;
@@ -113,11 +121,6 @@
 }
 
 @media screen and (min-width: 1069px) {
-  .hero-background {
-    background-image: url("images/hero/hero__large_2x.jpg");
-    background-size: 1440px 1058px;
-  }
-
   .background__image--iphone-13-pro {
     width: 910px;
     height: 996px;
@@ -161,12 +164,5 @@
     background-size: 865px 815px;
     transform: translateY(-100px);
     will-change: transform;
-  }
-}
-
-@media screen and (min-width: 1441px) {
-  .hero-background {
-    background-image: url("images/hero/hero__xlarge.jpg");
-    background-size: 3008px 1058px;
   }
 }

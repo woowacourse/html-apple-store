@@ -1,0 +1,13 @@
+.search-item.header__item {
+  padding: 0;
+}
+
+.search-item .header__icon {
+  height: 44px;
+  padding: 0 10px;
+  background-image: url("../images/icon/search_image__large.svg");
+  background-position: 10px 0;
+  background-size: 18px 88px;
+  background-repeat: no-repeat;
+  color: #f5f5f7;
+}

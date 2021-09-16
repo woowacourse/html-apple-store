@@ -1,0 +1,47 @@
+.ipad-card.card {
+  background-color: rgb(245, 245, 247);
+}
+
+.ipad-card .card__container {
+  height: 700px;
+}
+
+@media screen and (min-width: 768px) {
+  .ipad-card .card__container {
+    height: 1030px;
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .ipad-card .card__container {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 900px;
+  }
+}
+
+.ipad-card .card__content {
+  margin-top: 70px;
+}
+
+@media screen and (min-width: 1069px) {
+  .ipad-card .card__content {
+    z-index: 2;
+    width: 50%;
+    height: 100%;
+    margin-top: 0;
+    transform: translate(0);
+    will-change: transform;
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .ipad-card .card__image-wrapper {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 50%;
+    width: 865px;
+    height: 100%;
+  }
+}
