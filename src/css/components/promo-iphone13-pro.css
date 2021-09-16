@@ -12,7 +12,7 @@
   height: 996px;
 
   background-size: 912px 998px;
-  background-image: url(/src/images/1_iphone_13_pro__large.jpeg);
+  background-image: url('../../images/1_iphone_13_pro__large.jpeg');
 }
 
 .iphone13-pro-copy-container {
@@ -55,7 +55,7 @@
     width: 758px;
     height: 676px;
     background-size: 758px 676px;
-    background-image: url(/src/images/1_iphone_13_pro__medium.jpeg);
+    background-image: url('../../images/1_iphone_13_pro__medium.jpeg');
   }
 
   .iphone13-pro-copy-container h2 {
@@ -72,7 +72,7 @@
     width: 302px;
     height: 289px;
     background-size: 302px 289px;
-    background-image: url(/src/images/1_iphone_13_pro__small.jpeg);
+    background-image: url('../../images/1_iphone_13_pro__small.jpeg');
   }
 
   .iphone13-pro-copy-container {

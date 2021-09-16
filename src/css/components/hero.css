@@ -7,7 +7,7 @@
   overflow: hidden;
 
   background-size: 3008px 1058px;
-  background-image: url(/src/images/hero__xlarge.jpeg);
+  background-image: url('../../images/hero__xlarge.jpeg');
 }
 
 .hero-copy-container {
@@ -38,7 +38,7 @@
     height: 1013px;
 
     background-size: 1440px 1058px;
-    background-image: url(/src/images/hero__large.jpeg);
+    background-image: url('../../images/hero__large.jpeg');
   }
   .hero-copy-container {
     margin-bottom: 160px;
@@ -54,7 +54,7 @@
     height: 922px;
 
     background-size: 1068px 922px;
-    background-image: url(/src/images/hero__medium.jpeg);
+    background-image: url('../../images/hero__medium.jpeg');
   }
 
   .hero-copy-container {
@@ -71,7 +71,7 @@
     height: 713px;
 
     background-size: 734px 713px;
-    background-image: url(/src/images/hero__small.jpeg);
+    background-image: url('../../images/hero__small.jpeg');
   }
 
   .hero-copy-container {
