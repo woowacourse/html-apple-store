@@ -134,4 +134,20 @@
     width: 100%;
     max-width: 40%;
   }
+
+  .iphone-13.card {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 900px;
+  }
+
+  .iphone-13 .card__content,
+  .iphone-13 .card__image-container {
+    width: 50%;
+    height: 100%;
+  }
+
+  .iphone-13 .card__content {
+    margin-top: 0;
+  }
 }

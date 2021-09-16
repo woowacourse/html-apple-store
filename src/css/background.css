@@ -125,4 +125,12 @@
     background-size: contain;
     transform: translateX(220px) translateY(190px);
   }
+
+  .background__image--iphone-13 {
+    width: 120%;
+    height: 1300px;
+    background-image: url("images/iphone_13/iphone_13__large.jpg");
+    background-size: contain;
+    transform: translateY(-96px);
+  }
 }
