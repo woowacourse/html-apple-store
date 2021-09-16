@@ -117,4 +117,12 @@
     background-image: url("images/hero/hero__large_2x.jpg");
     background-size: 1440px 1058px;
   }
+
+  .background__image--iphone-13-pro {
+    width: 910px;
+    height: 996px;
+    background-image: url("images/iphone_13_pro/iphone_13_pro__large_2x.jpg");
+    background-size: contain;
+    transform: translateX(220px) translateY(190px);
+  }
 }

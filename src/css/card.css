@@ -115,4 +115,23 @@
   .card__content--hero {
     margin-bottom: 170px;
   }
+
+  .card--size_iphone-13-pro {
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+  }
+
+  .card__content--iphone-13-pro {
+    width: 50%;
+    height: 100%;
+    margin-top: 0;
+    padding-right: 56px;
+    padding-left: 34px;
+  }
+
+  .iphone-13-pro .card__image-container {
+    width: 100%;
+    max-width: 40%;
+  }
 }
