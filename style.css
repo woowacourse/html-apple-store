@@ -2,7 +2,7 @@
 
 :root {
   --color-white: #ffffff;
-  --color-gray-0: #f8f9fa;
+  --color-gray-0: #f5f5f7;
   --color-gray-1: #f1f3f5;
   --color-gray-2: #e9ecef;
   --color-gray-3: #dee2e6;
@@ -14,6 +14,7 @@
   --color-gray-9: #212529;
   --color-black: #000000;
   --color-blue: #2997ff;
+  --color-purple: #34283c;
 }
 
 * {
@@ -148,6 +149,10 @@ li {
   border-radius: 2.5rem;
 }
 
+.link_button:not(:first-child) {
+  margin-left: 18px;
+}
+
 #section_hero {
   background-image: url('./src/images/hero_large_2x.jpeg');
   background-size: 1440px 1058px;
@@ -176,7 +181,7 @@ li {
 }
 
 #section_iphone_13_pro {
-  background-color: var(--color-white);
+  background-color: var(--color-gray-0);
   height: 900px;
   overflow: hidden;
   display: flex;
@@ -193,10 +198,6 @@ li {
   max-width: 610px;
 }
 
-#section_iphone_13_pro .link_button {
-  margin-right: 1.125rem;
-}
-
 #section_iphone_13_pro .image_container {
   position: relative;
 }
@@ -209,6 +210,47 @@ li {
   background-repeat: no-repeat;
   position: absolute;
   top: 10rem;
+}
+
+#section_iphone_13 {
+  height: 900px;
+  background-color: var(--color-purple);
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
+}
+
+#section_iphone_13 .section_content {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  padding-left: 56px;
+  padding-right: 34px;
+}
+
+#section_iphone_13 .headline {
+  color: var(--color-gray-0);
+}
+
+#section_iphone_13 .subhead {
+  color: var(--color-gray-0);
+  max-width: 665px;
+  z-index: 1;
+}
+
+#section_iphone_13 .link_button {
+  color: var(--color-gray-0);
+  border-color: var(--color-gray-0);
+}
+
+#iphone_13 {
+  background-image: url('./src/images/iphone_13_large_2x.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 800px;
+  height: 1000px;
+  position: relative;
+  left: 6.25rem;
 }
 
 #footer {
