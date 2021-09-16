@@ -28,10 +28,15 @@ h3 {
 
 .iphone-13-pro .product-image {
   left: 50%;
-  height: 840px;
-  transform: translateX(-50%);
-  width: auto;
-  margin: 0 auto;
+  transform: translate(-50%, 2%);
+  max-width: 74%;
+  max-height: 840px;
+  background-position: top;
+  background-size: contain;
+}
+
+.iphone-13-pro .link-container {
+  margin-top: 28px;
 }
 
 .iphone-13 .content {
@@ -79,6 +84,10 @@ h3 {
   height: 100%;
 }
 
+.ipad-mini {
+  height: 950px;
+}
+
 .ipad-mini .content {
   flex-direction: column;
 }
@@ -113,9 +122,8 @@ h3 {
 .ipad-mini .product-image {
   position: absolute;
   height: 690px;
-  width: auto;
   left: 50%;
-  transform: translate(-34%, 15%);
+  transform: translate(-42%, 20%);
 }
 
 .ipad-mini .link-container {
