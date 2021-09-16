@@ -6,13 +6,13 @@
 
 @font-face {
   font-family: 'sf-pro-bold';
-  src: url('/src/assets/fonts/SF-Pro-Display-Semibold.woff2') format('woff2');
+  src: url('./src/assets/fonts/SF-Pro-Display-Semibold.woff2') format('woff2');
   font-family: 400;
 }
 
 @font-face {
   font-family: 'sf-pro';
-  src: url('/src/assets/fonts/sf-pro-text_regular.woff2') format('woff2');
+  src: url('./src/assets/fonts/sf-pro-text_regular.woff2') format('woff2');
   font-weight: 400;
 }
 
