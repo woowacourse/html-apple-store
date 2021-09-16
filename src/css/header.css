@@ -13,8 +13,9 @@
 .header {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: calc(100% - 20px);
   max-width: 1020px;
+  margin: 0 auto;
 }
 
 .header--only-visible-mobile {
