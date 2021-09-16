@@ -31,17 +31,18 @@
   opacity: 0.8;
   white-space: no-wrap;
   display: block;
+  color: #f5f5f7;
 }
 
 .gn-link:hover,
 .gn-link:active {
+  color: #f5f5f7;
   text-decoration: none;
 }
 
-.gn ul {
+.gn .gn-list {
   display: flex;
   justify-content: space-between;
-  color: #f5f5f7;
 }
 
 .gn-search-icon {
