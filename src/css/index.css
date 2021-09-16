@@ -3,8 +3,15 @@
 @import './shared/accessibility.css';
 
 @import './components/nav.css';
+@import './components/image.css';
 @import './components/hero.css';
 @import './components/promo.css';
 @import './components/promo-iphone13-pro.css';
 @import './components/promo-iphone13.css';
 @import './components/footer.css';
+
+:root {
+  --color-charcoal: rgb(29, 29, 31);
+  --color-white: rgb(255, 255, 255);
+  --color-ivory: rgb(245, 245, 247);
+}

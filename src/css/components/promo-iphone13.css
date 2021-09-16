@@ -12,8 +12,6 @@
   height: 1300px;
 
   background-size: 822px 1300px;
-  background-repeat: no-repeat;
-  background-position: 50%;
   background-image: url(/src/images/2_iphone_13__large.jpeg);
 }
 
@@ -29,22 +27,9 @@
   color: rgb(255 255 255);
 }
 
-.iphone13-copy-container h2 {
-  line-height: 1;
-  font-size: 72px;
-  font-weight: 600;
-  letter-spacing: -0.012em;
-}
-
 .iphone13-copy-container h3 {
   margin-top: 20px;
   max-width: 610px;
-
-  line-height: 1.125;
-  font-size: 32px;
-  font-weight: 600;
-  letter-spacing: 0.004em;
-  text-align: center;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -58,29 +43,20 @@
   }
 
   .iphone13-image {
-    margin: 100px auto 0;
+    margin-top: 100px;
     width: 100%;
     height: 535px;
+
     background-size: 1068px 535px;
     background-image: url(/src/images/2_iphone_13__medium.jpeg);
   }
 
-  .iphone13-copy-container {
-  }
-
   .iphone13-copy-container h2 {
     margin-top: 70px;
-    line-height: 1.0714285714;
-    font-size: 56px;
-    letter-spacing: -0.005em;
   }
 
   .iphone13-copy-container h3 {
     max-width: 665px;
-    line-height: 1.1428571429;
-    font-size: 28px;
-    letter-spacing: -0.04em;
-    font-weight: 600;
   }
 }
 
@@ -88,28 +64,21 @@
   .iphone13-image {
     width: 421px;
     height: 202px;
+
     background-size: 421px 202px;
     background-image: url(/src/images/2_iphone_13__small.jpeg);
   }
+
   .iphone13-image-container {
-    width: 100%;
     margin-bottom: -40px;
+    width: 100%;
   }
 
   .iphone13-copy-container {
     max-width: 585px;
   }
 
-  .iphone13-copy-container h2 {
-    line-height: 1.1;
-    font-size: 40px;
-  }
-
   .iphone13-copy-container h3 {
     max-width: 290px;
-    line-height: 1.2105263158;
-    font-size: 19px;
-    letter-spacing: 0.012em;
-    font-weight: 600;
   }
 }
