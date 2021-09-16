@@ -135,7 +135,7 @@ main {
   height: 100%;
 }
 
-#gnb-link-apple {
+.gnb-link-apple {
   width: 18px;
   background-size: 18px 44px;
   background-position: 10px 0;
@@ -143,7 +143,7 @@ main {
   background-repeat: no-repeat;
 }
 
-#gnb-link-apple span {
+.gnb-link-apple span {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
   clip-path: inset(0px 0px 99.9% 99.9%);
@@ -155,7 +155,7 @@ main {
   top: 50%;
 }
 
-#gnb-link-search {
+.gnb-link-search {
   width: 18px;
   background-size: 18px 88px;
   background-position: 10px 0;
@@ -163,7 +163,7 @@ main {
   background-repeat: no-repeat;
 }
 
-#gnb-link-shopping-bag {
+.gnb-link-shopping-bag {
   width: 17px;
   background-size: 17px 44px;
   background-position: 10px 0;
