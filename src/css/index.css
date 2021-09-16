@@ -1,4 +1,5 @@
 @import './@shared/index.css';
+@import './index_1080.css';
 
 /* breakpoint: 740px, 1080px, 1440px, */
 
@@ -94,6 +95,8 @@ main {
 
   background-color: #000000cc;
   color: #f5f5f7;
+
+  overflow: hidden;
 }
 
 #global-nav-content {
@@ -267,14 +270,20 @@ main section {
   max-width: 610px;
 }
 
-.iphone13-section .iphone13-bg-image img {
+.iphone13-section .iphone13-bg-image .iphone13-bg-image-content {
+  width: 100%;
   height: 1300px;
+
+  background-image: url(../images/iphone_13_large_2x.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: -20%;
 
   position: absolute;
   top: 0;
   left: 0;
 
-  transform: translateX(24px) translateY(-15%);
+  transform: translateY(-15%);
 }
 
 .apple-watch-series7-section {
@@ -394,7 +403,7 @@ main section {
 }
 
 .ipad-section .subhead {
-  max-width: 610px;
+  max-width: 540px;
 }
 
 .ipad-section .ipad-bg-image img {
@@ -413,11 +422,6 @@ footer {
 
   font-size: 12px;
   font-weight: 300;
-
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
 }
 
 footer .footer-content {
@@ -520,16 +524,252 @@ footer a.global-footer-locale:hover {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 1080px) {
+  .headline {
+    font-size: 54px;
+  }
+
+  .subhead {
+    font-size: 24px;
+  }
+
+  .section {
+    height: 950px;
+  }
+
+  .hero-section .subhead {
+    max-width: 420px;
+  }
+
+  .iphone13-pro-section .subhead {
+    max-width: 565px;
+  }
+
+  .iphone13-pro-section .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iphone13-pro-section .copy-container {
+    height: 100%;
+  }
+
+  .iphone13-pro-section .iphone13-pro-bg-image {
+    height: 50%;
+  }
+
+  .iphone13-pro-section .iphone13-pro-bg-image img {
+    position: static;
+    width: 100%;
+    height: 676px;
+    transform: translateY(0);
+  }
+
+  .iphone13-section .section-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iphone13-section .subhead {
+    max-width: 585px;
+  }
+
+  .iphone13-section .iphone13-bg-image {
+    width: 100%;
+    height: 50%;
+    position: relative;
+  }
+
+  .iphone13-section .iphone13-bg-image .iphone13-bg-image-content {
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../images/iphone_13_small_2x.jpeg);
+    background-position: 0;
+
+    top: 0;
+    transform: translateX(20%) translateY(0);
+  }
+
+  .apple-watch-series7-section .subhead {
+    max-width: 550px;
+  }
+
+  .apple-watch-series7-bg-image {
+    position: relative;
+    height: 50%;
+  }
+
+  .apple-watch-series7-bg-image img {
+    max-width: 1080px;
+    min-width: 740px;
+    width: 100%;
+
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+
+    transform: scale(1.3) translateX(-38%) translateY(0);
+  }
+
+  .ipad-mini-section .section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ipad-mini-section .subhead {
+    max-width: 620px;
+  }
+
+  .ipad-mini-section .ipad-mini-bg-image {
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .ipad-mini-section .ipad-mini-bg-image img {
+    height: 690px;
+
+    position: static;
+    bottom: 0;
+    left: 0;
+
+    background-size: contain;
+
+    transform: translateX(15%) translateY(-10%);
+  }
+
+  .ipad-section .section-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ipad-section .subhead {
+    max-width: 590px;
+  }
+
+  .ipad-section .ipad-bg-image {
+    height: 50%;
+  }
+
+  .ipad-section .ipad-bg-image img {
+    height: 100%;
+    position: static;
+
+    transform: translateY(-10%);
+  }
+}
+
 @media screen and (max-width: 740px) {
-  #notification span {
-    max-width: 350px;
+  .headline {
+    font-size: 38px;
+  }
+
+  .subhead {
+    font-size: 18px;
+  }
+
+  main section {
+    height: 600px;
+  }
+
+  .button:not(:first-child) {
+    margin-left: 8px;
   }
 
   #global-nav-header {
     display: flex;
   }
 
-  #notification span {
-    padding: 12px 20px;
+  .hero-section {
+    height: 700px;
+
+    background-image: url(../images/apple_hero_image.jpeg);
+    background-size: 734px 713px;
+  }
+
+  .hero-section .subhead {
+    max-width: 300px;
+  }
+
+  .iphone13-pro-section .subhead {
+    max-width: 270px;
+  }
+
+  .iphone13-pro-section .iphone13-pro-bg-image {
+    height: 30%;
+  }
+
+  .iphone13-pro-section .iphone13-pro-bg-image img {
+    position: static;
+    width: 100%;
+    height: 289px;
+  }
+
+  .iphone13-section .subhead {
+    max-width: 290px;
+  }
+
+  .iphone13-section .iphone13-bg-image {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .iphone13-section .iphone13-bg-image .iphone13-bg-image-content {
+    width: 420px;
+
+    position: static;
+    transform: translateX(5%) translateY(0);
+  }
+
+  .apple-watch-series7-section .subhead {
+    max-width: 250px;
+  }
+
+  .apple-watch-series7-bg-image img {
+    max-width: 740px;
+    min-width: 280px;
+    width: 100%;
+
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+
+    transform: scale(1) translateX(-50%) translateY(10%);
+  }
+
+  .ipad-mini-section .subhead {
+    max-width: 275px;
+  }
+
+  .ipad-mini-section .ipad-mini-bg-image {
+    height: 50%;
+  }
+
+  .ipad-mini-section .ipad-mini-bg-image img {
+    height: 100%;
+
+    position: static;
+    bottom: 0;
+    left: 0;
+
+    background-size: contain;
+
+    transform: translateX(15%) translateY(10%);
+  }
+
+  .ipad-section .subhead {
+    max-width: 285px;
+  }
+
+  .ipad-section .ipad-bg-image {
+    height: 40%;
   }
 }
