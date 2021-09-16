@@ -6,6 +6,10 @@ h3 {
   font-size: 28px;
 }
 
+.products {
+  height: 950px;
+}
+
 .iphone-13-pro .content {
   flex-direction: column;
   width: 100%;
@@ -82,10 +86,6 @@ h3 {
 
 .apple-watch-7 .figure {
   height: 100%;
-}
-
-.ipad-mini {
-  height: 950px;
 }
 
 .ipad-mini .content {

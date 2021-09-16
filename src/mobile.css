@@ -1,0 +1,269 @@
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 19px;
+}
+
+main a {
+  font-size: 17px;
+}
+
+.link-container {
+  margin-top: 25px;
+}
+
+.link-container .link:not(:first-child) {
+  margin-left: 7px;
+}
+
+.products {
+  height: 600px;
+}
+
+.hero {
+  height: 713px;
+}
+
+.nav-container {
+  height: 48px;
+}
+
+.mobile-nav-menu {
+  opacity: 0.8;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.anchor {
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  background-image: url('./images/equal.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  cursor: pointer;
+}
+
+.home {
+  width: 18px;
+  height: 48px;
+  background-size: 18px 48px;
+  cursor: pointer;
+}
+
+.shop {
+  width: 48px;
+  height: 48px;
+  background-size: 18px 48px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__bmix8075eg4i_small.svg');
+  cursor: pointer;
+}
+
+.hero h2 {
+  padding: 0 20px;
+}
+
+.hero h3 {
+  max-width: 280px;
+  margin-top: 20px;
+}
+
+.hero .hero-content {
+  bottom: 100px;
+}
+
+.hero-bg {
+  background-image: url('https://www.apple.com/v/home/he/images/overview/hero/hero__x15fcac9fw2q_small.jpg');
+}
+
+.iphone-13-pro .content {
+  width: 100%;
+  max-width: 100%;
+}
+
+.iphone-13-pro .product-text h3 {
+  max-width: 270px;
+}
+
+.iphone-13-pro .figure {
+  height: 289px;
+}
+
+.iphone-13-pro .product-image {
+  height: 289px;
+}
+
+.iphone-13 {
+  height: 560px;
+}
+
+.iphone-13 .product-text h2 {
+  margin-top: 70px;
+}
+
+.iphone-13 .product-text h3 {
+  max-width: 294px;
+}
+
+.iphone-13 .figure {
+  width: 100%;
+}
+
+.iphone-13 .product-image {
+  height: 202px;
+  width: 421px;
+  max-width: unset;
+  background-size: contain;
+  bottom: -30px;
+  top: unset;
+}
+
+.apple-watch-7 .product-text h2 {
+  margin: 0 auto;
+  margin-top: 77px;
+  min-height: 48px;
+  width: 124px;
+  background-size: 124px 48px;
+}
+
+.apple-watch-7 .product-text h3 {
+  max-width: 240px;
+  margin-top: 20px;
+}
+
+.apple-watch-7 .notify {
+  font-size: 12px;
+}
+
+.apple-watch-7 .product-image {
+  height: 232px;
+  min-width: 600px;
+}
+
+.ipad-mini {
+  height: 700px;
+}
+
+.ipad-mini .product-text h2 {
+  width: 160px;
+  height: 32px;
+  background-size: 160px 32px;
+}
+
+.ipad-mini .product-text h3 {
+  max-width: 275px;
+  margin-top: 20px;
+}
+
+.ipad-mini .figure {
+  height: 407px;
+}
+
+.ipad-mini .product-image {
+  height: 100%;
+  transform: translate(-45%, 20%);
+}
+
+.ipad {
+  height: 700px;
+}
+
+.ipad .content {
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.ipad .product-text {
+  margin-top: 0;
+}
+
+.ipad .product-text h2 {
+  margin-top: 72px;
+}
+
+.ipad .product-text h3 {
+  max-width: 285px;
+  margin-top: 12px;
+}
+
+.ipad .figure {
+  width: 100%;
+  height: 334px;
+}
+
+.ipad .product-image {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  left: 0;
+  transform: translate(0, 44px);
+}
+
+.footer-container {
+  min-width: 320px;
+  flex-direction: column;
+}
+
+.footer-column h3 {
+  padding: 10px 0;
+  border-bottom: 1px solid #454547;
+  line-height: 1.3;
+  margin: 0;
+  cursor: pointer;
+}
+
+.footer-column h3:after {
+  position: absolute;
+  content: '+';
+  color: #fff;
+  right: 26px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer-column ul {
+  max-height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.footer-column input[type='checkbox'] {
+  position: absolute;
+  right: 26px;
+  transform: translateY(50%);
+  clip: rect(0 0 0 0);
+}
+
+.footer-bottom {
+  padding: 20px;
+}
+
+.footer-bottom .bottom-upper {
+  border-bottom: 0;
+}
+
+.footer-bottom .bottom-lower {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-bottom .bottom-lower * {
+  margin-bottom: 10px;
+}
+
+.footer-bottom .location {
+  position: unset;
+}
+
+.footer-bottom .bottom-lower-menu {
+  margin: 0;
+}
