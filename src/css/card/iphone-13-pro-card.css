@@ -44,8 +44,7 @@
 
 @media screen and (min-width: 1069px) {
   .iphone-13-pro-card .card__image-wrapper {
-    width: 100%;
-    max-width: 40%;
+    overflow: visible;
   }
 }
 
@@ -69,10 +68,12 @@
 
 @media screen and (min-width: 1069px) {
   .iphone-13-pro-card .card__image {
+    position: absolute;
+    left: 0;
     width: 910px;
     height: 996px;
     background-image: url("../images/iphone_13_pro/iphone_13_pro__large_2x.jpg");
-    background-size: contain;
-    transform: translateX(220px) translateY(190px);
+    background-size: cover;
+    transform: translateY(190px);
   }
 }

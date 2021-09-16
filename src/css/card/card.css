@@ -1,6 +1,7 @@
 .card {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .card__container {
