@@ -4,70 +4,78 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style/index.css" />
     <title>Apple</title>
   </head>
   <body>
-    <header>
-      <h1>apple</h1>
-      <nav>
-        <ul>
-          <li><a href="/">사과</a></li>
-          <li><a href="/store">store</a></li>
-          <li><a href="/mac">mac</a></li>
-          <li><a href="/ipad">ipad</a></li>
-          <li><a href="/iphone">iphone</a></li>
-          <li><a href="/watch">watch</a></li>
-          <li><a href="/tv">tv</a></li>
-          <li><a href="/music">music</a></li>
-          <li><a href="/support">support</a></li>
-          <li><a href="/search">search</a></li>
-          <li><a href="/cart">cart</a></li>
+    <header class="header">
+      <h1 class="--hidden">apple</h1>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="/">apple</a></li>
+          <li class="navigation__item"><a href="/store">store</a></li>
+          <li class="navigation__item"><a href="/mac">mac</a></li>
+          <li class="navigation__item"><a href="/ipad">ipad</a></li>
+          <li class="navigation__item"><a href="/iphone">iphone</a></li>
+          <li class="navigation__item"><a href="/watch">watch</a></li>
+          <li class="navigation__item"><a href="/tv">tv</a></li>
+          <li class="navigation__item"><a href="/music">music</a></li>
+          <li class="navigation__item"><a href="/support">support</a></li>
+          <li class="navigation__item"><a href="/search">search</a></li>
+          <li class="navigation__item"><a href="/cart">cart</a></li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="main">
       <section>
-        <div>
-          <h2>Now for the highlights.</h2>
-          Introducing iPhone 13 Pro, iPhone 13, Apple Watch Series 7, and the
-          new iPad mini and iPad.
-          <aside>
-            <button>Watch the event</button>
-          </aside>
-        </div>
-        <div>
-          <article>
-            <h2>iPhone 13 Pro</h2>
-            A dramatically more powerful camera system. An all‑new OLED display
-            with ProMotion. The world’s fastest smartphone chip. A huge leap in
-            battery life.
+        <div class="intro">
+          <div class="intro__headline">
+            <h2>Now for the highlights.</h2>
+            <h3>
+              Introducing iPhone 13 Pro, iPhone 13, Apple Watch Series 7, and
+              the new iPad mini and iPad.
+            </h3>
             <aside>
-              <button>Learn More</button>
-              <button>View pricing</button>
+              <a class="link-control" href="/">Watch the event</a>
             </aside>
+          </div>
         </div>
+        <article class="iphone-pro">
+          <div class="iphone-pro__headline">
+            <h2>iPhone 13 Pro</h2>
+            <h3>
+              A dramatically more powerful camera system. An all‑new OLED
+              display with ProMotion. The world’s fastest smartphone chip. A
+              huge leap in battery life.
+            </h3>
+            <aside class="iphone-pro__aside">
+              <a class="link-control" href="/">Learn More</a>
+              <a class="link-control" href="/">View pricing</a>
+            </aside>
+          </div>
+          <div class="iphone-pro__bg"></div>
         </article>
         <div>
-          <article>
+          <article class="iphone">
             <h2>iPhone 13</h2>
             Our most advanced dual‑camera system ever. An even brighter OLED
             display. A lightning‑fast chip that leaves the competition behind. A
             huge leap in battery life.
-            <aside>
-              <button>Learn More</button>
-              <button>View pricing</button>
+            <aside class="iphone__aside">
+              <a class="link-control" href="/">Learn More</a>
+              <a class="link-control" href="/">View pricing</a>
             </aside>
           </article>
         </div>
         <div>
           <article>
             <h2>APPLE WATCH SERIES7</h2>
-            The largest, most advanced Always‑On Retina display. The most durable
-            Apple Watch ever. Breakthrough health innovations. Up to 33% faster
-            charging.
+            The largest, most advanced Always‑On Retina display. The most
+            durable Apple Watch ever. Breakthrough health innovations. Up to 33%
+            faster charging.
             <aside>
               <p>Available later this fall</p>
-              <button>Learn More</button>
+              <a class="link-control" href="/">Learn More</a>
             </aside>
           </article>
         </div>
@@ -77,8 +85,8 @@
             Powerful A15 Bionic chip. New all‑screen design. Superfast 5G. Ultra
             Wide front camera with Center Stage. Now in four gorgeous colors.
             <aside>
-              <button>Learn More</button>
-              <button>Order</button>
+              <a class="link-control" href="/">Learn More</a>
+              <a class="link-control" href="/">Order</a>
             </aside>
           </article>
         </div>
@@ -88,8 +96,8 @@
             Advanced A13 Bionic chip. True Tone technology. Ultra Wide front
             camera with Center Stage. Now starting at 64GB of storage.
             <aside>
-              <button>Learn More</button>
-              <button>Order</button>
+              <a class="link-control" href="/">Learn More</a>
+              <a class="link-control" href="/">Order</a>
             </aside>
           </article>
         </div>
@@ -226,8 +234,8 @@
         </div>
       </nav>
       <p>
-        More ways to shop: <a href="/store">Find an Apple Store</a> or <a href="/retailer">other retailer</a> near you. Or
-        call 1-800-MY-APPLE.
+        More ways to shop: <a href="/store">Find an Apple Store</a> or
+        <a href="/retailer">other retailer</a> near you. Or call 1-800-MY-APPLE.
       </p>
       <nav>
         <p>Copyright © 2021 Apple Inc. All rights reserved.</p>
