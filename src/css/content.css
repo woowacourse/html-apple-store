@@ -160,3 +160,18 @@
     font-size: 17px;
   }
 }
+
+@media screen and (min-width: 1069px) {
+  .content__headline {
+    font-size: 72px;
+  }
+
+  .content__subhead {
+    font-size: 32px;
+    line-height: 1.125;
+  }
+
+  .content__subhead--max-width_hero {
+    max-width: 515px;
+  }
+}

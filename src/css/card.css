@@ -96,7 +96,6 @@
   }
 
   .card__content--hero {
-    flex-direction: column;
     justify-content: flex-end;
     height: 100%;
     margin-top: 0;
@@ -105,5 +104,15 @@
 
   .card__content--iphone-13-pro {
     margin-top: 110px;
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .card--size_hero {
+    height: 1013px;
+  }
+
+  .card__content--hero {
+    margin-bottom: 170px;
   }
 }

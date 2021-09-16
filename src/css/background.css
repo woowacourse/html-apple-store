@@ -111,3 +111,10 @@
     transform: translateY(10px);
   }
 }
+
+@media screen and (min-width: 1069px) {
+  .hero-background {
+    background-image: url("images/hero/hero__large_2x.jpg");
+    background-size: 1440px 1058px;
+  }
+}
