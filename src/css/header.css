@@ -7,7 +7,9 @@
 }
 
 .nav {
+  max-width: 1024px;
   height: inherit;
+  margin: 0 auto;
 }
 
 .nav-list {
@@ -44,6 +46,8 @@
 .nav-listitem a {
   color: #f5f5f7;
   font-weight: 300;
+  display: flex;
+  align-items: center;
 }
 
 .nav-icon {
