@@ -4,3 +4,6 @@
 
 @import "./components/gnb.css";
 @import "./components/footer.css";
+
+@import "./components/main.css";
+@import "./components/section-hero.css";
