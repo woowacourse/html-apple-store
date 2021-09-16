@@ -10,8 +10,9 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <ul class="header">
+    <header class="global-header">
+      <!-- Header for Mobile -->
+      <ul class="header header--only-visible-mobile">
         <li class="header__item">
           <div class="bread header__icon">
             <div class="bread__crust"></div>
@@ -21,14 +22,42 @@
         <li class="header__item">
           <img
             class="header__icon"
-            src="css/images/icon/apple_image_small.svg"
+            src="css/images/icon/apple_image__small.svg"
             alt="apple-logo"
           />
         </li>
         <li class="header__item">
           <img
             class="header__icon"
-            src="css/images/icon/bag_image_small.svg"
+            src="css/images/icon/bag_image__small.svg"
+            alt="bag"
+          />
+        </li>
+      </ul>
+      <!-- Header for Tablet, Laptop -->
+      <ul class="header header--only-visible-tablet">
+        <li class="header__item">
+          <img
+            class="header__icon"
+            src="css/images/icon/apple_image__small.svg"
+            alt="apple-logo"
+          />
+        </li>
+        <li class="header__item">Store</li>
+        <li class="header__item">Mac</li>
+        <li class="header__item">iPad</li>
+        <li class="header__item">iPhone</li>
+        <li class="header__item">Watch</li>
+        <li class="header__item">TV</li>
+        <li class="header__item">Music</li>
+        <li class="header__item">Support</li>
+        <li class="header__item header__item--search-icon">
+          <div class="header__icon header__icon--search"></div>
+        </li>
+        <li class="header__item">
+          <img
+            class="header__icon"
+            src="css/images/icon/bag_image__small.svg"
             alt="bag"
           />
         </li>
