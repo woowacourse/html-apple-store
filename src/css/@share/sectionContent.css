@@ -40,16 +40,16 @@
 
 /* 밝은 테마 일때 */
 .theme-light .section-content {
-  color: #1d1d1f;
+  color: var(--bright-black);
 }
 
 .theme-light .section-content .section-content-button {
-  color: #1d1d1f;
-  border: 2px solid #1d1d1f;
+  color: var(--bright-black);
+  border: 2px solid var(--bright-black);
 }
 
 .theme-light .section-content .section-content-button:hover {
-  background-color: #1d1d1f;
+  background-color: var(--bright-black);
   color: white;
 }
 
@@ -65,7 +65,7 @@
 
 .theme-dark .section-content .section-content-button:hover {
   background-color: #ffffff;
-  color: #1d1d1f;
+  color: var(--bright-black);
 }
 
 /* 반응형 */

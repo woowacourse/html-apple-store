@@ -1,5 +1,5 @@
 .watch-7 {
-  background-color: #f5f5f7;
+  background-color: var(--bright-gray);
 }
 .watch-7 .section-contents {
   padding-top: 99px;

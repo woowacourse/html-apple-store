@@ -1,4 +1,5 @@
 @import url('./src/css/reset.css');
+@import url('./src/css/variable.css');
 
 @import url('./src/css/nav.css');
 @import url('./src/css/main.css');
@@ -36,7 +37,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.022em;
-  color: #1d1d1f;
+  color: var(--bright-black);
 }
 
 a {

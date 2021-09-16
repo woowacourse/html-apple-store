@@ -3,8 +3,8 @@
 }
 
 .shop-notice .shop-notice-content {
-  background-color: #f5f5f7;
-  color: #1d1d1f;
+  background-color: var(--bright-gray);
+  color: var(--bright-black);
   min-height: 44px;
   display: flex;
   justify-content: center;

@@ -71,7 +71,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* 일반화 */
   #global-main section.ipad-mini {
     height: 700px;
   }
