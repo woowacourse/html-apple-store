@@ -1,0 +1,232 @@
+.iphone-13-pro {
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+}
+
+.iphone-13-pro .product-text {
+  width: 57%;
+  padding-left: 34px;
+  padding-right: 56px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.iphone-13-pro .figure {
+  width: 50%;
+  height: 100%;
+}
+
+.iphone-13-pro .product-image {
+  transform: translate(8px, 220px);
+  width: 910px;
+  height: 996px;
+}
+
+.iphone-13-pro h3 {
+  max-width: 630px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.iphone-13 {
+  color: #fff;
+  border-color: #fff;
+  background-color: #34283c;
+}
+
+.iphone-13 .product-text {
+  width: 56%;
+  padding-left: 56px;
+  padding-right: 34px;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.iphone-13 .figure {
+  width: 50%;
+  height: 100%;
+}
+
+.iphone-13 .product-image {
+  width: 149%;
+  height: 100%;
+  position: absolute;
+  background-image: url('https://www.apple.com/v/home/he/images/overview/iphone-13/iphone_13__do56puty4e4i_large.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 50%;
+  top: 0;
+  transform: translateX(-30%);
+}
+
+.iphone-13 h3 {
+  max-width: 680px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.apple-watch-7 {
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+}
+
+.apple-watch-7 .content {
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.apple-watch-7 .product-text {
+  width: 56%;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.apple-watch-7 .figure {
+  position: relative;
+  width: 100%;
+}
+
+.apple-watch-7 .product-image {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 18%);
+  top: 0;
+  width: 141%;
+  max-height: 524px;
+  max-width: 1860px;
+}
+
+.apple-watch-7 h2 {
+  background-size: 218px 83px;
+  background-image: url('https://www.apple.com/v/home/he/images/overview/watch-series-7/logo_watch_series_7__cjyjhfcpj9le_large.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 99px;
+  min-height: 83px;
+}
+
+.apple-watch-7 h2 span {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.apple-watch-7 h3 {
+  max-width: 820px;
+  margin: 0 auto;
+  margin-top: 29px;
+}
+
+.apple-watch-7 .notify {
+  margin-top: 40px;
+  font-size: 17px;
+  color: #6e6e73;
+}
+
+.apple-watch-7 .link-container {
+  margin-top: 15px;
+}
+
+.ipad-mini {
+  background-color: #fff;
+}
+
+.ipad-mini .content {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ipad-mini .product-text {
+  max-width: 50%;
+  width: 48%;
+  padding-left: 58px;
+  padding-right: 34px;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.ipad-mini .figure {
+  position: relative;
+  width: 50%;
+  max-width: 50%;
+}
+
+.ipad-mini .product-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transform: translate(54px, 200px);
+}
+
+.ipad-mini h2 {
+  background-image: url('https://www.apple.com/v/home/he/images/overview/ipad-mini/logo_ipad_mini__sttk80xqgoam_large.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  min-height: 83px;
+}
+
+.ipad-mini h2 span {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.ipad-mini h3 {
+  max-width: 620px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+.ipad {
+  background-color: #f5f5f7;
+}
+
+.ipad .content {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ipad .product-text {
+  width: 72%;
+  margin-right: 105px;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.ipad .figure {
+  position: relative;
+  width: 100%;
+}
+
+.ipad .product-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(50px, 94px);
+  height: 815px;
+  width: 865px;
+}
+
+.ipad h2 {
+  background-image: url('https://www.apple.com/v/home/he/images/overview/ipad/logo_ipad_mini__sttk80xqgoam_large.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 83px;
+}
+
+.ipad h3 {
+  max-width: 620px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
