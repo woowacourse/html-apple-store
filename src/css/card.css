@@ -154,4 +154,20 @@
   .card--size_watch-series-7 {
     height: 900px;
   }
+
+  .card--size_ipad-mini,
+  .card--size_ipad {
+    height: 900px;
+  }
+
+  .ipad-mini.card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ipad-mini .card__content,
+  .ipad-mini .card__image-container {
+    width: 50%;
+    height: 100%;
+  }
 }

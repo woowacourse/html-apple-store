@@ -143,4 +143,12 @@
     background-position: 50%;
     transform: translateY(130px);
   }
+
+  .background__image--ipad-mini {
+    width: 140%;
+    height: 936px;
+    background-image: url("images/ipad_mini/ipad_mini__medium_2x.jpg");
+    background-position: bottom;
+    transform: translateX(95px) translateY(140px);
+  }
 }
