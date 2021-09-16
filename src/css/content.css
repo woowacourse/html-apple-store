@@ -148,11 +148,12 @@
   }
 
   .content__subhead--max-width_ipad-mini {
-    max-width: 620px;
+    max-width: 640px;
+    font-size: 27px;
   }
 
   .content__subhead--max-width_ipad {
-    max-width: 590px;
+    max-width: 640px;
   }
 
   .content__violator {
