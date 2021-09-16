@@ -50,7 +50,7 @@
 }
 
 .content__subhead--max-width_hero {
-  max-width: 300px;
+  max-width: 320px;
 }
 
 .content__subhead--max-width_iphone-13-pro {
@@ -132,15 +132,15 @@
   }
 
   .content__subhead--max-width_hero {
-    max-width: 420px;
+    max-width: 460px;
   }
 
   .content__subhead--max-width_iphone-13-pro {
-    max-width: 565px;
+    max-width: 585px;
   }
 
   .content__subhead--max-width_iphone-13 {
-    max-width: 585px;
+    max-width: 625px;
   }
 
   .content__subhead--max-width_watch-series-7 {

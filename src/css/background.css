@@ -60,3 +60,22 @@
   background-position: 50%;
   transform: translateY(10px);
 }
+
+@media screen and (min-width: 768px) {
+  .hero-background {
+    background-image: url("images/hero/hero__medium_2x.jpg");
+    background-size: 1068px 922px;
+  }
+
+  .background--iphone-13-pro {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+  .background__image--iphone-13-pro {
+    height: 676px;
+    background-image: url("images/iphone_13_pro/iphone_13_pro__medium_2x.jpg");
+    background-position: 50%;
+    transform: translateY(170px);
+  }
+}
