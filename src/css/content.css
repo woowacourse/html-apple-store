@@ -100,3 +100,62 @@
 .content__cta-link--border-color_dark {
   border-color: black;
 }
+
+@media screen and (min-width: 768px) {
+  .content__headline {
+    font-size: 56px;
+  }
+
+  .content__headline--watch-series-7 {
+    width: 170px;
+    height: 65px;
+    min-height: 65px;
+    background-image: url("images/watch_series_7/logo_watch_series_7__medium_2x.png");
+    background-size: 170px 65px;
+    background-repeat: no-repeat;
+  }
+
+  .content__headline--ipad-mini {
+    width: 221px;
+    height: 44px;
+    min-height: 44px;
+    background-image: url("images/ipad_mini/logo_ipad_mini__small_2x.png");
+    background-size: 221px 44px;
+    background-repeat: no-repeat;
+  }
+
+  .content__subhead {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.1428571429;
+    letter-spacing: 0.007em;
+  }
+
+  .content__subhead--max-width_hero {
+    max-width: 420px;
+  }
+
+  .content__subhead--max-width_iphone-13-pro {
+    max-width: 565px;
+  }
+
+  .content__subhead--max-width_iphone-13 {
+    max-width: 585px;
+  }
+
+  .content__subhead--max-width_watch-series-7 {
+    max-width: 550px;
+  }
+
+  .content__subhead--max-width_ipad-mini {
+    max-width: 620px;
+  }
+
+  .content__subhead--max-width_ipad {
+    max-width: 590px;
+  }
+
+  .content__violator {
+    font-size: 17px;
+  }
+}

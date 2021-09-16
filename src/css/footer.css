@@ -20,7 +20,7 @@
 }
 
 .footer__legal {
-  padding-top: 12px;
+  margin-top: 12px;
 }
 
 .footer__legal-copyright {
@@ -52,4 +52,22 @@
   font-size: 12px;
   line-height: 1.33337;
   letter-spacing: -0.01em;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__shop {
+    border-bottom: 1px solid #424245;
+  }
+
+  .footer__locale {
+    z-index: 2;
+    float: right;
+    margin-top: 3px;
+    padding-top: 0;
+    white-space: nowrap;
+  }
+
+  .footer__legal {
+    margin-top: 10px;
+  }
 }
