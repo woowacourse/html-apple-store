@@ -21,6 +21,16 @@
   color: #fff;
 }
 
+.white-brn:hover {
+  background-color: #fff;
+  color: var(--black);
+}
+
 .black-btn {
   border-color: var(--black);
+}
+
+.black-btn:hover {
+  background-color: var(--black);
+  color: #fff;
 }
