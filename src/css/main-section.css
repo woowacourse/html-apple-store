@@ -15,10 +15,8 @@
   justify-content: flex-end;
 }
 
-.copy-container {
+.main-copy-container {
   margin-bottom: 160px;
-  text-align: center;
-  color: #fff;
 }
 
 .main-copy {
