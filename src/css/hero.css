@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-position: center 1%;
   background-size: 2400px 1400px;
-  background-image: url("/src/images/hero_large_2x.jpeg");
+  background-image: url("../images/hero_large_2x.jpeg");
 }
 
 #hero-description {
@@ -27,7 +27,7 @@
   #hero {
     height: 800px;
     background-size: 900px 800px;
-    background-image: url("/src/images/apple_hero_image.jpeg");
+    background-image: url("../images/apple_hero_image.jpeg");
   }
 
   #hero-description {
