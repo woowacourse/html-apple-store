@@ -163,3 +163,10 @@
     will-change: transform;
   }
 }
+
+@media screen and (min-width: 1441px) {
+  .hero-background {
+    background-image: url("images/hero/hero__xlarge.jpg");
+    background-size: 3008px 1058px;
+  }
+}
