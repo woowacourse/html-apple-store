@@ -1,15 +1,15 @@
-.content__subhead--max-width_ipad {
+.ipad-content .content__subhead {
   max-width: 285px;
 }
 
 @media screen and (min-width: 768px) {
-  .content__subhead--max-width_ipad {
+  .ipad-content .content__subhead {
     max-width: 640px;
   }
 }
 
 @media screen and (min-width: 1069px) {
-  .ipad .content__subhead {
+  .ipad-content .content__subhead {
     max-width: 520px;
   }
 }
