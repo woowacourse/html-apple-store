@@ -1,7 +1,4 @@
 @import './@shared/index.css';
-@import './index_1080.css';
-
-/* breakpoint: 740px, 1080px, 1440px, */
 
 #site-header {
   position: absolute;
