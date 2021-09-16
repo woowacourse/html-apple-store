@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('src/assets/fonts/SF-Pro-Display-Regular.woff2') format('woff2')
+  src: url('./assets/fonts/SF-Pro-Display-Regular.woff2') format('woff2')
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('src/assets/fonts/SF-Pro-Text-Regular.woff2') format('woff2')
+  src: url('./assets/fonts/SF-Pro-Text-Regular.woff2') format('woff2')
 }
 
 * {
