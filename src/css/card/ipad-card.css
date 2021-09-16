@@ -45,3 +45,33 @@
     height: 100%;
   }
 }
+
+.ipad-card .card__image {
+  height: 334px;
+  background-image: url("../images/ipad/ipad__small_2x.jpg");
+  background-position: 50%;
+  transform: translateY(10px);
+}
+
+@media screen and (min-width: 768px) {
+  .ipad-card .card__image {
+    width: 600px;
+    height: 565px;
+    background-image: url("../images/ipad/ipad__medium_2x.jpg");
+    background-position: 50%;
+    transform: translateY(10px);
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .ipad-card .card__image {
+    z-index: 1;
+    width: 865px;
+    height: 815px;
+    background-image: url("../images/ipad/ipad__large_2x.jpg");
+    background-position: bottom;
+    background-size: 865px 815px;
+    transform: translateY(-100px);
+    will-change: transform;
+  }
+}

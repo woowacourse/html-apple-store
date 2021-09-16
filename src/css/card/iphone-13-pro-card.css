@@ -35,9 +35,44 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .iphone-13-pro-card .card__image-wrapper {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+}
+
 @media screen and (min-width: 1069px) {
   .iphone-13-pro-card .card__image-wrapper {
     width: 100%;
     max-width: 40%;
+  }
+}
+
+.iphone-13-pro-card .card__image {
+  z-index: -5;
+  height: 289px;
+  background-color: #fff;
+  background-image: url("../images/iphone_13_pro/iphone_13_pro__small_2x.jpg");
+  background-position: 50%;
+  transform: translateY(120px);
+}
+
+@media screen and (min-width: 768px) {
+  .iphone-13-pro-card .card__image {
+    height: 676px;
+    background-image: url("../images/iphone_13_pro/iphone_13_pro__medium_2x.jpg");
+    background-position: 50%;
+    transform: translateY(170px);
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .iphone-13-pro-card .card__image {
+    width: 910px;
+    height: 996px;
+    background-image: url("../images/iphone_13_pro/iphone_13_pro__large_2x.jpg");
+    background-size: contain;
+    transform: translateX(220px) translateY(190px);
   }
 }

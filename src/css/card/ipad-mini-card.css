@@ -39,3 +39,30 @@
     height: 100%;
   }
 }
+
+.ipad-mini-card .card__image {
+  height: 407px;
+  background-image: url("../images/ipad_mini/ipad_mini__small_2x.jpg");
+  background-position: bottom;
+  transform: translateX(55px) translateY(50px);
+}
+
+@media screen and (min-width: 768px) {
+  .ipad-mini-card .card__image {
+    width: 100%;
+    height: 690px;
+    background-image: url("../images/ipad_mini/ipad_mini__medium_2x.jpg");
+    background-position: bottom;
+    transform: translateX(55px) translateY(90px);
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .ipad-mini-card .card__image {
+    width: 140%;
+    height: 936px;
+    background-image: url("../images/ipad_mini/ipad_mini__medium_2x.jpg");
+    background-position: bottom;
+    transform: translateX(95px) translateY(140px);
+  }
+}

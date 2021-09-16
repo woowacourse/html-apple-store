@@ -40,3 +40,30 @@
     height: 100%;
   }
 }
+
+.iphone-13-card .card__image {
+  width: 421px;
+  height: 202px;
+  background-image: url("../images/iphone_13/iphone_13__small_2x.jpg");
+  background-position: bottom;
+  transform: translateY(66px);
+}
+
+@media screen and (min-width: 768px) {
+  .iphone-13-card .card__image {
+    width: 149%;
+    height: 535px;
+    background-image: url("../images/iphone_13/iphone_13__medium_2x.jpg");
+    transform: translateY(96px);
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .iphone-13-card .card__image {
+    width: 120%;
+    height: 1300px;
+    background-image: url("../images/iphone_13/iphone_13__large.jpg");
+    background-size: contain;
+    transform: translateY(-96px);
+  }
+}
