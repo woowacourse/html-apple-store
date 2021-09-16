@@ -1,0 +1,57 @@
+@import url('/src/css/main-section.css');
+@import url('/src/css/header.css');
+@import url('/src/css/common.css');
+
+@font-face {
+  font-family: 'sf-pro-bold';
+  src: url('/src/assets/fonts/SF-Pro-Display-Semibold.woff2') format('woff2');
+  font-family: 400;
+}
+
+@font-face {
+  font-family: 'sf-pro';
+  src: url('/src/assets/fonts/sf-pro-text_regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+:root {
+  --black: #1d1d1f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  color: var(--black);
+  font-family: sans-serif, 'sf-pro';
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif, 'sf-pro-bold';
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(0 0 99.9% 99.9%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.round-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 35px;
+  font-size: 17px;
+}
+
+.white-brn {
+  border-color: #fff;
+  color: #fff;
+}
+
+.black-btn {
+  border-color: var(--black);
+}
