@@ -101,6 +101,10 @@
   cursor: pointer;
 }
 
-.content__cta-link--border-color_dark {
+.content--theme_dark .content__cta-link {
+  border-color: white;
+}
+
+.content--theme_white .content__cta-link {
   border-color: black;
 }
