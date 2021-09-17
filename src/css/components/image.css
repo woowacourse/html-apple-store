@@ -1,0 +1,50 @@
+.image__center {
+  margin-left: auto;
+  margin-right: auto;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.image-heading2 {
+  line-height: 1;
+  font-size: 72px;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+}
+
+.image-heading3 {
+  line-height: 1.125;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-heading2 {
+    line-height: 1.0714285714;
+    font-size: 56px;
+    letter-spacing: -0.005em;
+  }
+
+  .image-heading3 {
+    line-height: 1.1428571429;
+    font-size: 28px;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-heading2 {
+    line-height: 1.1;
+    font-size: 40px;
+  }
+
+  .image-heading3 {
+    line-height: 1.2105263158;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+  }
+}

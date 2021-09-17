@@ -1,0 +1,16 @@
+@import url('./shared/global.css');
+@import url('./shared/accessibility.css');
+
+@import url('./components/nav.css');
+@import url('./components/image.css');
+@import url('./components/hero.css');
+@import url('./components/promo.css');
+@import url('./components/promo-iphone13-pro.css');
+@import url('./components/promo-iphone13.css');
+@import url('./components/footer.css');
+
+:root {
+  --color-charcoal: rgb(29, 29, 31);
+  --color-white: rgb(255, 255, 255);
+  --color-ivory: rgb(245, 245, 247);
+}

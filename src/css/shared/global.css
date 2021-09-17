@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.4705882353;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.016em;
+  background-color: rgb(255 255 255);
+  color: rgb(29 29 31);
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  cursor: pointer;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  text-align: center;
+  line-height: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+button:disabled {
+  cursor: default;
+}
