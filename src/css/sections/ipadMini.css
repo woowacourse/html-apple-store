@@ -1,0 +1,102 @@
+.ipad-mini .section-contents {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  max-width: 1440px;
+  height: 100%;
+}
+
+.ipad-mini .section-content {
+  height: 100%;
+  letter-spacing: -0.012em;
+  padding-left: 34px;
+  padding-right: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ipad-mini .section-content .section-content-title {
+  background-image: url('../../assets/images/logo_ipad_mini__sttk80xqgoam_large.png');
+  background-repeat: no-repeat;
+  width: 281px;
+  height: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.ipad-mini .section-content .section-content-description {
+  max-width: 580px;
+}
+
+.ipad-mini .preview-image {
+  margin-top: 130px;
+  width: 47%;
+  height: 100%;
+  background-image: url('../../assets/images/ipad_mini__ck4jhalcqcnm_large.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  overflow: hidden;
+  opacity: 0;
+}
+
+/* 반응형 */
+@media screen and (max-width: 1060px) {
+  .ipad-mini .preview-image {
+    width: 500px;
+    margin-top: 0;
+    margin-left: 50px;
+    background-image: url('../../assets/images/ipad_mini__ck4jhalcqcnm_medium.jpg');
+    background-position: top 0 left 30px;
+    background-size: 110%;
+    height: 130%;
+  }
+  .ipad-mini .section-contents {
+    align-items: center;
+  }
+
+  .ipad-mini .section-content .section-content-title {
+    width: 221px;
+    height: 44px;
+    background-image: url('../../assets/images/logo_ipad_mini__sttk80xqgoam_medium.png');
+  }
+
+  .ipad-mini .section-content .section-content-description {
+    max-width: 620px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #global-main section.ipad-mini {
+    height: 700px;
+  }
+
+  .ipad-mini .section-content {
+    height: auto;
+    padding: 0;
+  }
+
+  .ipad-mini .section-content .section-content-title {
+    width: 160px;
+    height: 32px;
+    background-image: url('../../assets/images/logo_ipad_mini__sttk80xqgoam_small.png');
+  }
+
+  .ipad-mini .section-content .section-content-description {
+    max-width: 275px;
+  }
+
+  .ipad-mini .preview-image {
+    margin-top: 65px;
+    margin-left: 90px;
+    background-image: url('../../assets/images/ipad_mini__ck4jhalcqcnm_small.jpg');
+    background-position: left top;
+    background-size: cover;
+    width: 350px;
+    height: 334px;
+  }
+}

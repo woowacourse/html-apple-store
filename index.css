@@ -1,0 +1,58 @@
+@import url('./src/css/reset.css');
+@import url('./src/css/variable.css');
+
+@import url('./src/css/nav.css');
+@import url('./src/css/main.css');
+@import url('./src/css/footer.css');
+
+@import url('./src/css/@share/sectionContent.css');
+@import url('./src/css/@share/sectionPreviewImage.css');
+
+@import url('./src/css/sections/shopNotice.css');
+@import url('./src/css/sections/appleEvent.css');
+@import url('./src/css/sections/iphone13Pro.css');
+@import url('./src/css/sections/iphone13.css');
+@import url('./src/css/sections/watch7.css');
+@import url('./src/css/sections/ipadMini.css');
+@import url('./src/css/sections/ipad.css');
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'sf-pro-text';
+  src: url('./src/assets/fonts/SF-Pro-Text-Regular.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'sf-pro';
+  src: url('./src/assets/fonts/SF-Pro-Display-Semibold.otf');
+  font-weight: 600;
+}
+
+body {
+  font-family: 'sf-pro-text';
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  color: var(--bright-black);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'sf-pro';
+}

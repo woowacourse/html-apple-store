@@ -1,0 +1,40 @@
+.shop-notice {
+  height: auto;
+}
+
+.shop-notice .shop-notice-content {
+  background-color: var(--bright-gray);
+  color: var(--bright-black);
+  min-height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  width: 100%;
+  height: 100%;
+}
+
+.shop-notice .shop-notice-content .shop-notice-text {
+  display: block;
+  margin: 0 auto;
+  padding: 12px;
+  text-align: center;
+  line-height: 1.47059;
+}
+
+.shop-notice .shop-notice-content .shop-notice-text a {
+  color: #06c;
+}
+
+/* 반응형 */
+@media screen and (max-width: 1060px) {
+  .shop-notice .shop-notice-content .shop-notice-text {
+    max-width: 495px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .shop-notice .shop-notice-content .shop-notice-text {
+    max-width: 350px;
+  }
+}

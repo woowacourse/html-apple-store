@@ -1,0 +1,105 @@
+#global-nav {
+  height: 44px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--bright-gray);
+  z-index: 10;
+}
+
+/* 로고 이모티콘 */
+#global-nav .logo-item {
+  width: 38px;
+  background-repeat: no-repeat;
+}
+
+#global-nav .logo-item.apple-logo-item {
+  background-image: url('../assets/images/apple.svg');
+  background-position: center center;
+}
+
+#global-nav .logo-item.search-logo-item {
+  background-image: url('../assets/images/search.svg');
+  background-size: 18px 88px;
+  background-position: center 1%;
+}
+
+#global-nav .logo-item.shop-logo-item {
+  background-image: url('../assets/images/shop.svg');
+  background-position: center 99%;
+}
+
+#global-nav .logo-item.more-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#global-nav .logo-item.more-item span {
+  display: inline-block;
+  height: 1px;
+  border-bottom: 1px solid var(--bright-gray);
+  width: 17px;
+  margin: 3px 0;
+}
+
+/* ul 공통  */
+#global-nav {
+  min-width: 320px;
+}
+
+#global-nav .nav-list {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+#global-nav .nav-list .nav-item {
+  height: 100%;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+#global-nav .nav-list .nav-item:hover {
+  opacity: 1;
+}
+
+#global-nav .nav-list .nav-item a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+/* 데스크탑용 ul */
+
+/* 모바일용 ul */
+#global-nav .nav-mobile-list {
+  display: none;
+  padding: 5px;
+}
+
+/* 반응형 */
+@media screen and (max-width: 768px) {
+  #global-nav {
+    height: 48px;
+  }
+
+  #global-nav .nav-wide-list {
+    display: none;
+  }
+
+  #global-nav .nav-mobile-list {
+    display: flex;
+  }
+}

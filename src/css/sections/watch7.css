@@ -1,0 +1,89 @@
+.watch-7 {
+  background-color: var(--bright-gray);
+}
+.watch-7 .section-contents {
+  padding-top: 99px;
+}
+
+.watch-7 .section-content .section-content-title {
+  background-image: url('../../assets/images/logo_watch_series_7__cjyjhfcpj9le_large.png');
+  background-repeat: no-repeat;
+  width: 218px;
+  height: 83px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.watch-7 .section-content .section-content-description {
+  max-width: 780px;
+}
+
+.watch-7 .section-content .section-content-caution {
+  color: #6e6e73;
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+/* 프리뷰 이미지 */
+.watch-7 .preview-image {
+  height: 524px;
+  margin-top: 60px;
+  background-image: url('../../assets/images/watch_series_7__ga5y6pykkqie_large.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+/* 반응형 */
+@media screen and (max-width: 1060px) {
+  #global-main section.watch-7 {
+    height: 950px;
+  }
+
+  .watch-7 .section-content .section-content-title {
+    width: 170px;
+    height: 65px;
+    background-image: url('../../assets/images/logo_watch_series_7__cjyjhfcpj9le_medium.png');
+  }
+
+  .watch-7 .section-content .section-content-description {
+    max-width: 550px;
+  }
+
+  .watch-7 .preview-image {
+    width: 100%;
+    height: 393px;
+    background-image: url('../../assets/images/watch_series_7__ga5y6pykkqie_medium.jpg');
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #global-main section.watch-7 {
+    height: 625px;
+  }
+
+  .watch-7 .section-contents {
+    padding-top: 77px;
+  }
+
+  .watch-7 .section-content .section-content-title {
+    width: 124px;
+    height: 48px;
+    background-image: url('../../assets/images/logo_watch_series_7__cjyjhfcpj9le_small.png');
+  }
+
+  .watch-7 .section-content .section-content-description {
+    max-width: 250px;
+  }
+
+  .watch-7 .section-content .section-content-caution {
+    font-size: 12px;
+  }
+
+  .watch-7 .preview-image {
+    height: 232px;
+    min-width: 600px;
+    background-image: url('../../assets/images/watch_series_7__ga5y6pykkqie_small.jpg');
+    background-size: cover;
+  }
+}
