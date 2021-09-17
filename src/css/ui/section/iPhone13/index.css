@@ -1,0 +1,51 @@
+.iphone_13 {
+  background-color: var(--bg-color-iphone);
+  height: 50rem;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.iphone_13 > .content {
+  min-width: max-content;
+  padding-right: 10rem;
+}
+
+.iphone_13 > .device-img {
+  position: relative;
+  min-width: 42rem;
+
+  height: 100%;
+  background-image: url("../../../../images/iphone_13_large.jpg");
+  background-size: cover;
+}
+
+@media screen and (max-width: 1000px) {
+  .iphone_13 {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .iphone_13 > .content {
+    padding-right: 0;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  .iphone_13 > .device-img {
+    background-image: url("../../../../images/iphone_13_medium.jpg");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .iphone_13 {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .iphone_13 > .content {
+    padding-right: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+}

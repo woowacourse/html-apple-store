@@ -1,0 +1,21 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container > .button:first-of-type {
+  margin-right: 1rem;
+}
+
+.button {
+  margin-top: 1.75rem;
+  max-width: 20rem;
+  height: 2.75rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  padding: 0.9rem 1rem;
+  border-radius: 3rem;
+  font-weight: 600;
+  z-index: 1;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "html-apple-store",
+  "homepage": "https://zereight.github.io/html-apple-store/index.html",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "gh-pages -d ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zereight/html-apple-store.git"
+  },
+  "author": "zereight",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zereight/html-apple-store/issues"
+  },
+  "devDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0"
+  }
+}

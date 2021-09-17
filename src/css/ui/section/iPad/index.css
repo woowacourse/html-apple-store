@@ -1,0 +1,59 @@
+.ipad {
+  height: 50rem;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.ipad > .content {
+  min-width: max-content;
+  padding-right: 10rem;
+}
+
+.ipad > .device-img {
+  position: relative;
+  left: 5rem;
+  min-width: 40rem;
+  height: 100%;
+  background-image: url("../../../../images/ipad.jpg");
+  background-size: contain;
+  background-position: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .ipad {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ipad > .content {
+    padding-right: 0;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  .ipad > .device-img {
+    left: 0;
+    min-width: 30rem;
+    max-width: 30rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ipad {
+    height: 30rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ipad > .content {
+    padding-right: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .ipad > .device-img {
+    min-width: 20rem;
+    max-width: 20rem;
+  }
+}
