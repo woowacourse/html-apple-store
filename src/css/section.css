@@ -1,0 +1,120 @@
+@import './sections/hero.css';
+@import './sections/iphone-13-pro.css';
+@import './sections/iphone-13.css';
+@import './sections/watch-series-7.css';
+
+.section {
+  height: var(--section-height);
+  background-color: var(--color-white);
+  position: relative;
+  overflow: hidden;
+}
+
+.section-content {
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bg-dark .section-content {
+  color: #fff;
+}
+
+.section-title {
+  font-size: 4.5rem;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+}
+
+.section-title-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.section-subtitle {
+  font-size: 2rem;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+  margin: 1.25rem auto 0;
+}
+
+.section-description {
+  margin-top: 2.5rem;
+  color: #6e6e73;
+}
+
+.section-button-container {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.125rem;
+}
+
+.section-image-container {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section {
+    height: var(--section-height-md);
+  }
+
+  .section-content {
+    flex-direction: column;
+  }
+
+  .section-title {
+    font-size: 3.5rem;
+    line-height: 1.0714285714;
+    letter-spacing: -0.005em;
+  }
+
+  .section-subtitle {
+    font-size: 1.75rem;
+    line-height: 1.1428571429;
+    letter-spacing: 0.007em;
+  }
+
+  .section-button-container {
+    margin-top: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section {
+    height: var(--section-height-sm);
+  }
+
+  .section-title {
+    margin-top: 70px;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    letter-spacing: -0.005em;
+  }
+
+  .section-subtitle {
+    font-size: 19px;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+  }
+
+  .section-description {
+    font-size: 12px;
+    line-height: 1.3333733333;
+    letter-spacing: -0.01em;
+  }
+
+  .section-button-container {
+    margin-top: 25px;
+  }
+}

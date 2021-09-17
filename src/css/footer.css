@@ -1,0 +1,152 @@
+.footer {
+  padding: 1.25rem 0;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  font-size: 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+.sitemap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sitemap-column {
+  flex-basis: 25%;
+}
+
+.sitemap-section {
+  margin-bottom: 1.5rem;
+}
+
+.sitemap-section:last-of-type {
+  margin-bottom: 0;
+}
+
+.sitemap-section-title {
+  line-height: 1.33337;
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin-right: 1.25rem;
+  margin-bottom: 0.8em;
+}
+
+.sitemap-section-list-item {
+  margin-bottom: 0.8em;
+}
+
+.sitemap-section-link,
+.legal-link {
+  color: #a1a1a6;
+}
+
+.sitemap-section-link:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  padding-top: 2.125rem;
+  color: #a1a1a6;
+}
+
+.footer-legal {
+  display: flex;
+  align-items: center;
+}
+
+.footer-legal-copyright {
+  margin-right: 1.875rem;
+}
+
+.footer-hr {
+  margin: 0.5rem 0;
+  border-color: #424245;
+}
+
+.legal-list {
+  display: flex;
+  align-items: center;
+}
+
+.legal-link {
+  border-right: 1px solid #424245;
+  margin-right: 7px;
+  padding-right: 10px;
+  display: inline-block;
+  white-space: nowrap;
+  color: #a1a1a6;
+}
+
+.legal-link:hover {
+  color: #f5f5f7;
+  text-decoration: underline;
+}
+
+.legal-list-item:last-of-type .legal-link {
+  border: none;
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer .container {
+    padding: 0 1rem;
+  }
+
+  .sitemap-section-list {
+    display: none;
+  }
+
+  .sitemap {
+    flex-direction: column;
+  }
+
+  .sitemap-column {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    flex-basis: auto;
+    user-select: none;
+  }
+
+  .sitemap-section {
+    margin: 0;
+    border-bottom: 1px solid #424245;
+  }
+
+  .sitemap-section-title {
+    padding: 0.625rem 0;
+    margin: 0;
+    font-weight: 400;
+    font-family: inherit;
+  }
+
+  .sitemap-section-title::after {
+    content: '+';
+    float: right;
+    font-size: 14px;
+    margin-top: -2px;
+    margin-right: 8px;
+  }
+
+  .footer-bottom {
+    padding-top: 17px;
+  }
+
+  .footer-shop-message {
+    margin-bottom: 15px;
+  }
+
+  .footer-hr {
+    display: none;
+  }
+
+  .footer-legal {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-legal-copyright,
+  .footer-legal-nav {
+    margin-top: 5px;
+  }
+}

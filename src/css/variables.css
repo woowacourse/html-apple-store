@@ -1,0 +1,11 @@
+:root {
+  --color-black: #1d1d1f;
+  --color-white: #f5f5f7;
+  --nav-height: 44px;
+  --nav-background-color: rgba(0, 0, 0, 0.8);
+  --nav-color: #fff;
+  --nav-mobile-height: 48px;
+  --section-height: 900px;
+  --section-height-md: 950px;
+  --section-height-sm: 600px;
+}

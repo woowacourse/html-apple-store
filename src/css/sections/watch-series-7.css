@@ -1,0 +1,107 @@
+.section.watch-series-7 .section-content {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section.watch-series-7 .section-title {
+  width: 218px;
+  height: 83px;
+  background-image: url(../../images/logo_watch_series_7_large.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 99px auto 0;
+}
+
+.section.watch-series-7 .section-subtitle {
+  max-width: 780px;
+  margin-top: 29px;
+}
+
+.section.watch-series-7 .section-button-container {
+  margin-top: 15px;
+}
+
+.section.watch-series-7 .section-text {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.section.watch-series-7 .section-image-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateY(100px);
+}
+
+.section.watch-series-7 .section-image {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 141%;
+  max-width: 1894px;
+  min-width: 1490px;
+  height: 524px;
+  background-image: url(../../images/watch_series_7_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section.watch-series-7 .section-title {
+    margin-top: 77px;
+    min-height: 48px;
+    width: 170px;
+    height: 65px;
+    background-image: url(../../images/logo_watch_series_7_medium.png);
+  }
+
+  .section.watch-series-7 .section-subtitle {
+    max-width: 550px;
+  }
+
+  .section.watch-series-7 .section-description {
+    margin-top: 1.75rem;
+  }
+
+  .section.watch-series-7 .section-image {
+    width: 100%;
+    height: 393px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section.watch-series-7 .section-title {
+    margin-top: 69px;
+    min-height: 65px;
+    width: 124px;
+    height: 48px;
+    background-image: url(../../images/logo_watch_series_7_small.png);
+  }
+
+  .section.watch-series-7 .section-subtitle {
+    max-width: 250px;
+    margin-top: 1.25rem;
+  }
+
+  .section.watch-series-7 .section-description {
+    margin-top: 25px;
+  }
+
+  .section.watch-series-7 .section-image-container {
+    transform: translateY(25px);
+    margin-left: unset;
+    margin-right: unset;
+  }
+
+  .section.watch-series-7 .section-image {
+    background-size: cover;
+    height: 232px;
+    min-width: 600px;
+    left: unset;
+    transform: translateX(0);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

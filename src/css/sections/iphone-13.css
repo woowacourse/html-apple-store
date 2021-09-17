@@ -1,0 +1,108 @@
+.section.iphone-13 {
+  background-color: #34283c;
+}
+
+.section.iphone-13 .section-content {
+  justify-content: flex-end;
+}
+
+.section.iphone-13 .section-subtitle {
+  max-width: 665px;
+}
+
+.section.iphone-13 .section-text {
+  width: 50%;
+  padding-left: 3.5rem;
+  padding-right: 2.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.section.iphone-13 .section-image-container {
+  width: 1300px;
+  height: 100%;
+  transform: translate(-692.5px, -197.09px);
+  position: absolute;
+  left: 50%;
+}
+
+.section.iphone-13 .section-image {
+  position: absolute;
+  width: 100%;
+  height: 1300px;
+  background-size: contain;
+  background-image: url(../../images/iphone_13_large.jpg);
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section.iphone-13 .section-content {
+    justify-content: flex-start;
+  }
+
+  .section.iphone-13 .section-subtitle {
+    max-width: 585px;
+    width: 100%;
+  }
+
+  .section.iphone-13 .section-text {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+  }
+
+  .section.iphone-13 .section-image-container {
+    width: 100%;
+    position: relative;
+    left: 0;
+    height: 50%;
+    transform: translateY(-20px);
+  }
+
+  .section.iphone-13 .section-image {
+    width: 149%;
+    height: 535px;
+    background-position: bottom;
+    background-image: url(../../images/iphone_13_medium.jpg);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @media only screen and (max-width: 734px) {
+    .section {
+      height: var(--section-height-sm);
+    }
+
+    .section.iphone-13 .section-title {
+      margin-top: 4.375rem;
+    }
+
+    .section.iphone-13 .section-subtitle {
+      max-width: 290px;
+      width: 100%;
+    }
+
+    .section.iphone-13 .section-text {
+      height: auto;
+    }
+
+    .section-button-container {
+      margin-top: 25px;
+    }
+
+    .section.iphone-13 .section-image-container {
+      width: 100%;
+      transform: translate(0, 80px);
+    }
+
+    .section.iphone-13 .section-image {
+      width: 421px;
+      height: 202px;
+      max-width: unset;
+      background-position: center;
+      background-image: url(../../images/iphone_13_small.jpg);
+    }
+  }
+}
