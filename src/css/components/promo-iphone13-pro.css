@@ -27,22 +27,9 @@
   color: var(--color-charcoal);
 }
 
-.iphone13-pro-copy-container h2 {
-  /* line-height: 1; */
-  /* font-size: 72px; */
-  /* font-weight: 600; */
-  /* letter-spacing: -0.012em; */
-}
-
 .iphone13-pro-copy-container h3 {
   margin-top: 20px;
   max-width: 610px;
-
-  /* line-height: 1.125;
-  font-size: 32px;
-  font-weight: 600;
-  letter-spacing: 0.004em; */
-  /* text-align: center; */
 }
 
 @media only screen and (max-width: 1068px) {
