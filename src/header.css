@@ -88,6 +88,13 @@ header * {
   justify-content: center;
 }
 
+.gnb-hamburger .link-name {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 1px;
+  height: 1px;
+}
+
 .gnb-hamburger .hamburger-shape {
   height: 1px;
   border-bottom: 1px solid var(--bg-light-gray);

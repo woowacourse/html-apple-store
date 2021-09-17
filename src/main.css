@@ -395,13 +395,17 @@ main h3 {
     height: 289px;
   }
 
+  .iphone-13-content {
+    height: unset;
+  }
+
   .iphone-13-content h3 {
     max-width: 290px;
   }
   
   .iphone-13-bg-wrapper {
     height: unset;
-    transform: matrix(1, 0, 0, 1, 0, 77.8513);
+    transform: matrix(1, 0, 0, 1, 0, 67.5734);
   }
   
   .iphone-13-bg {
@@ -426,5 +430,11 @@ main h3 {
   .ipad-content h3 {
     max-width: 285px;
     margin-top: 12px auto 0;
+  }
+}
+
+@media screen and (max-width: 433px) {
+  .hero-content {
+    margin-bottom: 58px;
   }
 }
