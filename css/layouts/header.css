@@ -12,7 +12,8 @@
   font-size: 12px;
 }
 
-.header__content {
+.header__content,
+.header__content--mobile {
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -23,6 +24,10 @@
   backdrop-filter: blur(10px);
   background-color: rgba(0, 0, 0, 0.8);
   color: #f5f5f7;
+}
+
+.header__content {
+  display: none;
 }
 
 .header__sidebar-toggle-button {
@@ -78,16 +83,14 @@
   background-position: center;
 }
 
-/* navigation */
-
-.navigation {
-  display: none;
-}
-
 @media only screen and (min-width: 735px) {
   .header__content {
     display: flex;
     justify-content: center;
+  }
+
+  .header__content--mobile {
+    display: none;
   }
 
   .navigation {
@@ -106,10 +109,6 @@
 
   .header__search-button {
     display: inline-block;
-  }
-
-  .header__sidebar-toggle-button {
-    display: none;
   }
 
   .header__shopping-bag-button {
