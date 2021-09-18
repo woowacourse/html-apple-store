@@ -1,16 +1,19 @@
-.section {
+.section div {
   height: 698px;
   border: 1px solid red;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: center;
-  font-size: 120px;
-  align-items: center;
+}
+
+.sub {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width: 752px) {
-  .section {
+  .section div {
     height: 548px;
+  }
+
+  .sub {
+    display: block;
   }
 }
