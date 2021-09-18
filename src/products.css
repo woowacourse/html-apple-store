@@ -1,6 +1,7 @@
+/* iphone 13 pro */
 .iphone-13-pro {
-  background-color: #f5f5f7;
-  color: #1d1d1f;
+  background-color: var(--apple-white-1);
+  color: var(--apple-black-1);
   height: 950px;
 }
 
@@ -32,10 +33,11 @@
   margin-top: 20px;
 }
 
+/* iphone 13 */
 .iphone-13 {
-  color: #fff;
-  border-color: #fff;
-  background-color: #34283c;
+  color: var(--apple-white-0);
+  border-color: var(--apple-white-0);
+  background-color: var(--apple-wine);
 }
 
 .iphone-13 .product-text {
@@ -70,9 +72,10 @@
   margin-top: 20px;
 }
 
+/* apple watch 7 */
 .apple-watch-7 {
-  background-color: #f5f5f7;
-  color: #1d1d1f;
+  background-color: var(--apple-white-1);
+  color: var(--apple-black-1);
 }
 
 .apple-watch-7 .content {
@@ -139,15 +142,16 @@
 .apple-watch-7 .notify {
   margin-top: 40px;
   font-size: 17px;
-  color: #6e6e73;
+  color: var(--apple-gray-1);
 }
 
 .apple-watch-7 .link-container {
   margin-top: 15px;
 }
 
+/* ipad mini */
 .ipad-mini {
-  background-color: #fff;
+  background-color: var(--apple-white-0);
 }
 
 .ipad-mini .content {
@@ -209,8 +213,9 @@
   margin-top: 16px;
 }
 
+/* ipad */
 .ipad {
-  background-color: #f5f5f7;
+  background-color: var(--apple-white-1);
   height: 1013px;
 }
 
