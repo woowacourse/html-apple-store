@@ -1,0 +1,16 @@
+.section {
+  height: 698px;
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 120px;
+  align-items: center;
+}
+
+@media screen and (max-width: 752px) {
+  .section {
+    height: 548px;
+  }
+}

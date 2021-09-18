@@ -1,0 +1,18 @@
+a {
+  color: #f5f5f7;
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  background: none;
+}
+
+.hidden {
+  visibility: hidden;
+  position: absolute;
+  left: 9999px;
+  width: 1px;
+  height: 1px;
+}
