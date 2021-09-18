@@ -9,11 +9,11 @@
   position: relative;
   width: 300px;
   min-height: 289px;
-  background-image: url('/images/iphone-13-pro-small.jpg');
   top: 15px;
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
+}
+
+.section--iphone-13-pro .section__bg-image::after {
+  background-image: url('/images/iphone-13-pro-small.jpg');
 }
 
 @media only screen and (min-width: 735px) and (max-width: 1060px) {
@@ -33,6 +33,9 @@
     position: relative;
     width: 800px;
     min-height: 676px;
+  }
+
+  .section--iphone-13-pro .section__bg-image::after {
     background-image: url('/images/iphone-13-pro-medium.jpg');
   }
 }
@@ -63,6 +66,11 @@
   .section--iphone-13-pro .section__bg-image {
     width: 1000px;
     min-height: 996px;
+  }
+
+  .section--iphone-13-pro .section__bg-image::after {
     background-image: url('/images/iphone-13-pro-large.jpg');
+    top: 100px;
+    left: 250px;
   }
 }

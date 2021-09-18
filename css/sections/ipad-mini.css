@@ -17,13 +17,11 @@
   left: 55px;
   width: 300px;
   min-height: 289px;
-  background-image: url('/images/ipad-mini-small.jpg');
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
 }
 
-
+.section--ipad-mini .section__bg-image::after {
+  background-image: url('/images/ipad-mini-small.jpg');
+}
 
 @media only screen and (min-width: 735px) and (max-width: 1060px) {
   .heading-logo-ipad-mini {
@@ -48,7 +46,10 @@
     top: 0;
     left: 117px;
     width: 500px;
-    min-height: 459px;  
+    min-height: 459px;
+  }
+
+  .section--ipad-mini .section__bg-image::after {
     background-image: url('/images/ipad-mini-medium.jpg');
   }
 }
@@ -81,7 +82,10 @@
     top: 100px;
     right: 100px;
     width: 800px;
-    min-height: 459px;  
+    min-height: 459px;
+  }
+
+  .section--ipad-mini .section__bg-image::after {
     background-image: url('/images/ipad-mini-large.jpg');
   }
 }
