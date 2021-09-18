@@ -1,6 +1,7 @@
 :root {
   --apple-black-0: #000;
   --apple-black-1: #1d1d1f;
+  --apple-black-opaque: rgba(0, 0, 0, 0.8);
   --apple-white-0: #fff;
   --apple-white-1: #f5f5f7;
   --apple-wine: #34283c;
@@ -8,6 +9,8 @@
   --apple-gray-1: #6e6e73;
   --apple-gray-2: #a1a1a6;
   --apple-blue: #2997ff;
+
+  --z-index-nav: 9999;
 }
 
 * {

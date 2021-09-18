@@ -21,8 +21,6 @@
 .iphone-13-pro .product-image {
   transform: translate(8px, 220px);
   background-image: url('https://www.apple.com/v/home/he/images/overview/iphone-13-pro/iphone_13_pro__cuke1h6a6seq_large.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
   width: 910px;
   height: 996px;
 }
@@ -59,8 +57,6 @@
   height: 100%;
   position: absolute;
   background-image: url('https://www.apple.com/v/home/he/images/overview/iphone-13/iphone_13__do56puty4e4i_large.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
   left: 50%;
   top: 0;
   transform: translateX(-30%);
@@ -110,8 +106,6 @@
   left: 50%;
   transform: translate(-50%, 18%);
   background-image: url('https://www.apple.com/v/home/he/images/overview/watch-series-7/watch_series_7__ga5y6pykkqie_large.jpg');
-  background-repeat: no-repeat;
-  background-position: 50% 0;
   background-size: contain;
   width: 141%;
   height: 100%;
@@ -181,9 +175,7 @@
 .ipad-mini .product-image {
   position: absolute;
   background-image: url('https://www.apple.com/v/home/he/images/overview/ipad-mini/ipad_mini__ck4jhalcqcnm_large.jpg');
-  background-repeat: no-repeat;
   background-size: contain;
-  background-position: bottom;
   left: 50%;
   top: unset;
   bottom: 0;
@@ -241,7 +233,6 @@
 .ipad .product-image {
   position: absolute;
   background-image: url('https://www.apple.com/v/home/he/images/overview/ipad/ipad__0h4qm01t36qq_large.jpg');
-  background-repeat: no-repeat;
   background-size: contain;
   left: 0;
   top: 0;
