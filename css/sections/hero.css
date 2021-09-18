@@ -55,3 +55,10 @@
     margin-bottom: 148px;
   }
 }
+
+@media only screen and (min-width: 1440px) {
+  .section--hero {
+    max-height: 1013px;
+    background-image: url('/images/hero-xlarge.jpg');
+  }
+}
