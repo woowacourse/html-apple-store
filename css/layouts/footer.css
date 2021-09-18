@@ -18,9 +18,6 @@
   margin-bottom: 22px;
 }
 
-.directory__column {
-}
-
 .directory__column-section {
   display: flex;
   justify-content: space-between;

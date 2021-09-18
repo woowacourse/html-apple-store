@@ -83,16 +83,8 @@
 .navigation {
   display: none;
 }
-.navigation__list {
-}
-
-.navigation__list-item {
-}
 
 @media only screen and (min-width: 735px) {
-  .header__logo {
-  }
-
   .header__content {
     display: flex;
     justify-content: center;
