@@ -1,0 +1,181 @@
+h2 {
+  font-size: 56px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.products {
+  height: 950px;
+}
+
+/* iphone 13 pro */
+.iphone-13-pro .content {
+  flex-direction: column;
+  width: 100%;
+}
+
+.iphone-13-pro .product-text {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iphone-13-pro .product-text h3 {
+  max-width: 565px;
+}
+
+.iphone-13-pro .figure {
+  width: 100%;
+}
+
+.iphone-13-pro .product-image {
+  left: 50%;
+  transform: translate(-50%, 2%);
+  max-width: 74%;
+  max-height: 840px;
+  background-position: top;
+  background-size: contain;
+}
+
+.iphone-13-pro .link-container {
+  margin-top: 28px;
+}
+
+/* iphone 13 */
+.iphone-13 .content {
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+.iphone-13 .product-text {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iphone-13 .product-text h3 {
+  max-width: 620px;
+}
+
+.iphone-13 .link-container {
+  margin-top: 30px;
+}
+
+.iphone-13 .figure {
+  width: 100%;
+}
+
+.iphone-13 .product-image {
+  height: 535px;
+  background-image: url('https://www.apple.com/v/home/he/images/overview/iphone-13/iphone_13__do56puty4e4i_medium.jpg');
+  width: 100%;
+  max-width: 141%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* apple watch 7 */
+.apple-watch-7 h2 {
+  background-size: 170px 65px;
+}
+
+.apple-watch-7 h3 {
+  max-width: 550px;
+}
+
+.apple-watch-7 .figure {
+  height: 100%;
+}
+
+/* ipad mini */
+.ipad-mini .content {
+  flex-direction: column;
+}
+
+.ipad-mini .product-text {
+  padding: 0;
+  min-width: 100%;
+  width: 100%;
+  margin: 0;
+  margin-top: 99px;
+}
+
+.ipad-mini h2 {
+  width: 221px;
+  height: 44px;
+  background-size: 221px 44px;
+  min-height: 44px;
+  margin: 0 auto;
+}
+
+.ipad-mini h3 {
+  max-width: 620px;
+  margin-top: 29px;
+}
+
+.ipad-mini .figure {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.ipad-mini .product-image {
+  position: absolute;
+  height: 690px;
+  left: 50%;
+  transform: translate(-42%, 20%);
+}
+
+.ipad-mini .link-container {
+  margin-top: 28px;
+}
+
+/* ipad */
+.ipad {
+  height: 1030px;
+}
+
+.ipad .content {
+  flex-direction: column-reverse;
+}
+
+.ipad .product-text {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  margin-top: 99px;
+}
+
+.ipad h2 {
+  min-height: unset;
+}
+
+.ipad h3 {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.ipad .figure {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.ipad .product-image {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 2%);
+  width: 600px;
+  height: 565px;
+}
+
+.ipad .link-container {
+  margin-top: 28px;
+}

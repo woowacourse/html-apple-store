@@ -1,0 +1,67 @@
+:root {
+  --apple-black-0: #000;
+  --apple-black-1: #1d1d1f;
+  --apple-black-opaque: rgba(0, 0, 0, 0.8);
+  --apple-white-0: #fff;
+  --apple-white-1: #f5f5f7;
+  --apple-wine: #34283c;
+  --apple-gray-0: #424245;
+  --apple-gray-1: #6e6e73;
+  --apple-gray-2: #a1a1a6;
+  --apple-blue: #2997ff;
+
+  --z-index-nav: 9999;
+}
+
+* {
+  letter-spacing: -0.032em;
+  font-family: 'Inter', Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.125;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--apple-black-1);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+section,
+div {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  word-break: keep-all;
+}
+
+h2 {
+  font-size: 68px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  box-sizing: initial;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
