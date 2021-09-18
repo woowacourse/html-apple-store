@@ -10,6 +10,7 @@ h3 {
   height: 950px;
 }
 
+/* iphone 13 pro */
 .iphone-13-pro .content {
   flex-direction: column;
   width: 100%;
@@ -43,6 +44,7 @@ h3 {
   margin-top: 28px;
 }
 
+/* iphone 13 */
 .iphone-13 .content {
   flex-direction: column-reverse;
   width: 100%;
@@ -76,6 +78,7 @@ h3 {
   transform: translate(-50%, 0);
 }
 
+/* apple watch 7 */
 .apple-watch-7 h2 {
   background-size: 170px 65px;
 }
@@ -88,6 +91,7 @@ h3 {
   height: 100%;
 }
 
+/* ipad mini */
 .ipad-mini .content {
   flex-direction: column;
 }
@@ -130,6 +134,7 @@ h3 {
   margin-top: 28px;
 }
 
+/* ipad */
 .ipad {
   height: 1030px;
 }
