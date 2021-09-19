@@ -1,0 +1,120 @@
+.gn {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.gn-mobile {
+  display: none;
+}
+
+.gn-content {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 22px;
+}
+
+.gn-apple-icon {
+  background-size: 16px 44px;
+  background-repeat: no-repeat;
+  background-image: url('../images/apple-logo-white.svg');
+  background-position: center;
+  width: 16px;
+}
+
+.gn-list {
+  display: flex;
+  justify-content: space-between;
+  color: #f5f5f7;
+  text-decoration: none;
+}
+
+.gn-link {
+  height: 44px;
+  font-size: 14px;
+  line-height: 3.14286;
+  font-weight: 400;
+  opacity: 0.8;
+  white-space: no-wrap;
+  display: block;
+}
+
+.gn-link:hover {
+  text-decoration: none;
+}
+
+.gn-search-icon {
+  background-size: 18px 88px;
+  background-repeat: no-repeat;
+  background-image: url('../images/search-icon.svg');
+  width: 18px;
+}
+
+.gn-bag-icon {
+  background-size: 17px 44px;
+  background-repeat: no-repeat;
+  background-image: url('../images/bag-icon.svg');
+  background-position: center;
+  width: 17px;
+}
+
+@media only screen and (max-width: 767px) {
+  .gn {
+    display: none;
+  }
+
+  .gn-mobile {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    width: 100vw;
+    z-index: 9999;
+  }
+
+  .gn-mobile .gn-list {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .gn-mobile .gn-link {
+    height: 48px;
+    padding: 0 16px;
+  }
+
+  .gn-mobile .gn-menu {
+    position: relative;
+    width: 48px;
+    padding: 0;
+  }
+
+  .gn-mobile .gn-menu-bread-top {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    display: block;
+    width: 17px;
+    height: 1px;
+    background: #fff;
+    border-radius: 0.5px;
+  }
+
+  .gn-mobile .gn-menu-bread-bottom {
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    display: block;
+    width: 17px;
+    height: 1px;
+    background: #fff;
+    border-radius: 0.5px;
+  }
+}

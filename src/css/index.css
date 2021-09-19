@@ -1,0 +1,18 @@
+@import url('./font.css');
+@import url('./normalize.css');
+@import url('./common.css');
+@import url('./globalNavigation.css');
+@import url('./mainSection.css');
+@import url('./globalFooter.css');
+
+body {
+  position: relative;
+  font-size: 17px;
+  line-height: 1.4705882353;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  color: #1d1d1f;
+  font-style: normal;
+}

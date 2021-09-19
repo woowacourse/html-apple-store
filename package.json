@@ -1,0 +1,14 @@
+{
+  "name": "html-apple-store",
+  "version": "1.0.0",
+  "description": "Apple store markup clone coding",
+  "main": "index.js",
+  "repository": "https://github.com/yungo1846/html-apple-store.git",
+  "author": "yungo1846 <yungo1468@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.0"
+  }
+}

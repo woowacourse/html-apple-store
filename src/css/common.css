@@ -1,0 +1,55 @@
+.display-none {
+  display: none;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.button {
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  min-width: 26px;
+  color: #1d1d1f;
+  background: none;
+  border: 2px solid #1d1d1f;
+  padding: 10px 16px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 980px;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #1d1d1f;
+}
+
+.button:not(:first-child) {
+  margin-left: 18px;
+}
+
+.dark-theme .button:hover {
+  color: #1d1d1f;
+  background-color: #fff;
+}
+
+a.button {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 734px) {
+  .button:not(:first-child) {
+    margin-left: 7px;
+  }
+}
