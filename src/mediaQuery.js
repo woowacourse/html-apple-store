@@ -29,13 +29,13 @@ export const globalMediaQueryStyle = `
     .hero__watch-logo {
       width: 170px;
       height: 65px;
-      background-image: url("./src/images/watch-logo-medium.png");
+      background-image: url(./src/images/watch-logo-medium.png);
     }
 
     .hero__ipad-mini-logo {
       width: 221px;
       height: 44px;
-      background-image: url("./src/images/ipad-mini-logo-medium.png");
+      background-image: url(./src/images/ipad-mini-logo-medium.png);
     }
   }
   
@@ -51,7 +51,7 @@ export const globalMediaQueryStyle = `
     .hero__watch-logo {
       width: 218px;
       height: 83px;
-      background-image: url("./src/images/watch-logo-large.png");
+      background-image: url(./src/images/watch-logo-large.png);
     }
   }
 `;
