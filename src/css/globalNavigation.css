@@ -23,6 +23,13 @@
   width: 16px;
 }
 
+.gn-list {
+  display: flex;
+  justify-content: space-between;
+  color: #f5f5f7;
+  text-decoration: none;
+}
+
 .gn-link {
   height: 44px;
   font-size: 14px;
@@ -31,18 +38,10 @@
   opacity: 0.8;
   white-space: no-wrap;
   display: block;
-  color: #f5f5f7;
 }
 
-.gn-link:hover,
-.gn-link:active {
-  color: #f5f5f7;
+.gn-link:hover {
   text-decoration: none;
-}
-
-.gn .gn-list {
-  display: flex;
-  justify-content: space-between;
 }
 
 .gn-search-icon {
