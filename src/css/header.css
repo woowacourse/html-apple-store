@@ -1,0 +1,71 @@
+header {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  position: fixed;
+  height: var(--header-height);
+  z-index: var(--z-index-header);
+}
+
+.nav-wrapper--mobile {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.nav-wrapper {
+  position: absolute;
+  width: 100%;
+  top: -5000px;
+  max-width: var(--max-width);
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.nav {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+  padding: 0 1rem;
+  user-select: none;
+}
+
+.nav li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 8px;
+  border-top: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
+}
+
+.nav-home {
+  display: block;
+  width: 16px;
+  height: var(--header-height);
+  background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg");
+}
+
+.nav-search {
+  display: block;
+  width: 16px;
+  height: var(--header-height);
+  background-repeat: no-repeat;
+  background-size: 16px 88px;
+  background-position: 0 -2px;
+  background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__fca9mfoh8a2q_large.svg");
+}
+
+.nav-bag {
+  display: block;
+  width: 16px;
+  height: var(--header-height);
+  background-position: 0 2px;
+  background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__bmix8075eg4i_large.svg");
+}
