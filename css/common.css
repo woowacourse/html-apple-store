@@ -16,3 +16,23 @@ button {
   width: 1px;
   height: 1px;
 }
+
+.bg-white {
+  background-color: #fbfbfd;
+}
+
+.bg-gray {
+  background-color: #f2f2f2;
+}
+
+.bg-purple {
+  background-color: #34283c;
+}
+
+.bg-pink {
+  background-color: #e7d3e4;
+}
+
+.bg-navy {
+  background-color: #252b55;
+}

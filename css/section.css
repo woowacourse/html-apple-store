@@ -1,11 +1,11 @@
 .section div {
   height: 698px;
-  border: 1px solid red;
 }
 
 .sub {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 1rem 1rem;
 }
 
 @media screen and (max-width: 752px) {
