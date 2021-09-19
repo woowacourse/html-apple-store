@@ -6,7 +6,7 @@ const stylesToPushHead = [globalMediaQueryStyle];
 const genUniqueId = function* () {
   let i = 0;
 
-  while (1) {
+  while (true) {
     yield i++;
   }
 };
@@ -97,7 +97,7 @@ const createHeroPromotionElement = ({
     .join("");
 
   return `
-    <article class="hero bg-color-${elementId} ${
+    <section class="hero bg-color-${elementId} ${
     reverseFontColor ? "hero--color-reverse" : ""
   }">
       <section class="hero__promotion-${elementId} hero__description">
@@ -117,7 +117,7 @@ const createHeroPromotionElement = ({
         }
       </section>
       <div class="hero__bg-img-${elementId}"></div>
-    </article>
+    </section>
   `;
 };
 
