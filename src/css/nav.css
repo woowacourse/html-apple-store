@@ -1,0 +1,44 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 44px;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(20px) saturate(180%);
+  z-index: 10;
+}
+
+.nav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.nav__item {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 100%;
+  width: fit-content;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.nav__item:hover {
+  text-decoration: none;
+}
+
+.nav__item--search {
+  background-image: url(https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__fca9mfoh8a2q_large.svg);
+  background-size: 18px 88px;
+  background-repeat: no-repeat;
+}
+
+.nav__item--basket {
+  background-image: url(https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__bmix8075eg4i_large.svg);
+  background-repeat: no-repeat;
+}
