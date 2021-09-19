@@ -56,12 +56,14 @@ section {
 }
 
 @media screen and (max-width: 752px) {
-  .section div {
+  .section .main-item,
+  .section .sub-item {
     height: 548px;
   }
 
   .sub {
     display: block;
+    gap: 0;
   }
 
   .main-title {
