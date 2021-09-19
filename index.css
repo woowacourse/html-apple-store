@@ -38,13 +38,13 @@ button {
   display: none;
 }
 
-@media (max-width: 718px) {
+@media (max-width: 738px) {
   .br--mobile {
     display: initial;
   }
 }
 
-@media (min-width: 718px) and (max-width: 1050px) {
+@media (min-width: 738px) and (max-width: 1080px) {
   .br--tablet {
     display: initial;
   }

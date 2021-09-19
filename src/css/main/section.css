@@ -13,6 +13,12 @@
   margin-bottom: 12px;
 }
 
+@media (max-width: 1080px) {
+  .section {
+    height: 650px;
+  }
+}
+
 .section__title {
   font-size: 56px;
   font-weight: 600;
@@ -22,13 +28,13 @@
   color: #f5f5f7;
 }
 
-.section__sub-title {
+.section__subtitle {
   font-size: 28px;
   font-weight: 400;
   margin-top: 6px;
 }
 
-.section__sub-title--pink {
+.section__subtitle--pink {
   color: #fec2eb;
 }
 
@@ -65,13 +71,7 @@
   font-size: 14px;
 }
 
-/* @media (max-width: 718px) {
-  .section--info {
-    line-height: 34px;
-  }
-} */
-
-@media (max-width: 1050px) {
+@media (max-width: 1080px) {
   .section--info {
     line-height: 18px;
     padding: 12px;
@@ -80,6 +80,12 @@
 
 .section--hero {
   background-image: url(https://www.apple.com/v/home/ae/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_large.jpg);
+}
+
+@media (max-width: 1080px) {
+  .section--hero {
+    background-image: url(https://www.apple.com/v/home/ae/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_medium.jpg);
+  }
 }
 
 .section--iphone13 {
