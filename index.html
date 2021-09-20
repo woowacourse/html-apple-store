@@ -12,19 +12,23 @@
 <body>
   <nav>
     <div class="nav__inner">
-      <a class="nav__item" href="https://apple.com">
+      <button class="nav__hamburger">
+        <span></span>
+        <span></span>
+      </button>
+      <a class="nav__item nav__item--logo" href="https://apple.com">
         <img
           src="https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_small.svg"
           alt="home-button" />
       </a>
-      <a class="nav__item" href="https://www.apple.com/store">Store</a>
-      <a class="nav__item" href="https://www.apple.com/mac/">Mac</a>
-      <a class="nav__item" href="https://www.apple.com/ipad/">iPad</a>
-      <a class="nav__item" href="https://www.apple.com/iphone/">iPhone</a>
-      <a class="nav__item" href="https://www.apple.com/watch/">Watch</a>
-      <a class="nav__item" href="https://www.apple.com/tv/">TV</a>
-      <a class="nav__item" href="https://www.apple.com/music/">Music</a>
-      <a class="nav__item" href="https://support.apple.com/">Support</a>
+      <a class="nav__item nav__item--menu" href="https://www.apple.com/store">Store</a>
+      <a class="nav__item nav__item--menu" href="https://www.apple.com/mac/">Mac</a>
+      <a class="nav__item nav__item--menu" href="https://www.apple.com/ipad/">iPad</a>
+      <a class="nav__item nav__item--menu" href="https://www.apple.com/iphone/">iPhone</a>
+      <a class="nav__item nav__item--menu" href="https://www.apple.com/watch/">Watch</a>
+      <a class="nav__item nav__item--menu" href="https://www.apple.com/tv/">TV</a>
+      <a class="nav__item nav__item--menu" href="https://www.apple.com/music/">Music</a>
+      <a class="nav__item nav__item--menu" href="https://support.apple.com/">Support</a>
       <button class="nav__item nav__item--search" />
       <button class="nav__item nav__item--basket" />
     </div>
@@ -61,8 +65,15 @@
 
     <section class="section section--appleWatch">
       <h2 class="section__title">
-        <img src="https://www.apple.com/v/home/ae/images/logos/watch-series-7/watch_logo_lte__sd64ksudvayy_large.png"
-          alt="apple watch logo">
+        <picture>
+          <source
+            srcset="https://www.apple.com/v/home/ae/images/logos/watch-series-7/watch_logo_lte__sd64ksudvayy_small.png"
+            media="(max-width: 738px)" />
+
+          <img src="https://www.apple.com/v/home/ae/images/logos/watch-series-7/watch_logo_lte__sd64ksudvayy_large.png"
+            alt="apple watch logo" />
+
+        </picture>
       </h2>
       <h3 class="section__subtitle">Full screen ahead</h3>
       <span class="section__description">Avaliable later this fall</span>
@@ -74,8 +85,9 @@
     <section class="section card-collection">
       <div class="card card--college-event">
         <p class="card__extra-description">Offer Ends 9/27</p>
-        <h2 class="card__title">Buy a Mac or iPad for <br />college. Get AirPods.</h2>
-        <div class="card__link-container">
+        <h2 class="card__title">Buy a Mac or iPad <br class="br--mobile" /> for <br
+            class="br--tablet br--desktop" />college. <br class="br--mobile" />Get AirPods.</h2>
+        <div class=" card__link-container">
           <a href="#" class="card__link">Save with education pricing ></a>
         </div>
       </div>

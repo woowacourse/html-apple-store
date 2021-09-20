@@ -6,6 +6,14 @@
   padding: 0 12px;
 }
 
+@media (max-width: 738px) {
+  .card-collection {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+    text-align: center;
+  }
+}
+
 .card {
   display: flex;
   position: relative;
@@ -14,13 +22,13 @@
   width: 100%;
   height: 580px;
   background-position: bottom center;
-  padding: 56px;
+  padding: 56px 0;
 }
 
 @media (max-width: 1080px) {
   .card {
     height: 490px;
-    padding: 36px;
+    padding: 36px 0;
   }
 }
 
@@ -34,6 +42,12 @@
   .card__title {
     font-size: 32px;
     line-height: 38px;
+  }
+}
+
+@media (max-width: 738px) {
+  .card__title {
+    line-height: 36px;
   }
 }
 
@@ -64,6 +78,12 @@
   margin-top: 12px;
 }
 
+@media (max-width: 738px) {
+  .card__link-container {
+    margin-top: 6px;
+  }
+}
+
 .card__link-container--bottom {
   position: absolute;
   bottom: 50px;
@@ -73,6 +93,12 @@
   color: #bf4800;
   position: absolute;
   top: 36px;
+}
+
+@media (max-width: 738px) {
+  .card__extra-description {
+    top: 24px;
+  }
 }
 
 .card__link {
@@ -96,8 +122,15 @@
 
 @media (max-width: 1080px) {
   .card--college-event {
-    padding: 56px;
+    padding: 56px 0;
     background-image: url(https://www.apple.com/v/home/ae/images/promos/back-to-school-2021/promo_bts_last_chance__dqftd8sek46e_medium.jpg);
+  }
+}
+
+@media (max-width: 738px) {
+  .card--college-event {
+    padding: 42px 0;
+    background-image: url(https://www.apple.com/v/home/ae/images/promos/back-to-school-2021/promo_bts_last_chance__dqftd8sek46e_small.jpg);
   }
 }
 

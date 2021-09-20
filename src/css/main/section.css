@@ -19,9 +19,21 @@
   }
 }
 
+@media (max-width: 738px) {
+  .section {
+    height: 500px;
+  }
+}
+
 .section__title {
   font-size: 56px;
   font-weight: 600;
+}
+
+@media (max-width: 738px) {
+  .section__title {
+    font-size: 32px;
+  }
 }
 
 .section__title--white {
@@ -32,6 +44,12 @@
   font-size: 28px;
   font-weight: 400;
   margin-top: 6px;
+}
+
+@media (max-width: 738px) {
+  .section__subtitle {
+    font-size: 19px;
+  }
 }
 
 .section__subtitle--pink {
@@ -51,6 +69,13 @@
 .section__link {
   font-size: 21px;
   margin-left: 35px;
+}
+
+@media (max-width: 738px) {
+  .section__link {
+    font-size: 17px;
+    margin-left: 27px;
+  }
 }
 
 .section__link--dark {
@@ -78,6 +103,13 @@
   }
 }
 
+@media (max-width: 738px) {
+  .section--info {
+    line-height: 20px;
+    padding: 8px;
+  }
+}
+
 .section--hero {
   background-image: url(https://www.apple.com/v/home/ae/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_large.jpg);
 }
@@ -88,8 +120,24 @@
   }
 }
 
+@media (max-width: 738px) {
+  .section--hero {
+    background-image: url(https://www.apple.com/v/home/ae/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small.jpg);
+  }
+}
+
 .section--iphone13 {
   background-image: url(https://www.apple.com/v/home/ae/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_large.jpg);
+}
+
+@media (max-width: 738px) {
+  .section--iphone13 {
+    background-image: url(https://www.apple.com/v/home/ae/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_small.jpg);
+    justify-content: center;
+    padding: 0;
+    background-color: contain;
+    background-position-y: -24px;
+  }
 }
 
 .section--appleWatch {

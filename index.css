@@ -38,6 +38,10 @@ button {
   display: none;
 }
 
+.br--desktop {
+  display: none;
+}
+
 @media (max-width: 738px) {
   .br--mobile {
     display: initial;
@@ -46,6 +50,12 @@ button {
 
 @media (min-width: 738px) and (max-width: 1080px) {
   .br--tablet {
+    display: initial;
+  }
+}
+
+@media (min-width: 1080px) {
+  .br--desktop {
     display: initial;
   }
 }
