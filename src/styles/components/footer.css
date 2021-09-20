@@ -94,7 +94,7 @@
     max-width: 980px;
   }
 
-  .directory-list {
+  .directory-column-container {
     display: flex;
   }
 
