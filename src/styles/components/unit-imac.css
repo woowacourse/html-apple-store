@@ -1,0 +1,22 @@
+.unit-imac .content-wrapper {
+  margin-top: 52px;
+}
+
+.unit-imac .unit-img {
+  background-image: url("../../assets/promo_imac_small.jpg");
+  transform: translateY(-160px);
+}
+
+@media screen and (min-width: 735px) {
+  .unit-imac .unit-img {
+    background-image: url("../../assets/promo_imac_medium.jpg");
+    transform: translateY(-130px);
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .unit-imac .unit-img {
+    background-image: url("../../assets/promo_imac_large.jpg");
+    transform: translateY(-158px);
+  }
+}
