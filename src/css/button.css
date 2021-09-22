@@ -8,7 +8,7 @@
   font-size: 14px;
   line-height: 1.2;
   font-weight: 400;
-  border: 2px solid #1d1d1f;
+  border: 2px solid var(--gray_90);
   min-width: 133px;
   height: 44px;
   padding: 10px 16px;
@@ -16,13 +16,13 @@
   cursor: pointer;
   text-align: center;
   white-space: nowrap;
-  color: #1d1d1f;
+  color: var(--gray_90);
   background: none;
 }
 
 .round-button.white {
-  color: #fff;
-  border-color: #fff;
+  color: var(--white);
+  border-color: var(--white);
 }
 
 .round-button:not(:first-child) {
@@ -30,11 +30,11 @@
 }
 
 .round-button:hover {
-  color: #fff;
-  background: #1d1d1f;
+  color: var(--white);
+  background: var(--gray_90);
 }
 
 .round-button.white:hover {
-  color: #1d1d1f;
-  background: #fff;
+  color: var(--gray_90);
+  background: var(--white);
 }

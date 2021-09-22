@@ -1,10 +1,10 @@
 .main-iphone-13 {
   height: 561px;
-  background-color: #35283c;
+  background-color: var(--purple_70);
 }
 
 .main-iphone-13-content {
-  color: white;
+  color: var(--white);
 }
 
 .main-iphone-13-image {

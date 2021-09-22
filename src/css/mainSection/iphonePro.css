@@ -1,6 +1,6 @@
 .main-iphone-13-pro {
   height: 600px;
-  background-color: #f5f5f7;
+  background-color: var(--gray_10);
 }
 
 .main-iphone-13-pro-image {

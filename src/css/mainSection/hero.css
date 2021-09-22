@@ -11,7 +11,7 @@
   height: 50%;
   justify-content: flex-end;
   margin-bottom: 58px;
-  color: white;
+  color: var(--white);
 }
 
 .main-hero-content .round-button {
