@@ -1,7 +1,3 @@
-.unit-airtag .content-wrapper {
-  margin-top: 52px;
-}
-
 .unit-airtag .unit-img {
   background-image: url("../../assets/promo_airtag_small.jpg");
   transform: translateY(-160px);
