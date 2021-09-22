@@ -1,5 +1,5 @@
 <p align="middle" >
-  <img width="200px;" src="./src/images/apple-clone.png"/>
+  <img width="200px;" src="./src/assets/apple-clone.png"/>
 </p>
 <h2 align="middle">애플 스토어 레이아웃 클론코딩</h2>
 <p align="middle">최소한의 마크업으로 레이아웃 구성하기</p>

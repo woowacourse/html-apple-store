@@ -1,0 +1,145 @@
+footer {
+  background-color: var(--main-black);
+  width: 100%;
+}
+
+.fnb {
+  padding-top: 20px;
+  display: flex;
+}
+
+.footer-content {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 22px;
+}
+
+.footer-content * {
+  font-size: 12px;
+}
+
+.fnb-column {
+  max-width: 196px;
+  flex-basis: 20%;
+}
+
+.fnb-column h3 {
+  color:  var(--bg-light-gray);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.fnb-column a {
+  color: #a1a1a6;
+}
+
+.fnb-column h3:not(:first-child) {
+  padding-top: 24px;
+}
+
+.fnb-column li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-info {
+  padding: 34px 0 20px;
+}
+
+.footer-shop {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #424245;
+  color: var(--footer-text-gray);
+}
+
+.footer-shop a {
+  color: #1a85f0;
+}
+
+.footer-legal {
+  padding-top: 8px;
+  position: relative;
+}
+
+.footer-legal::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer-legal span, .footer-legal .footer-legal-links {
+  float: left;
+}
+
+.footer-legal span {
+  margin-right: 30px;
+  color: var(--footer-text-gray);
+}
+
+.footer-legal-links a:not(:last-child) {
+  padding-right: 10px;
+  margin-right: 8px;
+  border-right: 1px solid #424245;
+}
+
+.footer-legal a, .footer-locale a {
+  color: #a1a1a6;
+}
+
+.footer-locale {
+  position: relative;
+  float: right;
+  margin-top: 5px;
+  top: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .fnb {
+    flex-direction: column;
+  }
+
+  .fnb-column {
+    width: 100%;
+    max-width: unset;
+  }
+
+  .fnb-column li {
+    display: none;
+  }
+
+  .fnb-column h3:not(:first-child) {
+    padding-top: 10px;
+  }
+  
+  .fnb-column h3 {
+    color: #d2d2d7;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    border-bottom: 1px solid var(--footer-text-gray);
+  }
+
+  .fnb-column h3::after {
+    content: '+';
+    float: right;
+    font-size: 14px;
+    margin-top: -2px;
+    margin-right: 8px;
+  }
+
+  .footer-shop {
+    border: none;
+  }
+
+  .footer-locale {
+    float: none;
+  }
+
+  .footer-legal {
+    padding-top: 16px;
+  }
+
+  .footer-legal-links {
+    padding-top: 5px;
+  }
+}
+

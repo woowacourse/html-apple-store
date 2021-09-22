@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/SF-Pro-Display-Regular.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/SF-Pro-Text-Regular.woff2') format('woff2')
+}
+
+:root {
+  --main-font-white: #fff;
+  --main-black: #1d1d1f;
+  --bg-light-gray: #f5f5f7;
+  --footer-text-gray: #848494;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}

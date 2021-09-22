@@ -1,0 +1,122 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+header * {
+  font-family: 'SF Pro Text', sans-serif;
+  color: var(--bg-light-gray);
+  font-size: 14px;
+}
+
+.gnb {
+  background-color: rgba(0,0,0,0.92);
+  height: 44px;
+}
+
+.mobile-gnb-list {
+  display: none;
+}
+
+.gnb-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 980px;
+  margin: 0 auto;
+  height: 44px;
+}
+
+.gnb-item, .mobile-gnb-item {
+  display: inline-block;
+  height: 44px;
+}
+
+.gnb-item a, .mobile-gnb-item a {
+  display: inline-flex;
+  height: 100%;
+  padding: 0 10px;
+  font-weight: 200;
+  transition: text-shadow .15s ease-in-out;
+}
+
+.gnb-item a:hover, .mobile-gnb-item a:hover {
+  text-shadow: 0 0 .65px, 0 0 .65px;
+}
+
+.gnb-item span {
+  margin: auto;
+}
+
+.gnb-item-link {
+  width: 38px;
+}
+
+.mobile-gnb-item-link {
+  width: 48px;
+}
+
+.link-name {
+  opacity: 0;
+}
+
+.gnb-home {
+  background-size: 16px 44px;
+  background-repeat: no-repeat;
+  background-image: url('./assets/apple-logo-white.svg');
+  background-position: center center;
+}
+
+.gnb-search {
+  background-size: 18px 88px;
+  background-repeat: no-repeat;
+  background-image: url('./assets/search-icon.svg');
+  background-position: 10px 0;
+}
+
+.gnb-cart {
+  background-repeat: no-repeat;
+  background-image: url('./assets/bag.svg');
+  background-position: center center;
+}
+
+.gnb-hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gnb-hamburger .link-name {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 1px;
+  height: 1px;
+}
+
+.gnb-hamburger .hamburger-shape {
+  height: 1px;
+  border-bottom: 1px solid var(--bg-light-gray);
+  width: 17px;
+  margin: 3px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .gnb-item {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .mobile-gnb-list {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    overflow: hidden;
+  }
+}
