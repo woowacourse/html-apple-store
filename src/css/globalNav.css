@@ -1,0 +1,51 @@
+#global_nav {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 44px;
+  z-index: 2;
+}
+
+#global_nav > .nav_list {
+  max-width: 1024px;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 22px;
+  margin: 0 auto;
+}
+
+#global_nav .nav_list_item {
+  height: inherit;
+}
+
+#global_nav .nav_list_link {
+  color: var(--color-gray-0);
+  display: inline-block;
+  height: inherit;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: normal;
+}
+
+#global_nav .nav_list_icon {
+  background-repeat: no-repeat;
+  background-size: 16px 44px;
+  background-position: center center;
+}
+
+#global_nav .link_apple {
+  background-image: url("../svgs/apple-brands.svg");
+}
+
+#global_nav .link_search {
+  background-image: url("../svgs/scope.svg");
+}
+
+#global_nav .link_bag {
+  background-image: url("../svgs/shopping-bag.svg");
+}

@@ -1,0 +1,152 @@
+.headline {
+  font-size: 4.5rem;
+  letter-spacing: -0.012em;
+  font-weight: 500;
+}
+
+.subhead {
+  font-size: 2rem;
+  letter-spacing: 0.004em;
+  line-height: 1.125;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1.25rem;
+}
+
+.copy_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link_container {
+  margin-top: 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link_button {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.02rem;
+  min-width: 1.75rem;
+  background: none;
+  color: var(--color-gray-9);
+  border: 2px solid var(--color-gray-9);
+  padding: 0.625rem 1rem;
+  border-radius: 2.5rem;
+}
+
+.link_button:not(:first-child) {
+  margin-left: 18px;
+}
+
+#section_hero {
+  background-image: url("../images/hero_large_2x.jpeg");
+  background-size: 1440px 1058px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  max-width: 1440px;
+  height: 1013px;
+  padding-bottom: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#section_hero .headline {
+  color: var(--color-gray-0);
+}
+
+#section_hero .subhead {
+  max-width: 512px;
+  color: var(--color-gray-0);
+}
+
+#section_hero .link_button {
+  border-color: var(--color-gray-0);
+  color: var(--color-gray-0);
+}
+
+#section_iphone_13_pro {
+  background-color: var(--color-gray-0);
+  height: 900px;
+  overflow: hidden;
+  display: flex;
+}
+
+#section_iphone_13_pro .section_content {
+  width: 55%;
+  padding-left: 2.125rem;
+  padding-right: 3.5rem;
+  height: inherit;
+}
+
+#section_iphone_13_pro .subhead {
+  max-width: 610px;
+}
+
+#section_iphone_13_pro .image_container {
+  position: relative;
+}
+
+#iphone_13_pro {
+  background-image: url("../images/iphone_13_pro_large_2x.jpeg");
+  width: 910px;
+  height: 996px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10rem;
+}
+
+#section_iphone_13 {
+  height: 900px;
+  background-color: var(--color-purple);
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
+}
+
+#section_iphone_13 .section_content {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  padding-left: 56px;
+  padding-right: 34px;
+}
+
+#section_iphone_13 .headline {
+  color: var(--color-gray-0);
+}
+
+#section_iphone_13 .subhead {
+  color: var(--color-gray-0);
+  max-width: 665px;
+  z-index: 1;
+}
+
+#section_iphone_13 .link_button {
+  color: var(--color-gray-0);
+  border-color: var(--color-gray-0);
+}
+
+#iphone_13 {
+  background-image: url("../images/iphone_13_large_2x.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 800px;
+  height: 1000px;
+  position: relative;
+  left: 6.25rem;
+}
