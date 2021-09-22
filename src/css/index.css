@@ -1,0 +1,40 @@
+@import './reset.css';
+@import './gnb.css';
+@import './main.css';
+@import './hidden.css';
+@import './heading.css';
+@import './button.css';
+@import './image.css';
+@import './footer.css';
+@import './mainSection/hero.css';
+@import './mainSection/iphonePro.css';
+@import './mainSection/iphone.css';
+@import './mainSection/watch.css';
+@import './mainSection/ipadMini.css';
+@import './mainSection/ipad.css';
+
+body {
+  min-width: 320px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+:root {
+  --white: white;
+  --gray_10: #f5f5f7;
+  --gray_30: #a1a1a6;
+  --gray_40: #999;
+  --gray_60: #6e6e73;
+  --gray_80: #424245;
+  --gray_90: #1d1d1f;
+  --blue_50: #2997ff;
+  --purple_70: #35283c;
+  --black_opacity_80: rgba(0, 0, 0, 0.8);
+}

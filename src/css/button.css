@@ -1,0 +1,40 @@
+.button-wrapper {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.round-button {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  border: 2px solid var(--gray_90);
+  min-width: 133px;
+  height: 44px;
+  padding: 10px 16px;
+  border-radius: 980px;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  color: var(--gray_90);
+  background: none;
+}
+
+.round-button.white {
+  color: var(--white);
+  border-color: var(--white);
+}
+
+.round-button:not(:first-child) {
+  margin-left: 7px;
+}
+
+.round-button:hover {
+  color: var(--white);
+  background: var(--gray_90);
+}
+
+.round-button.white:hover {
+  color: var(--gray_90);
+  background: var(--white);
+}
