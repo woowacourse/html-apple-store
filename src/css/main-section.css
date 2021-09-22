@@ -1,0 +1,107 @@
+/* main-section */
+
+.main {
+  position: relative;
+  max-width: 160rem;
+  margin: 0 auto;
+  padding-top: 2.75rem;
+  color: #1d1d1f;
+}
+
+.main .main-section {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.main .main-section .unit-container {
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+  width: 100%;
+  height: 80vh;
+}
+
+.main .main-section .unit-container .video-control {
+  position: absolute;
+  right: 30px;
+  bottom: 35px;
+  width: 40px;
+  height: auto;
+}
+
+.main .main-section .unit-container .unit-image-wrapper {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main .main-section .unit-container .unit-copy-wrapper {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 94%;
+}
+
+.main .main-section .unit-image-wrapper #hero-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+  background: black;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.main .main-section .ribbon-shop-online {
+  font-size: 0.875rem;
+  font-weight: 300;
+  padding: 0.75rem 1.25rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .main .main-section .unit-image-wrapper #hero-video {
+    height: 90vh;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .main .main-section .unit-image-wrapper #hero-video {
+    height: 85vh;
+  }
+
+  .main .main-section .ribbon-shop-online {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* main */
+
+  .main .main-section .ribbon-shop-online {
+    max-width: 350px;
+  }
+
+  .main .main-section .unit-container .video-control {
+    right: 10px;
+    bottom: 15px;
+  }
+
+  .main .main-section .unit-image-wrapper #hero-video {
+    height: 80vh;
+  }
+}

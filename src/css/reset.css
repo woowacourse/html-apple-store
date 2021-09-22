@@ -1,0 +1,102 @@
+* {
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  color: #1d1d1f;
+  font-style: normal;
+  fill: currentColor;
+}
+
+html,
+body,
+div,
+span,
+img,
+ol,
+ul,
+li,
+article,
+aside,
+canvas,
+figure,
+figcaption,
+footer,
+header,
+nav,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-size: inherit;
+  font-family: 'SF Pro Text', 'Myriad Set Pro', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background: #fbfbfd;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #06c;
+  letter-spacing: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  line-height: normal;
+  text-transform: none;
+  -webkit-appearance: button;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
