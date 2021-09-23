@@ -13,6 +13,7 @@
 }
 
 .card__content {
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,6 +22,7 @@
 
 .card__image-wrapper {
   position: relative;
+  z-index: 0;
   display: grid;
   overflow: visible;
   height: 100%;
