@@ -9,6 +9,7 @@
     <title>Apple</title>
   </head>
   <body>
+    <h1 class="sr-only">Apple</h1>
     <!-- Header -->
     <header class="global-header">
       <!-- Header for Mobile -->
@@ -69,7 +70,7 @@
       <div class="card__container">
         <div class="card__content content hero-content content--theme_dark">
           <h2 class="content__headline">Now for the highlights.</h2>
-          <h3 class="content__subhead">
+          <h3 class="content__subhead" role="presentation">
             Introducing iPhone 13 Pro, iPhone 13, Apple Watch Series 7, and the
             new iPad mini and iPad.
           </h3>
@@ -91,7 +92,7 @@
           "
         >
           <h2 class="content__headline">iPhone 13 Pro</h2>
-          <h3 class="content__subhead">
+          <h3 class="content__subhead" role="presentation">
             A dramatically more powerful camera system. An all-new OLED display
             with ProMotion. The world's fastest smartphone chip. A huge leap in
             battery life.
@@ -117,7 +118,7 @@
           class="card__content iphone-13-content content content--theme_dark"
         >
           <h2 class="content__headline">iPhone 13</h2>
-          <h3 class="content__subhead">
+          <h3 class="content__subhead" role="presentation">
             Our most advanced dual camera system ever. An even brighter OLED
             display. A lightning-fast chip that leaves the competition behind. A
             huge leap in battery life.
@@ -143,13 +144,15 @@
             content content--theme_light
           "
         >
-          <h2 class="content__headline"></h2>
-          <h3 class="content__subhead">
+          <h2 class="content__headline">
+            <span class="sr-only">Apple Watch Series 7</span>
+          </h2>
+          <h3 class="content__subhead" role="presentation">
             The largest, most advanced Always-On Retina display. The most
             durable Apple Watch ever. Breakthrough health innovations. Up to 33%
             faster charging.
           </h3>
-          <h3 class="content__violator">Available later this fall</h3>
+          <span class="content__violator">Available later this fall</span>
           <div class="content__cta-links">
             <a class="content__cta-link">Learn more</a>
           </div>
@@ -169,8 +172,10 @@
         <div
           class="card__content ipad-mini-content content content--theme_light"
         >
-          <h2 class="content__headline"></h2>
-          <h3 class="content__subhead">
+          <h2 class="content__headline">
+            <span class="sr-only">iPad mini</span>
+          </h2>
+          <h3 class="content__subhead" role="presentation">
             Powerful "A15 Bionic chip. New all-screen design. Superfast 5G.
             Ultra Wide front camera with Center STage. Now in four gorgeous
             colors.
@@ -194,7 +199,7 @@
       <div class="card__container">
         <div class="card__content ipad-content content content--theme_light">
           <h2 class="content__headline">iPad</h2>
-          <h3 class="content__subhead">
+          <h3 class="content__subhead" role="presentation">
             Advanced A13 Bionic chip. True Tone technology. Ultra Wide front
             camera with Center Stage. Now starting at 64GB at storage.
           </h3>
@@ -213,11 +218,12 @@
     </section>
   </body>
 
-  <footer class="global-footer">
+  <footer class="global-footer" aria-labelledby="global-footer-label">
+    <h2 id="global-footer-label" class="sr-only">Apple Footer</h2>
     <!-- menu -->
     <ul class="menu">
       <li class="menu__item menu__section">
-        <span>Shop and Learn</span>
+        <h3>Shop and Learn</h3>
         <ul class="menu__section-details">
           <li><a href="https://www.apple.com/mac/">Mac</a></li>
           <li><a href="https://www.apple.com/ipad/">iPad</a></li>
@@ -243,7 +249,7 @@
       </li>
       <li class="menu__section">
         <div class="menu__item">
-          <span> Services </span>
+          <h3>Services</h3>
           <ul class="menu__section-details">
             <li>
               <a href="https://www.apple.com/apple-music/">Apple Music</a>
@@ -273,7 +279,7 @@
           </ul>
         </div>
         <div class="menu__item">
-          <span> Account </span>
+          <h3>Account</h3>
           <ul class="menu__section-details">
             <li>
               <a href="https://www.apple.com/apple-music/"
@@ -292,7 +298,7 @@
         </div>
       </li>
       <li class="menu__item menu__section">
-        <span> Apple Store</span>
+        <h3>Apple Store</h3>
         <ul class="menu__section-details">
           <li>
             <a href="https://www.apple.com/apple-music/">Find a Store</a>
@@ -327,7 +333,7 @@
       </li>
       <li class="menu__section">
         <div class="menu__item">
-          <span> For Business </span>
+          <h3>For Business</h3>
           <ul class="menu__section-details">
             <li>
               <a href="https://www.apple.com/apple-music/"
@@ -342,7 +348,7 @@
           </ul>
         </div>
         <div class="menu__item">
-          <span> For Education </span>
+          <h3>For Education</h3>
           <ul class="menu__section-details">
             <li>
               <a href="https://www.apple.com/apple-music/"
@@ -360,7 +366,7 @@
           </ul>
         </div>
         <div class="menu__item">
-          <span> For Healthcare </span>
+          <h3>For Healthcare</h3>
           <ul class="menu__section-details">
             <li>
               <a href="https://www.apple.com/apple-music/"
@@ -380,7 +386,7 @@
           </ul>
         </div>
         <div class="menu__item">
-          <span> For Government </span>
+          <h3>For Government</h3>
           <ul class="menu__section-details">
             <li>
               <a href="https://www.apple.com/apple-music/"
@@ -397,7 +403,7 @@
       </li>
       <li class="menu__section">
         <div class="menu__item">
-          <span> Apple Values </span>
+          <h3>Apple Values</h3>
           <ul class="menu__section-details">
             <li>
               <a href="https://www.apple.com/apple-music/">Accessibility</a>
@@ -429,7 +435,7 @@
           </ul>
         </div>
         <div class="menu__item">
-          <span> About Apple </span>
+          <h3>About Apple</h3>
           <ul class="menu__section-details">
             <li>
               <a href="https://www.apple.com/apple-music/">Newsroom</a>
