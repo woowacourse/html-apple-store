@@ -1,10 +1,7 @@
 @import "./src/css/reset.css";
+@import "./src/css/global.css";
 @import "./src/css/header.css";
 @import "./src/css/main.css";
 @import "./src/css/hero.css";
 @import "./src/css/iphone13pro.css";
 @import "./src/css/footer.css";
-
-.hidden {
-  display: none;
-}
