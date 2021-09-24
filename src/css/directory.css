@@ -44,6 +44,10 @@
   }
 }
 
+.directory__item-title {
+  display: inline;
+}
+
 .directory__section {
   flex-basis: 100%;
 }
