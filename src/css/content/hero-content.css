@@ -1,0 +1,15 @@
+.hero-content .content__subhead {
+  max-width: 320px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-content .content__subhead {
+    max-width: 460px;
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .hero-content .content__subhead {
+    max-width: 515px;
+  }
+}

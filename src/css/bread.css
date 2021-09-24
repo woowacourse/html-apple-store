@@ -1,0 +1,11 @@
+.bread {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  justify-content: center;
+}
+
+.bread__crust {
+  height: 1px;
+  background-color: white;
+}

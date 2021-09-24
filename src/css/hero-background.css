@@ -1,0 +1,28 @@
+.hero-background {
+  background-color: black;
+  background-image: url("images/hero/hero__small_2x.jpg");
+  background-position: 50%;
+  background-size: 734px 713px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-background {
+    background-image: url("images/hero/hero__medium_2x.jpg");
+    background-size: 1068px 922px;
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .hero-background {
+    background-image: url("images/hero/hero__large_2x.jpg");
+    background-size: 1440px 1058px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .hero-background {
+    background-image: url("images/hero/hero__xlarge.jpg");
+    background-size: 3008px 1058px;
+  }
+}

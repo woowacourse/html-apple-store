@@ -1,0 +1,46 @@
+.watch-series-7-content .content__headline {
+  width: 124px;
+  height: 48px;
+  min-height: 48px;
+  margin-top: 77px;
+  background-image: url("../images/watch_series_7/logo_watch_series_7__small_2x.png");
+  background-size: 124px 48px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .watch-series-7-content .content__headline {
+    width: 170px;
+    height: 65px;
+    min-height: 65px;
+    background-image: url("../images/watch_series_7/logo_watch_series_7__medium_2x.png");
+    background-size: 170px 65px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .watch-series-7-content .content__headline {
+    width: 218px;
+    height: 83px;
+    background-image: url("../images/watch_series_7/logo_watch_series_7__large_2x.png");
+    background-size: 218px 83px;
+    background-repeat: no-repeat;
+  }
+}
+
+.watch-series-7-content .content__subhead {
+  max-width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .watch-series-7-content .content__subhead {
+    max-width: 550px;
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .watch-series-7-content .content__subhead {
+    max-width: 840px;
+  }
+}

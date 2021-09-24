@@ -1,0 +1,77 @@
+.ipad-mini-card .card__container {
+  height: 700px;
+}
+
+@media screen and (min-width: 768px) {
+  .ipad-mini-card .card__container {
+    height: 950px;
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .ipad-mini-card .card__container {
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+  }
+}
+
+/* card__content */
+.ipad-mini-card .card__content {
+  min-height: 350px;
+  padding-top: 72px;
+}
+
+@media screen and (min-width: 1069px) {
+  .ipad-mini-card .card__content {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+/* card__image-wrapper */
+.ipad-mini-card .card__image-wrapper {
+  height: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  .ipad-mini-card .card__image-wrapper {
+    height: 50%;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .ipad-mini-card .card__image-wrapper {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+/* card__image */
+.ipad-mini-card .card__image {
+  height: 407px;
+  background-image: url("../images/ipad_mini/ipad_mini__small_2x.jpg");
+  background-position: bottom;
+  transform: translateX(55px) translateY(50px);
+}
+
+@media screen and (min-width: 768px) {
+  .ipad-mini-card .card__image {
+    height: 690px;
+    background-image: url("../images/ipad_mini/ipad_mini__medium_2x.jpg");
+    background-position: bottom;
+    transform: translateX(85px) translateY(40px);
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .ipad-mini-card .card__image {
+    width: 140%;
+    height: 936px;
+    background-image: url("../images/ipad_mini/ipad_mini__medium_2x.jpg");
+    background-position: bottom;
+    transform: translateX(95px) translateY(140px);
+  }
+}

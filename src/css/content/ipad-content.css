@@ -1,0 +1,15 @@
+.ipad-content .content__subhead {
+  max-width: 285px;
+}
+
+@media screen and (min-width: 768px) {
+  .ipad-content .content__subhead {
+    max-width: 640px;
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .ipad-content .content__subhead {
+    max-width: 520px;
+  }
+}

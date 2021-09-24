@@ -1,0 +1,25 @@
+@import "css/reset.css";
+@import "css/bread.css";
+@import "css/header/index.css";
+@import "css/card/index.css";
+@import "css/content/index.css";
+@import "css/hero-background.css";
+@import "css/directory.css";
+@import "css/footer.css";
+@import "css/colors.css";
+
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+}
+
+.sr-only {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  clip-path: inset(0 0 99.9% 99.9%);
+}

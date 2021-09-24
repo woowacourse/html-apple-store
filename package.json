@@ -1,0 +1,45 @@
+{
+  "name": "html-apple-store",
+  "version": "0.0.1",
+  "description": "애플 스토어 레이아웃 클론코딩",
+  "private": true,
+  "main": "src/index.html",
+  "scripts": {
+    "lint:js": "eslint --cache --fix .",
+    "lint:style": "stylelint --cache --fix 'src/**/*.css'",
+    "format": "prettier --write .",
+    "prepare": "husky install",
+    "deploy": "NODE_DEBUG=gh-pages gh-pages --dist src -f"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigsaigon333/html-apple-store.git"
+  },
+  "author": "bigsaigon333",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bigsaigon333/html-apple-store/issues"
+  },
+  "homepage": "https://github.com/bigsaigon333/html-apple-store#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "gh-pages": "^3.2.3",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "2.4.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-hudochenkov": "^5.0.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.css": "stylelint --cache --fix",
+    "*": "prettier --ignore-unknown --write"
+  }
+}

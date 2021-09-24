@@ -1,0 +1,46 @@
+.ipad-mini-content .content__headline {
+  width: 160px;
+  height: 32px;
+  min-height: 32px;
+  background-image: url("../images/ipad_mini/logo_ipad_mini__small_2x.png");
+  background-size: 160px 32px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .ipad-mini-content .content__headline {
+    width: 221px;
+    height: 44px;
+    min-height: 44px;
+    background-image: url("../images/ipad_mini/logo_ipad_mini__medium_2x.png");
+    background-size: 221px 44px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .ipad-mini-content .content__headline {
+    width: 281px;
+    height: 56px;
+    min-height: 56px;
+    background-image: url("../images/ipad_mini/logo_ipad_mini__large_2x.png");
+    background-size: 281px 56px;
+  }
+}
+
+.ipad-mini-content .content__subhead {
+  max-width: 275px;
+}
+
+@media screen and (min-width: 768px) {
+  .ipad-mini-content .content__subhead {
+    max-width: 640px;
+    font-size: 27px;
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .ipad-mini-content .content__subhead {
+    max-width: 540px;
+  }
+}
