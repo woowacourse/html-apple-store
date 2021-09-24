@@ -43,12 +43,10 @@ footer a:link {
   margin: 0 auto;
 }
 
-.line-divider {
-  display: inline-block;
-  height: 0;
-  border-top: 0.1px solid gray;
-  margin: 0.3125rem 0;
-  width: 100%;
+.footer-more-shop-info {
+  border-bottom: 1px solid gray;
+  margin: 0.625rem 0;
+  padding: 0.625rem 0;
 }
 
 .footer-line-bottom {
