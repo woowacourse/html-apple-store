@@ -1,7 +1,7 @@
 .footer {
   padding: 0 16px;
-  background-color: #1d1d1f;
-  color: #6e6e73;
+  background-color: var(--gray-900);
+  color: var(--gray-500);
   font-weight: 400;
   font-size: 12px;
   line-height: 1.33337;
@@ -27,19 +27,18 @@
 
 @media screen and (min-width: 768px) {
   .footer__shop {
-    border-bottom: 1px solid #424245;
+    border-bottom: 1px solid var(--gray-600);
   }
 }
 
 .footer__shop-link {
-  color: #2997ff;
-  text-decoration: none;
+  color: var(--blue-600);
 }
 
 .footer__locale {
   margin-top: 5px;
   padding-top: 5px;
-  color: #a1a1a6;
+  color: var(--gray-350);
 }
 
 @media screen and (min-width: 768px) {
@@ -68,7 +67,7 @@
 
 .footer__legal-links {
   margin-top: 5px;
-  color: #a1a1a6;
+  color: var(--gray-350);
 }
 
 .footer__legal-link {
@@ -76,9 +75,8 @@
   margin-top: 5px;
   margin-right: 7px;
   padding-right: 10px;
-  color: #a1a1a6;
 }
 
 .footer__legal-link:not(:last-child) {
-  border-right: 1px solid #424245;
+  border-right: 1px solid var(--gray-600);
 }

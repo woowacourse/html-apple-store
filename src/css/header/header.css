@@ -28,7 +28,7 @@
   .header__container {
     justify-content: space-around;
     width: 100%;
-    color: #f5f5f7;
+    color: var(--gray-100);
   }
 }
 

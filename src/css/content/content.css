@@ -58,7 +58,7 @@
 }
 
 .content__violator {
-  color: #6e6e73;
+  color: var(--gray-500);
   font-size: 12px;
 }
 
@@ -93,7 +93,8 @@
   display: inline-block;
   min-width: 97px;
   padding: 10px 16px;
-  border: 2px solid white;
+  border-width: 2px;
+  border-style: solid;
   border-radius: 980px;
   text-align: center;
   text-decoration: none;

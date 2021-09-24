@@ -1,5 +1,5 @@
 .ipad-card.card {
-  background-color: rgb(245, 245, 247);
+  background-color: var(--gray-100);
 }
 
 .ipad-card .card__container {

@@ -1,5 +1,5 @@
 .iphone-13-card.card {
-  background-color: rgb(52, 40, 60);
+  background-color: var(--purple-900);
 }
 
 .iphone-13-card .card__container {
