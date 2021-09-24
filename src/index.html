@@ -11,9 +11,9 @@
   <body>
     <h1 class="sr-only">Apple</h1>
     <!-- Header -->
-    <header class="global-header">
+    <header class="header">
       <!-- Header for Mobile -->
-      <ul class="header header--only-visible-mobile">
+      <ul class="header__container header__container--only-visible-mobile">
         <li class="header__item">
           <div class="bread header__icon">
             <div class="bread__crust"></div>
@@ -21,46 +21,54 @@
           </div>
         </li>
         <li class="header__item">
-          <img
-            class="header__icon"
-            src="css/images/icon/apple_image__small.svg"
-            alt="apple-logo"
-          />
+          <a href="#">
+            <img
+              class="header__icon"
+              src="css/images/icon/apple_image__small.svg"
+              alt="apple-logo"
+            />
+          </a>
         </li>
         <li class="header__item">
-          <img
-            class="header__icon"
-            src="css/images/icon/bag_image__small.svg"
-            alt="bag"
-          />
+          <a href="#">
+            <img
+              class="header__icon"
+              src="css/images/icon/bag_image__small.svg"
+              alt="bag"
+            />
+          </a>
         </li>
       </ul>
       <!-- Header for Tablet, Laptop -->
-      <ul class="header header--only-visible-tablet">
+      <ul class="header__container header__container--only-visible-tablet">
         <li class="header__item">
-          <img
-            class="header__icon"
-            src="css/images/icon/apple_image__small.svg"
-            alt="apple-logo"
-          />
+          <a href="#">
+            <img
+              class="header__icon"
+              src="css/images/icon/apple_image__small.svg"
+              alt="apple-logo"
+            />
+          </a>
         </li>
-        <li class="header__item">Store</li>
-        <li class="header__item">Mac</li>
-        <li class="header__item">iPad</li>
-        <li class="header__item">iPhone</li>
-        <li class="header__item">Watch</li>
-        <li class="header__item">TV</li>
-        <li class="header__item">Music</li>
-        <li class="header__item">Support</li>
+        <li class="header__item">
+          <a href="#"> Store </a>
+        </li>
+        <li class="header__item"><a href="#"> Mac </a></li>
+        <li class="header__item"><a href="#"> iPad </a></li>
+        <li class="header__item"><a href="#"> iPhone </a></li>
+        <li class="header__item"><a href="#"> Watch </a></li>
+        <li class="header__item"><a href="#">TV</a></li>
+        <li class="header__item"><a href="#">Music</a></li>
+        <li class="header__item"><a href="#">Support</a></li>
         <li class="search-item header__item">
-          <div class="header__icon"></div>
+          <a href="#">
+            <figure class="header__icon" aria-label="search-icon"></figure>
+          </a>
         </li>
         <li class="header__item">
-          <img
-            class="header__icon"
-            src="css/images/icon/bag_image__small.svg"
-            alt="bag"
-          />
+          <a href="#" class="header__icon">
+            <img src="css/images/icon/bag_image__small.svg" alt="bag" />
+          </a>
         </li>
       </ul>
     </header>

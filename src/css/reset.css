@@ -128,3 +128,7 @@ table {
   border-spacing: 0;
   border-collapse: collapse;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
