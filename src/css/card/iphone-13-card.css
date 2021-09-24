@@ -20,10 +20,8 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .iphone-13-card .card__content {
-    margin-top: 70px;
-  }
+.iphone-13-card .card__content {
+  margin-top: 70px;
 }
 
 @media screen and (min-width: 1069px) {
@@ -60,10 +58,12 @@
 
 @media screen and (min-width: 1069px) {
   .iphone-13-card .card__image {
-    width: 130%;
-    height: 1300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
     background-image: url("../images/iphone_13/iphone_13__large.jpg");
     background-size: contain;
-    transform: translateX(40px) translateY(-16px);
+    transform: translateX(-100px);
   }
 }
