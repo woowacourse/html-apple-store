@@ -1,0 +1,67 @@
+#iphone13pro {
+  display: flex;
+  padding: 100px 0 0;
+  justify-content: flex-end;
+  height: 1200px;
+  background-color: #f4f4f4;
+}
+
+.iphone13pro-relative-image {
+  position: relative;
+  width: 1100px;
+  height: 900px;
+  right: -100px;
+  align-content: flex-end;
+  justify-content: end;
+  text-align: end;
+  align-self: flex-end;
+}
+
+.iphone13pro-flex-image {
+  display: none;
+}
+
+#iphone13pro-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 300px 0 160px;
+  width: 700px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  #iphone13pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 770px;
+  }
+
+  .iphone13pro-relative-image {
+    display: none;
+  }
+
+  .iphone13pro-flex-image {
+    display: flex;
+    align-self: center;
+    width: 300px;
+    height: 200px;
+  }
+
+  #iphone13pro-description {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  #iphone13pro-description > h3 {
+    font-size: 54px;
+    line-height: 30px;
+  }
+
+  #iphone13pro-description > p {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
