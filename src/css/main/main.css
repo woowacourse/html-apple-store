@@ -1,0 +1,6 @@
+@import "./section.css";
+@import "./cardCollection.css";
+
+.main {
+  margin-top: 44px;
+}

@@ -1,0 +1,61 @@
+@import "./src/css/nav.css";
+@import "./src/css/main/main.css";
+@import "./src/css/footer.css";
+@import "./src/css/font.css";
+
+body {
+  all: unset;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "SF Pro Display";
+  color: #1d1d1f;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a {
+  color: #06c;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.br--mobile {
+  display: none;
+}
+
+.br--tablet {
+  display: none;
+}
+
+.br--desktop {
+  display: none;
+}
+
+@media (max-width: 738px) {
+  .br--mobile {
+    display: initial;
+  }
+}
+
+@media (min-width: 738px) and (max-width: 1080px) {
+  .br--tablet {
+    display: initial;
+  }
+}
+
+@media (min-width: 1080px) {
+  .br--desktop {
+    display: initial;
+  }
+}
