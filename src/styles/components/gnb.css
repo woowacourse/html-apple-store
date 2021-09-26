@@ -29,6 +29,7 @@
 }
 
 .gnb-menu-icon {
+  display: inline-block;
   position: relative;
   height: 48px;
 }
