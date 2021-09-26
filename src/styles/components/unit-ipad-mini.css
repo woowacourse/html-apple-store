@@ -1,0 +1,44 @@
+.unit-ipad-mini .unit-head {
+  margin-top: 42px;
+}
+
+.ipad-mini-logo {
+  width: 100%;
+  height: 26px;
+  background-size: 124px 26px;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/promo_logo_ipad_mini_small.png");
+  background-position: 50%;
+}
+
+.unit-ipad-mini .unit-img {
+  background-image: url("../../assets/promo_ipad_mini_small.jpg");
+  transform: translateY(-180px);
+}
+
+@media screen and (min-width: 735px) {
+  .ipad-mini-logo {
+    width: 100%;
+    height: 26px;
+    background-size: 124px 26px;
+    background-image: url("../../assets/promo_logo_ipad_mini_medium.png");
+  }
+
+  .unit-ipad-mini .unit-img {
+    background-image: url("../../assets/promo_ipad_mini_medium.jpg");
+    transform: translateY(-150px);
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .ipad-mini-logo {
+    height: 31px;
+    background-size: 153px 31px;
+    background-image: url("../../assets/promo_logo_ipad_mini_large.png");
+  }
+
+  .unit-ipad-mini .unit-img {
+    background-image: url("../../assets/promo_ipad_mini_large.jpg");
+    transform: translateY(-180px);
+  }
+}

@@ -1,0 +1,160 @@
+.footer {
+  background-color: #1d1d1f;
+  color: #f5f5f7;
+  font-size: 12px;
+}
+
+.footer-inner-container {
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.directory-list {
+  padding-top: 20px;
+}
+
+.directory-item {
+  position: relative;
+  padding: 10px 0;
+  border-bottom: 1px solid #424245;
+}
+
+.directory-item:hover {
+  cursor: pointer;
+}
+
+.directory-title::after {
+  content: "+";
+  position: absolute;
+  right: 8px;
+}
+
+.footer-info-container {
+  padding-top: 17px;
+  padding-bottom: 19px;
+}
+
+.footer-shop {
+  margin-bottom: 7px;
+  padding-bottom: 8px;
+  font-size: 1em;
+  color: #6e6e73;
+}
+
+.footer-shop a {
+  color: #2997ff;
+}
+
+.footer-shop a:hover {
+  text-decoration: underline;
+}
+
+.footer-legal {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-legal-copyright {
+  color: #6e6e73;
+  order: 2;
+  margin-top: 5px;
+}
+
+.footer-legal-link-list {
+  display: flex;
+  color: #6e6e73;
+  order: 3;
+  margin-top: 5px;
+}
+
+.footer-legal-link-item:not(:last-child) {
+  margin-right: 7px;
+}
+
+.footer-legal-link-item:not(:last-child)::after {
+  content: "|";
+  padding-left: 5px;
+}
+
+.footer-legal-locale {
+  color: #a1a1a6;
+  order: 1;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.footer-company {
+  color: #999;
+  margin-top: -10px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-inner-container {
+    max-width: 980px;
+  }
+
+  .directory-column-container {
+    display: flex;
+  }
+
+  .directory-column {
+    flex: 1 1 0px;
+  }
+
+  .directory-item {
+    border: none;
+    margin-right: 10px;
+  }
+
+  .directory-title {
+    margin-bottom: 20px;
+  }
+
+  .directory-title::after {
+    display: none;
+  }
+
+  .directory-content-link {
+    margin-bottom: 10px;
+  }
+
+  .directory-content-link {
+    color: #a1a1a6;
+  }
+
+  .directory-content-link:hover {
+    color: #f5f5f7;
+    text-decoration: underline;
+  }
+
+  .directory-item:hover {
+    cursor: default;
+  }
+
+  .footer-shop {
+    border-bottom: 1px solid #6e6e73;
+  }
+
+  .footer-legal {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer-legal-copyright {
+    order: 1;
+    margin-right: 30px;
+  }
+
+  .footer-legal-link-list {
+    order: 2;
+    margin-right: 30px;
+    color: #a1a1a6;
+  }
+
+  .footer-legal-locale {
+    order: 3;
+    margin-left: auto;
+  }
+}

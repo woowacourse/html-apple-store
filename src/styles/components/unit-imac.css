@@ -1,0 +1,19 @@
+.unit-imac .unit-img {
+  background-image: url("../../assets/promo_imac_small.jpg");
+  transform: translateY(-160px);
+}
+
+@media screen and (min-width: 735px) {
+  .unit-imac .unit-img {
+    background-image: url("../../assets/promo_imac_medium.jpg");
+    background-position: 50% 75%;
+    transform: translateY(-130px);
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .unit-imac .unit-img {
+    background-image: url("../../assets/promo_imac_large.jpg");
+    transform: translateY(-180px);
+  }
+}

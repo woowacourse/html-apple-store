@@ -1,0 +1,27 @@
+.unit-macbook-air {
+  background-color: #000;
+}
+
+.unit-macbook-air .content-wrapper {
+  color: #f5f5f7;
+  margin-top: 52px;
+}
+
+.unit-macbook-air .unit-img {
+  background-image: url("../../assets/macbook_air_small.jpg");
+  transform: translateY(-160px);
+}
+
+@media screen and (min-width: 735px) {
+  .unit-macbook-air .unit-img {
+    background-image: url("../../assets/macbook_air_medium.jpg");
+    transform: translateY(-150px);
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .unit-macbook-air .unit-img {
+    background-image: url("../../assets/macbook_air_large.jpg");
+    transform: translateY(-158px);
+  }
+}

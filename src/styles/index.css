@@ -1,0 +1,21 @@
+@import "./normalize.css";
+@import "./global.css";
+@import "./util.css";
+
+@import "./components/gnb.css";
+@import "./components/footer.css";
+
+@import "./components/main.css";
+
+@import "./components/notice-section.css";
+
+@import "./components/hero-iphone-13-pro.css";
+@import "./components/hero-iphone-13.css";
+@import "./components/hero-apple-watch.css";
+
+@import "./components/unit-ipad-mini.css";
+@import "./components/unit-ipad.css";
+@import "./components/unit-macbook-pro.css";
+@import "./components/unit-macbook-air.css";
+@import "./components/unit-airtag.css";
+@import "./components/unit-imac.css";

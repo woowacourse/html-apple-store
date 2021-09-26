@@ -1,0 +1,82 @@
+.module-apple-watch {
+  height: 548px;
+  background-color: #fff;
+  padding-top: 32px;
+  overflow: hidden;
+}
+
+.module-apple-watch .content-wrapper {
+  padding-top: 37px;
+}
+
+.module-apple-watch .watch-logo {
+  width: 100%;
+  height: 47px;
+  background-size: 122px 47px;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/watch_logo_small.png");
+  background-position: 50%;
+}
+
+.module-apple-watch .img-apple-watch {
+  position: absolute;
+  width: 734px;
+  height: 548px;
+  background-size: 734px 548px;
+  background-image: url("../../assets/hero_apple_watch_small.jpg");
+  background-repeat: no-repeat;
+  left: 50%;
+  transform: translate(-50%, -205px);
+}
+
+@media screen and (min-width: 735px) {
+  .module-apple-watch {
+    height: 694px;
+  }
+
+  .module-apple-watch .content-wrapper {
+    padding-top: 61px;
+  }
+
+  .module-apple-watch .watch-logo {
+    height: 66px;
+    background-size: 174px 66px;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/watch_logo_medium.png");
+    background-position: 50%;
+  }
+
+  .module-apple-watch .img-apple-watch {
+    width: 1068px;
+    height: 698px;
+    background-size: 1068px 698px;
+    background-image: url("../../assets/hero_apple_watch_medium.jpg");
+    transform: translate(-50%, -270px);
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .module-apple-watch {
+    height: 736px;
+  }
+
+  .module-apple-watch .content-wrapper {
+    padding-top: 55px;
+  }
+
+  .module-apple-watch .watch-logo {
+    height: 72px;
+    background-size: 188px 72px;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/watch_logo_large.png");
+    background-position: 50%;
+  }
+
+  .module-apple-watch .img-apple-watch {
+    width: 3010px;
+    height: 736px;
+    background-size: 3010px 736px;
+    background-image: url("../../assets/hero_apple_watch_large.jpg");
+    transform: translate(-50%, -260px);
+  }
+}

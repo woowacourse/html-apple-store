@@ -1,0 +1,18 @@
+.unit-airtag .unit-img {
+  background-image: url("../../assets/promo_airtag_small.jpg");
+  transform: translateY(-160px);
+}
+
+@media screen and (min-width: 735px) {
+  .unit-airtag .unit-img {
+    background-image: url("../../assets/promo_airtag_medium.jpg");
+    transform: translateY(-150px);
+  }
+}
+
+@media screen and (min-width: 1069px) {
+  .unit-airtag .unit-img {
+    background-image: url("../../assets/promo_airtag_large.jpg");
+    transform: translateY(-158px);
+  }
+}
