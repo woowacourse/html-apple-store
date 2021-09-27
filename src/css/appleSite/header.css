@@ -82,7 +82,7 @@ nav {
   width: 1px;
   padding: 0;
   border: 0;
-  top: 50%;
+  top: 0;
 }
 
 @media screen and (max-width: 768px) {
