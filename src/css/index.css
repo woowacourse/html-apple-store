@@ -8,14 +8,14 @@
   box-sizing: border-box;
 
   font-size: 1rem;
-  color: #fff;
+  color: #000;
   line-height: 1.25;
 }
 
 body {
   width: 100%;
   margin: 0 auto;
-  background-color: #000;
+  background-color: #aaaaaa;
   min-width: 320px;
 }
 
@@ -44,4 +44,8 @@ a:visited {
 
 .row-reverse {
   flex-direction: row-reverse;
+}
+
+footer {
+  display: none;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,12 +10,34 @@
   </head>
 
   <body>
-    <h1>Apple</h1>
-
     <header>
       <nav>
-        <ul>
-          <li><a href="#">Apple</a></li>
+        <ul id="header-nav-list-mobile">
+          <li id="header-menu-icon">
+            <a href="#">
+              <span id="menu-icon"></span>
+              <span class="hidden-words">Shopping Bag</span>
+            </a>
+          </li>
+          <li id="header-logo-icon">
+            <a href="#">
+              <span class="hidden-words">Apple</span>
+            </a>
+          </li>
+          <li id="header-shopping-icon">
+            <a href="#">
+              <span class="hidden-words">Shopping Bag</span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Desktop -->
+        <ul id="header-nav-list">
+          <li id="header-logo-icon">
+            <a href="#">
+              <span class="hidden-words">Apple</span>
+            </a>
+          </li>
           <li><a href="#">Stor</a></li>
           <li><a href="#">Mac</a></li>
           <li><a href="#">iPad</a></li>
@@ -24,94 +46,21 @@
           <li><a href="#">TV</a></li>
           <li><a href="#">Music</a></li>
           <li><a href="#">Support</a></li>
-          <li><a href="#">Search</a></li>
-          <li><a href="#">Shopping Bag +</a></li>
+          <li id="header-search-icon">
+            <a href="#">
+              <span class="hidden-words">Search</span>
+            </a>
+          </li>
+          <li id="header-shopping-icon">
+            <a href="#">
+              <span class="hidden-words">Shopping Bag</span>
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <section class="section-hero">
-        <div class="section-content">
-          <div class="copy-container">
-            <h2>Now for the highlights.</h2>
-            <h3>
-              Introducing iPhone 13 Pro, iPhone 13, Apple Watch Series 7, and
-              the new iPad mini and iPad.
-            </h3>
-          </div>
-          <a href="#" class="white-button">Watch the event</a>
-        </div>
-      </section>
-
-      <section class="section section-iphone-13-pro">
-        <div class="iPhone-13-pro-container">
-          <div class="w-50 copy-container iPhone-13-pro-copy">
-            <h2 class="f-color-black900">iPhone 13 Pro</h2>
-            <h3 class="f-color-black900">
-              A dramatically more powerful camera system. An all‑new OLED
-              display with ProMotion. The world’s fastest smartphone chip. A
-              huge leap in battery life.
-            </h3>
-            <div class="button-wrapper">
-              <a href="#" class="black-button">Learn more</a>
-              <a href="#" class="black-button">Watch the event</a>
-            </div>
-          </div>
-          <div class="iphone-13-pro"></div>
-        </div>
-      </section>
-
-      <section class="section section-iphone-13">
-        <div class="iPhone-13-container row-reverse">
-          <div class="copy-container iPhone-13-copy">
-            <h2 class="f-color-white900">iPhone 13</h2>
-            <h3 class="f-color-white900">
-              Our most advanced dual‑camera system ever. An even brighter OLED
-              display. A lightning‑fast chip that leaves the competition behind.
-              A huge leap in battery life.
-            </h3>
-            <div class="button-wrapper">
-              <a href="#" class="white-button">Learn more</a>
-              <a href="#" class="white-button">Watch the event</a>
-            </div>
-          </div>
-          <div class="iphone-13"></div>
-        </div>
-      </section>
-
-      <section>
-        <h2>Apple Watch Series 7</h2>
-        <h3>
-          The largest, most advanced Always‑On Retina display. The most durable
-          Apple Watch ever. Breakthrough health innovations. Up to 33% faster
-          charging.
-        </h3>
-        <div></div>
-        <span>Available later this fall</span>
-        <a href="#">Watch the event</a>
-      </section>
-
-      <section>
-        <h2>iPad mini</h2>
-        <h3>
-          Powerful A15 Bionic chip. New all‑screen design. Superfast 5G. Ultra
-          Wide front camera with Center Stage. Now in four gorgeous colors.
-        </h3>
-        <div></div>
-        <a href="#">Watch the event</a>
-      </section>
-
-      <section>
-        <h2>iPad</h2>
-        <h3>
-          Advanced A13 Bionic chip. True Tone technology. Ultra Wide front
-          camera with Center Stage. Now starting at 64GB of storage.
-        </h3>
-        <div></div>
-        <a href="#">Watch the event</a>
-      </section>
-    </main>
+    <main></main>
 
     <footer>
       <h2>Apple Footer</h2>
