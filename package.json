@@ -1,0 +1,36 @@
+{
+  "name": "tyche-apple-clone-coding",
+  "version": "0.0.1",
+  "description": "티케의 애플 사이트 클론 마크업 클론코딩입니다. 최대한 시멘틱한 태그와 웹 접근성을 준수하려고 노력하였습니다.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": "eslint --cache",
+    "*.{js,jsx,css,md,html,json}": "prettier --write"
+  },
+  "eslintConfig": {
+    "ignorePatterns": "node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devhyun637/html-apple-store.git"
+  },
+  "author": "tyche(kgshdgeh@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devhyun637/html-apple-store/issues"
+  },
+  "homepage": "https://github.com/devhyun637/html-apple-store/",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "2.4.0"
+  }
+}

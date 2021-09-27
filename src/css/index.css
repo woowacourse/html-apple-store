@@ -1,0 +1,31 @@
+@import "./appleSite/footer.css";
+@import "./appleSite/main.css";
+@import "./appleSite/header.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 1rem;
+  color: #000;
+  line-height: 1.25;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f5f5f6;
+  min-width: 320px;
+}
+
+ul {
+  list-style: none;
+}
+
+.link:link,
+.link:visited,
+a:link,
+a:visited {
+  text-decoration: none;
+}
