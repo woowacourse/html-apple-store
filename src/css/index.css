@@ -1,0 +1,10 @@
+@import './shared/global.css';
+@import './shared/layout.css';
+@import './shared/accessibility.css';
+
+@import './components/nav.css';
+@import './components/hero.css';
+@import './components/promo.css';
+@import './components/promo-iphone13-pro.css';
+@import './components/promo-iphone13.css';
+@import './components/footer.css';
