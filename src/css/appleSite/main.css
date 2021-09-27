@@ -1,163 +1,84 @@
-/* 공통으로 쓰이는 부분 */
-
-h2 {
-  font-size: 72px;
-  line-height: 1;
-  font-weight: 600;
-  letter-spacing: -0.012em;
-}
-
-h3 {
-  font-size: 32px;
-  line-height: 1.125;
-  font-weight: 600;
-  letter-spacing: 0.004em;
-  text-align: center;
-
-  margin-top: 20px;
-  max-width: 530px;
-}
-
-.white-button {
-  margin: 2rem 1rem;
-  padding: 0.7rem 2rem;
-
-  background-color: inherit;
-  border: 2px solid #fff;
-  border-radius: 2rem;
-
-  color: #fff;
-}
-
-.black-button {
-  margin: 2rem 1rem;
-  padding: 0.7rem 2rem;
-
-  background-color: inherit;
-  border: 2px solid #000;
-  border-radius: 2rem;
-
-  color: #000;
-}
-
-.copy-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.button-wrapper {
-  display: flex;
-
-  margin: 1rem;
-}
-
-/* 각 section 부분 */
-
-.section-hero {
+#iphone-13-pro {
   max-width: 1440px;
-  height: 1013px;
-  margin: 0 auto;
-
-  background-image: url("../../assets/images/hero_large_2x.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  height: 1208px;
 
   position: relative;
 }
 
-.section-content {
+.iphone-13-pro-headline {
   width: 100%;
-  height: 100%;
-  margin: 0 auto;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-
-  position: absolute;
-  bottom: 13%;
+  text-align: center;
 }
 
-.section-iphone-13-pro {
+.iphone-13-pro-logo-large {
+  width: 793px;
+  height: 237px;
+
+  margin: 176px auto 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 734px) {
+  .iphone-13-pro-logo-large,
+  .iphone-13-pro-logo-medium {
+    display: none;
+  }
+
+  .iphone-13-pro-logo-small {
+    margin: 176px auto 0;
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+  .iphone-13-pro-logo-large,
+  .iphone-13-pro-logo-small {
+    display: none;
+  }
+
+  .iphone-13-pro-logo-medium {
+    width: 576px;
+    height: 172px;
+
+    margin: 127px auto 0;
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 1069px) {
+  .iphone-13-pro-logo-small,
+  .iphone-13-pro-logo-medium {
+    display: none;
+  }
+
+  .iphone-13-pro-logo-large {
+    width: 793px;
+    height: 237px;
+
+    margin: 176px auto 0;
+    display: inline-block;
+  }
+}
+
+.iphone-13-pro-headline > h2 {
   width: 100%;
-  height: 900px;
-  overflow: hidden;
+  font-size: 36px;
+  text-align: center;
 
-  background-color: #f5f5f7;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  position: relative;
+  margin-top: 83px;
 }
 
-.iPhone-13-pro-container {
-  width: 100%;
-  max-width: 1440px;
-  height: 100%;
-  margin: 0 auto;
-
-  display: flex;
-
-  position: absolute;
-  bottom: -15%;
-}
-
-.iphone-13-pro {
-  width: 50%;
-
-  background-image: url("../../assets/images/iphone_13_pro_large_2x.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.iPhone-13-pro-copy {
+.cta-list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* 아이폰 13 */
-
-.section-iphone-13 {
-  width: 100%;
-  height: 900px;
-  overflow: hidden;
-
-  background-color: #34283c;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.cta-list-item {
+  margin: 10px;
 }
 
-.iPhone-13-container {
-  width: 100%;
-  max-width: 1440px;
-  height: 100%;
-  margin: 0 auto;
-
-  display: flex;
-}
-
-.iphone-13 {
-  width: 100%;
-  height: 1300px;
-
-  background-image: url("../../assets/images/iphone_13_large_2x.jpeg");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.iPhone-13-copy {
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.cta-list-item span {
+  font-size: 19px;
+  font-weight: 400;
+  color: #0066cc;
 }
