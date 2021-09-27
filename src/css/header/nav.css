@@ -1,0 +1,83 @@
+.gnb {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 44px;
+  background-color: #1d1d1f;
+  position: fixed;
+  z-index: 1;
+  min-width: 320px;
+}
+
+.gnb-container {
+  width: 100%;
+  max-width: 960px;
+  padding: 0 22px;
+}
+
+.gnb-ul-mobile {
+  display: none;
+}
+
+.gnb-ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gnb-li {
+  color: #f5f5f7;
+  font-size: 14px;
+  padding: 0 10px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gnb-apple {
+  background-image: url("/src/images/apple.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.gnb-search {
+  background-size: 18px 88px;
+  background-image: url("/src/images/search.svg");
+  background-repeat: no-repeat;
+}
+
+.gnb-bag {
+  background-image: url("/src/images/bag.svg");
+  background-repeat: no-repeat;
+}
+
+/* 반응형 */
+@media screen and (max-width: 767px) {
+  .gnb,
+  .gnb-li {
+    height: 48px;
+  }
+
+  .gnb-ul {
+    display: none;
+  }
+
+  .gnb-ul-mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .gnb-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0;
+  }
+
+  .gnb-li.gnb-menu span {
+    display: inline;
+    height: 1px;
+    width: 17px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+}

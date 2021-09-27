@@ -1,0 +1,8 @@
+@import url("./src//css/normalize.css");
+
+/* header */
+@import url("./src//css/header/nav.css");
+
+/* main */
+@import url("./src/css/main/hero.css");
+@import url("/src/css/main/iphone-13-pro.css");
