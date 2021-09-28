@@ -1,5 +1,24 @@
 @import './@shared/index.css';
 
+:root {
+  --main-bg-color-light: #fff;
+
+  --color-black-800: #1d1d1f;
+  --color-black-900: #000;
+
+  --color-gray-200: #f5f5f7;
+  --color-gray-300: #a1a1a6;
+  --color-gray-500: #626273;
+  --color-gray-600: #424245;
+
+  --color-purple-500: #34283c;
+
+  --color-light-blue-300: #2997ff;
+
+  --nav-z-index: 5;
+  --copy-container-z-index: 3;
+}
+
 #site-header {
   position: absolute;
   top: 0;
@@ -13,7 +32,7 @@ a {
 
 main {
   padding: 48px 0 0;
-  background-color: #000;
+  background-color: var(--color-black-900);
 }
 
 .headline {
@@ -35,8 +54,8 @@ main {
 }
 
 .theme-dark-light {
-  color: #fff;
-  border-color: #fff;
+  color: var(--main-bg-color-light);
+  border-color: var(--main-bg-color-light);
 }
 
 .section-content {
@@ -66,9 +85,9 @@ main {
 }
 
 .button:hover {
-  background-color: #000;
-  border-color: #000;
-  color: #fff;
+  background-color: var(--color-black-900);
+  border-color: var(--color-black-900);
+  color: var(--main-bg-color-light);
 }
 
 .button:not(:first-child) {
@@ -76,9 +95,9 @@ main {
 }
 
 .theme-dark-light .button:hover {
-  background-color: #fff;
-  border-color: #fff;
-  color: #000;
+  background-color: var(--main-bg-color-light);
+  border-color: var(--main-bg-color-light);
+  color: var(--color-black-900);
 }
 
 #global-nav {
@@ -86,12 +105,12 @@ main {
   height: 48px;
 
   position: fixed;
-  z-index: 5;
+  z-index: var(--nav-z-index);
   top: 0;
   left: 0;
 
   background-color: #000000cc;
-  color: #f5f5f7;
+  color: var(--color-gray-200);
 
   overflow: hidden;
 }
@@ -104,7 +123,6 @@ main {
 }
 
 #global-nav-content a {
-  display: block;
   padding: 0 10px;
   height: 100%;
   font-weight: 400;
@@ -182,7 +200,7 @@ main section {
   background-repeat: no-repeat;
   background-size: 1440px 1058px;
   background-position: 50%;
-  background-color: #000;
+  background-color: var(--color-black-900);
 
   text-align: center;
 }
@@ -208,7 +226,7 @@ main section {
 }
 
 .iphone13-pro-section {
-  background-color: #f5f5f7;
+  background-color: var(--color-gray-200);
   position: relative;
   overflow: hidden;
 }
@@ -245,7 +263,7 @@ main section {
 }
 
 .iphone13-section {
-  background-color: #34283c;
+  background-color: var(--color-purple-500);
 }
 
 .iphone13-section .section-content {
@@ -260,7 +278,7 @@ main section {
   padding-left: 56px;
   padding-right: 34px;
 
-  z-index: 3;
+  z-index: var(--copy-container-z-index);
 }
 
 .iphone13-section .subhead {
@@ -284,7 +302,7 @@ main section {
 }
 
 .apple-watch-series7-section {
-  background-color: #f5f5f7;
+  background-color: var(--color-gray-200);
 }
 
 .apple-watch-series7-section .section-content {
@@ -335,7 +353,7 @@ main section {
 }
 
 .ipad-mini-section {
-  background-color: #fff;
+  background-color: var(--main-bg-color-light);
   position: relative;
   overflow: hidden;
 }
@@ -381,7 +399,7 @@ main section {
 }
 
 .ipad-section {
-  background-color: #f5f5f7;
+  background-color: var(--color-gray-200);
 }
 
 .ipad-section .section-content {
@@ -396,7 +414,7 @@ main section {
   padding-left: 56px;
   padding-right: 34px;
 
-  z-index: 3;
+  z-index: var(--copy-container-z-index);
 }
 
 .ipad-section .subhead {
@@ -414,8 +432,8 @@ main section {
 }
 
 footer {
-  background-color: #1d1d1f;
-  color: #f5f5f7;
+  background-color: var(--color-black-800);
+  color: var(--color-gray-200);
 
   font-size: 12px;
   font-weight: 300;
@@ -455,25 +473,25 @@ footer .footer-nav-columns-links a {
 }
 
 footer .footer-nav-columns-links a:hover {
-  color: #fff;
+  color: var(--main-bg-color-light);
   text-decoration: underline;
 }
 
 footer .global-footer {
   padding: 34px 0 21px;
-  color: #626273;
+  color: var(--color-gray-500);
 
   position: relative;
 }
 
 footer .global-footer a {
-  color: #2997ff;
+  color: var(--color-light-blue-300);
 }
 
 footer .global-footer-shop {
   padding-bottom: 8px;
   margin-bottom: 8px;
-  border-bottom: 1px solid #424245;
+  border-bottom: 1px solid var(--color-gray-600);
 }
 
 footer .global-footer-legal {
@@ -492,11 +510,11 @@ footer .global-footer-legal-links {
 footer .global-footer-legal-links li {
   margin: 5px 7px 0 0;
   padding-right: 10px;
-  color: #a1a1a6;
+  color: var(--color-gray-300);
 }
 
 footer .global-footer-legal-links li:not(:last-child) {
-  border-right: 1px solid #424245;
+  border-right: 1px solid var(--color-gray-600);
 }
 
 footer .global-footer-legal-links a {
@@ -504,12 +522,12 @@ footer .global-footer-legal-links a {
 }
 
 footer .global-footer-legal-links a:hover {
-  color: #fff;
+  color: var(--main-bg-color-light);
   text-decoration: underline;
 }
 
 footer a.global-footer-locale {
-  color: #a1a1a6;
+  color: var(--color-gray-300);
 
   position: absolute;
   bottom: 21px;
@@ -517,7 +535,7 @@ footer a.global-footer-locale {
 }
 
 footer a.global-footer-locale:hover {
-  color: #fff;
+  color: var(--main-bg-color-light);
   text-decoration: underline;
 }
 
