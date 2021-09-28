@@ -156,7 +156,7 @@ main {
 .gnb-link-apple {
   width: 18px;
   background-size: 18px 44px;
-  background-position: 10px 0;
+  background-position: 10px 2px;
   background-image: url(../images/apple-logo-white.svg);
   background-repeat: no-repeat;
 }
@@ -176,7 +176,7 @@ main {
 .gnb-link-search {
   width: 18px;
   background-size: 18px 88px;
-  background-position: 10px 0;
+  background-position: 10px 2px;
   background-image: url(../images/search-icon.svg);
   background-repeat: no-repeat;
 }
@@ -184,7 +184,7 @@ main {
 .gnb-link-shopping-bag {
   width: 17px;
   background-size: 17px 44px;
-  background-position: 10px 0;
+  background-position: 10px 2px;
   background-image: url(../images/bag.svg);
   background-repeat: no-repeat;
 }
