@@ -1,7 +1,7 @@
 <p align="middle" >
   <img width="200px;" src="./src/images/apple-clone.png"/>
 </p>
-<h2 align="middle">애플 스토어 레이아웃 클론코딩</h2>
+<h2 align="middle">애플스토어 레이아웃 클론 코딩</h2>
 <p align="middle">최소한의 마크업으로 레이아웃 구성하기</p>
 <p align="middle">
   <img src="https://img.shields.io/badge/version-1.0.0-blue?style=flat-square" alt="template version"/>
